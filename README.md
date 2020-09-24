@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# comp4882-questforcode
+Capstone project
+>>>>>>> 54b0cf0723d14da83559774a223649583d52fb97

@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "../node_modules/bootswatch/dist/flatly/variables";
+ @import "../node_modules/bootstrap/scss/bootstrap";
+ @import "../node_modules/bootswatch/dist/flatly/bootswatch";
+
+
+
+  h1 {
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+  }
+
+  body { 
+    background-image: image-url('/assets/game_background.jpg'); 
+  }
+
+  

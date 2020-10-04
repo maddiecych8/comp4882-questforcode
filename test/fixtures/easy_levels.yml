@@ -1,0 +1,21 @@
+# == Schema Information
+#
+# Table name: easy_levels
+#
+#  id         :integer          not null, primary key
+#  node1      :integer
+#  node2      :integer
+#  node3      :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+one:
+  node1: 1
+  node2: 1
+  node3: 1
+
+two:
+  node1: 1
+  node2: 1
+  node3: 1

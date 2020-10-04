@@ -1,6 +1,7 @@
 class StaticPagesController < ApplicationController
-    def end
+    def endpage
         respond_to do |format|
-          format.html { render :end }
+          format.html { render :endpage }
       end
     end
+  end

@@ -1,3 +1,4 @@
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -9,11 +10,12 @@
  * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
- *
+ * background-image: url(/assets/tree.png);
  *= require_tree .
  *= require_self
  */
 
+<<<<<<< HEAD:app/assets/stylesheets/application.scss
  @import "../node_modules/bootswatch/dist/flatly/variables";
  @import "../node_modules/bootstrap/scss/bootstrap";
  @import "../node_modules/bootswatch/dist/flatly/bootswatch";
@@ -31,3 +33,6 @@
   }
 
   
+=======
+ 
+>>>>>>> d6bca1af81985b091fef057ab175fe6622f4b4c0:app/assets/stylesheets/application.css

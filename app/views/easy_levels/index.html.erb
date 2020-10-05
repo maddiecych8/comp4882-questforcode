@@ -1,0 +1,11 @@
+
+<h1>Easy Level Nodes</h1>
+
+ <% nodes.each do |node| %>
+     <div id="<%= dom_id(node) %>">
+         <p><%= node.node1 %></p>
+         <p><%= node.node2 %></p>
+         <p><%= node.node3 %></p>
+     </div>
+ <% end %>
+

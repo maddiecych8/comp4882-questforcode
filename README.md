@@ -5,7 +5,7 @@ Clone repo:
 
 git clone https://github.com/maddiecych8/comp4882-questforcode.git
 
-Run bundle update to make sure that your global installs of the bundler and rails gems are up to date with any bug/security patches.
+Run 'bundle update' to make sure that your global installs of the bundler and rails gems are up to date with any bug/security patches.
 
 Run bundle install to install all the other gem dependencies in the gemset.
 

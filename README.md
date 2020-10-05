@@ -1,28 +1,24 @@
 <<<<<<< HEAD
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Clone repo:
 
-Things you may want to cover:
+git clone https://github.com/maddiecych8/comp4882-questforcode.git
 
-* Ruby version
+Run bundle update to make sure that your global installs of the bundler and rails gems are up to date with any bug/security patches.
 
-* System dependencies
+Run bundle install to install all the other gem dependencies in the gemset.
 
-* Configuration
+Run yarn install to install all the JS dependencies in a node_modules folder.
 
-* Database creation
+Run rails db:migrate:reset to create/reset the databases.
 
-* Database initialization
+The, run rails s and open http://localhost:3000 to confirm that the development server runs without error and the default page loads as expected.
 
-* How to run the test suite
+Run rake routes to view all available routes.
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
 =======
 # comp4882-questforcode
 Capstone project

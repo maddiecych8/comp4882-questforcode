@@ -13,6 +13,8 @@ Run yarn install to install all the JS dependencies in a node_modules folder.
 
 Run rails db:migrate:reset to create/reset the databases.
 
+Run rails db:seed to seed the data
+
 The, run rails s and open http://localhost:3000 to confirm that the development server runs without error and the default page loads as expected.
 
 Run rake routes to view all available routes.

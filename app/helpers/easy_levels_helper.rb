@@ -1,0 +1,2 @@
+module EasyLevelsHelper
+end

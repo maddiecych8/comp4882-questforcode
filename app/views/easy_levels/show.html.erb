@@ -1,0 +1,43 @@
+
+<div class="container" style="padding: 20px">
+  <div class="row">
+    <div class="col">
+      <%= image_tag "tree1.png", height: 500 %>
+    </div>
+    <div class="col">
+      <h2 >Select Button to Move</h2>
+      <div class="btn-group-vertical">
+        <button type="button" class="btn btn-light btn-lg">check if there are no branches (dead end!)</button>
+      </div>
+      <h2 >Return Node</h2>
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-light"><%= node.node1 %></button>
+        <button type="button" class="btn btn-light"><%= node.node2 %></button>
+        <button type="button" class="btn btn-light"><%= node.node3 %></button>
+      </div>
+    </div>
+    <div class="col">
+      <div style="padding: 20px" align="right">
+            <button type="button" class="btn btn-light btn-lg" >Exit</button>
+      </div>
+      <div>
+            <%= image_tag "new_playtest_algo.png", height: 300 %>
+      </div>
+      <div class="card border-dark mb-3" style="max-width: 28rem;">
+        <div class="card-header">Console Output</div>
+        <div class="card-body text-dark">
+            <p class="card-text">.....</p>
+      </div>
+      <div class="input-group mb-3" style="padding: 20px">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Enter Console Output</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+

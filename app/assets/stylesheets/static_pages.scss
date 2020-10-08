@@ -2,8 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-
-  body {
-    background: url('Tree.png') no-repeat center center;
-    background-size: cover;
-    height: 500px;}
+    .center {
+      width: 50%;
+      margin: 0 auto;
+ }

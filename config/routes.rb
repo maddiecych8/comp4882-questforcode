@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'level', to: 'level_pages#level', as: 'level'
   get 'endpage', to: 'static_pages#endpage', as: 'endpage'
   get 'easy_levels', to: 'easy_levels#index', as: 'easy_levels' # easy level index
   get 'easy_levels/:id', to: 'easy_levels#show', as: 'easy_level' # easy level show

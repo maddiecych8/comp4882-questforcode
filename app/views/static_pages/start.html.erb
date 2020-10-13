@@ -1,15 +1,19 @@
-
-<div class="container" style="padding: 50px">
-  <h2 class="text-center"><button type="button" class="btn btn-success btn-lg">Start Game</button></h2>
-   <h2 class="text-center"><button type="button" class="btn btn-success btn-lg">Options</button></h2>
-    <h2 class="text-center"><button type="button" class="btn btn-success btn-lg">Exit</button></h2>
-     </div>
-
-<lsection>
-<div class="text-left"><%= image_tag "boy picking apple.png", height: 400 %>
- </div>
-  </lsection>
-     
-
-
+   
+  <div class="container" style="padding: 100px">
+  <div class="text-center">
+    <div class="row">
+      <div class="col">
+      <div class="text-left">
+       <%= image_tag "boy picking apple.png", width: 400,height: 500 %>
+        </div>
+        </div>
+  
+      <div class="col">
+       <h1><%= button_to "START GAME",instruction_path, method: :get, class: "btn btn-success btn-lg" %></h1>
+       <h1><%= button_to "OPTION",instruction_path, method: :get, class: "btn btn-success btn-lg" %></h1>
+       <h1><%= button_to "EXIT",instruction_path, method: :get, class: "btn btn-success btn-lg" %></h1>
+         </div>
+      </div>
+  </div>
+  
        

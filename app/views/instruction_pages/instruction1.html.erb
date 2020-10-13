@@ -1,8 +1,19 @@
+
+<div class="container" style="padding: 20px">
 <div class="text-center">
+  <div class="row">
+    <div class="col">
+     <%= image_tag "boy picking apple.png", width: 300,height: 500 %>
+      </div>
+
+    <div class="col">
+     <h2><%= button_to "Back",start_path, method: :get, class: "btn btn-success btn-lg" %></h2>
+      <%= image_tag "Inorder.PNG",width: 300, height: 400 %>
+       </div>
+    
+    <div class="col">
+    <h2><%= button_to "Continue",instruction2_path, method: :get, class: "btn btn-success btn-lg" %></h2>
+      <%= image_tag "Instruction1.png", width: 300,height: 100 %>
+       </div>
+    </div>
 </div>
-
-<h1><%= button_to "Instruction",instruction1_path, method: :get, class: "btn btn-success btn-lg" %></h1>
-<h2><%= button_to "Continue",instruction2_path, method: :get, class: "btn btn-success btn-lg" %></h2>
-<%= image_tag "Inorder.PNG",width: 400, height: 500 %> <%= image_tag "Instruction1.png",width: 400, height: 200 %>
-
-

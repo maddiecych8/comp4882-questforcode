@@ -52,6 +52,80 @@ h1 {
     padding: 30px;
 }
 
+.over {
+  z-index: 2;
+  position: relative;
+  left: 200px;
+  top: 40px;
+}
+
+.over3 {
+  z-index: 2;
+  position: relative;
+  left: 150px;
+  top: 150px;
+}
+
+.over4 {
+  z-index: 2;
+  position: relative;
+  left: 120px;
+  top: 200px;
+}
+
+.over5 {
+  z-index: 2;
+  position: relative;
+  left: 110px;
+  top: 250px;
+}
+
+.over8 {
+  z-index: 2;
+  position: relative;
+  left: 150px;
+  top: 200px;
+}
+
+.over9 {
+  z-index: 2;
+  position: relative;
+  left: 160px;
+  top: 250px;
+}
+
+.over13 {
+  z-index: 2;
+  position: relative;
+  left: 250px;
+  top: 150px;
+}
+
+.over14 {
+  z-index: 2;
+  position: relative;
+  left: 270px;
+  top: 170px;
+}
+
+.over15 {
+  z-index: 2;
+  position: relative;
+  left: 250px;
+  top: 250px;
+}
+
+.over19 {
+  z-index: 2;
+  position: relative;
+  left: 310px;
+  top: 250px;
+}
+
+.under {
+  z-index: 1;
+}
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -128,8 +202,8 @@ h1 {
   animation-duration: 3s;
   -webkit-animation-name: slideInRight;
   animation-name: slideInRight;
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   animation-fill-mode: both;
@@ -140,8 +214,8 @@ h1 {
   animation-duration: 3s;
   -webkit-animation-name: slideInDown;
   animation-name: slideInDown;
-  -webkit-animation-delay: 3s;
-  animation-delay: 3s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   animation-fill-mode: both;

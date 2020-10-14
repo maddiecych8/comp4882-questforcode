@@ -13,6 +13,7 @@
  * background-image: url(/assets/tree.png);
  *= require_tree .
  *= require_self
+ *= require animate
  */
 
  @import "../node_modules/bootswatch/dist/flatly/variables";
@@ -61,7 +62,91 @@ h1 {
     padding-left: 0;
   }
 }
-  
+
+.alert-dismissible {
+  padding-left: $close-font-size + $alert-padding-x * 2;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+
+    -webkit-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInDown {
+  0% {
+
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.first-Element {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+.second-Element {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+.third-Element {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
   
 
 

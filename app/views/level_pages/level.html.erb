@@ -1,0 +1,29 @@
+<div class="container" style="padding: 80px">
+  <div class="text-center">
+  <h3>CHOOSE LEVEL</h3>
+    <div class="row">
+      <div class="col">
+      <div class="text-left">
+       <%= image_tag "boy picking apple.png", width: 300,height: 500 %>
+      </div>
+    </div>
+
+
+     
+      <div class="col">
+       <h1><%= button_to "EASY",easy_levels_path, method: :get, class: "btn btn-success btn-lg" %></h1>
+        <h1><%= button_to "DIFFICULT",easy_levels_path, method: :get, class: "btn btn-success btn-lg" %></h1>
+        </div>
+
+      <div class="col">
+       <h1><%= button_to "INTERMEDIATE",easy_levels_path, method: :get, class: "btn btn-success btn-lg" %></h1>
+        <h1><%= button_to "CHALLENGE MODE",easy_levels_path, method: :get, class: "btn btn-success btn-lg" %></h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+   
+

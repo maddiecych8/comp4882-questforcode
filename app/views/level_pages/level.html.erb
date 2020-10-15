@@ -1,26 +1,34 @@
 
 <div class="container" style="padding: 20px">
-<div class="text-center">
+<div class="text-left">
   <div class="row">
     <div class="col">
      <%= image_tag "boy picking apple.png", width: 300,height: 500 %>
+       </div>
+   
+   <div class="row">
+    <div class="col col-md-offset-3">
+     <h2><%= button_to "EASY",start_path, method: :get, class: "btn btn-success btn-lg" %></h2>
       </div>
 
-    <div class="col">
-    <h2><%= button_to "EASY",start_path, method: :get, class: "btn btn-success btn-lg" %></h2>
-    </div>
-    
-    <div class="col">
-    <h2><%= button_to "INTERMEDIATE",start_path, method: :get, class: "btn btn-success btn-lg" %></h2>
-    </div>
-
-    <div class="col">
-    <h2><%= button_to "INTERMEDIATE",start_path, method: :get, class: "btn btn-success btn-lg" %></h2>
+   <div class="row">
+    <div class="col col-md-offset-3">
+     <h2><%= button_to "DIFFICULT",start_path, method: :get, class: "btn btn-success btn-lg" %></h2>
+      </div>
+ 
+   <div class="row">
+    <div class="col col-md-offset-3">
+     <h2><%= button_to "INTERMEDIATE",start_path, method: :get, class: "btn btn-success btn-lg" %></h2>
     </div>
 
-    <div class="col">
-    <h2><%= button_to "INTERMEDIATE",start_path, method: :get, class: "btn btn-success btn-lg" %></h2>
-    </div> 
+  <div class="row">
+   <div class="col col-md-offset-3">
+    <h2><%= button_to "CHALLENGE MODE",start_path, method: :get, class: "btn btn-success btn-lg" %></h2>
+     </div> 
+   
+     </div>
   </div>
 </div>
+
+
 

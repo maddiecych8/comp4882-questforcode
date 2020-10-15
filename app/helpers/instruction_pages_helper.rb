@@ -1,0 +1,2 @@
+module InstructionPagesHelper
+end

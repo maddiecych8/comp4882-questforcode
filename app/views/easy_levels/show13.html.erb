@@ -3,23 +3,23 @@
 
 <div style="padding: 20px">
   <div class="row no-gutters justify-content-md-center">
-    <div class="col first-Element">
-      <div class="over"><%= image_tag "climber_left.png", height: 100 %> </div>
+    <div class="col">
+      <div class="over13"><%= image_tag "climber_right.png", height: 100 %> </div>
       <div class="under"><%= image_tag "game_tree2.png", height: 500 %></div>
     </div>
-    <div class="col-md-auto third-Element slideInDown" align="center">
+    <div class="col-md-auto" align="center">
       <h3>Select Button to Move</h3>
       <div class="btn-group-vertical">
-        <%= link_to 'check if there is a branch to climb', easy_level2_path(node), class: "btn btn-success btn-lg" %>
+        <%= link_to 'check if there is a branch to climb', easy_level14_path(node), class: "btn btn-success btn-lg" %>
       </div>
       <h3 style="padding: 10px">Return Node</h3>
       <div class="btn-group" role="group">
-        <%= link_to node.node1, easy_level_path(node), class: "btn btn-success btn-lg" %>
-        <%= link_to node.node2, easy_level_path(node), class: "btn btn-success btn-lg" %>
-        <%= link_to node.node3, easy_level_path(node), class: "btn btn-success btn-lg" %>
+        <%= link_to node.node1, easy_level13_path(node), class: "btn btn-success btn-lg" %>
+        <%= link_to node.node2, easy_level13_path(node), class: "btn btn-success btn-lg" %>
+        <%= link_to node.node3, easy_level13_path(node), class: "btn btn-success btn-lg" %>
       </div>
     </div>
-    <div class="col second-Element slideInRight">
+    <div class="col ">
       <div style="padding: 10px" align="right">
             <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
       </div>
@@ -40,7 +40,3 @@
     </div>
   </div>
 </div>
-
-
-
-

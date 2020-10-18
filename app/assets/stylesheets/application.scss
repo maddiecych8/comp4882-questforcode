@@ -220,8 +220,20 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+table {
+  border-collapse: collapse;
+}
 
-  
+th, td {
+  border: 1px solid black;
+  padding: 15px 100px;
+}
+
+.table-wrap {
+height: 222px;
+overflow-y: scroll;
+display: inline-block;
+}
 
 
 

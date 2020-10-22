@@ -1,20 +1,26 @@
 
 <div class="container" style="padding: 20px">
-<div class="text-center">
+<div class="text-left">
   <div class="row">
     <div class="col">
-     <%= image_tag "boy picking apple.png", width: 300,height: 500 %>
+     <%= image_tag "boy picking apple.png", width: 280,height: 500 %>
       </div>
 
-<div class="col">
-  <h2><%= button_to "Back",start_path, method: :get, class: "btn btn-success btn-lg" %></h2>
-    <%= video_tag "Inorder.mp4", :size => "350x200", :controls => true %>
-    </div>
-
-    
+   
     <div class="col">
-    <h2><%= button_to "Continue",instruction6_path, method: :get, class: "btn btn-success btn-lg" %></h2>
+    <div class="text-center">
+     <h2><%= button_to "Back",instruction4_path, method: :get, class: "btn btn-success btn-lg" %></h2>
+     </div>
+      <%= image_tag "new_playtest_algo2.png", height: 300 %>
+       </div>
+    
+    <div class="col column">
+    <div class="text-center">
       <%= image_tag "Instruction6.png", width: 300,height: 450 %>
        </div>
+      <div class="text-center">
+        <h2><%= button_to "I'm ready",level_path, method: :get, class: "btn btn-success btn-lg" %></h2>
+     </div>
     </div>
-</div>
+ </div>
+

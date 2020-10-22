@@ -1,6 +1,6 @@
 <div class="container" style="padding: 80px">
   <div class="text-center">
-  <h3>CHOOSE LEVEL</h3>
+  <h2 class="level">CHOOSE LEVEL</h2>
     <div class="row">
       <div class="col">
       <div class="text-left">
@@ -9,13 +9,14 @@
     </div>
 
       <div class="col">
-       <h1><%= button_to "EASY",easy_levels_path, method: :get, class: "btn btn-success btn-lg" %></h1>
-        <h1><%= button_to "DIFFICULT",easy_levels_path, method: :get, class: "btn btn-success btn-lg" %></h1>
+     
+        <h1><%= button_to "EASY",easy_level_path(nodes.ids), method: :get, class: "btn btn-success btn-lg" %></h1>
+        <h1><%= button_to "DIFFICULT",level_path, method: :get, class: "btn btn-success btn-lg" %></h1>
         </div>
-
+        
       <div class="col">
-       <h1><%= button_to "INTERMEDIATE",easy_levels_path, method: :get, class: "btn btn-success btn-lg" %></h1>
-        <h1><%= button_to "CHALLENGE MODE",easy_levels_path, method: :get, class: "btn btn-success btn-lg" %></h1>
+        <h1><%= button_to "INTERMEDIATE",level_path, method: :get, class: "btn btn-success btn-lg" %></h1>
+        <h1><%= button_to "CHALLENGE MODE",level_path, method: :get, class: "btn btn-success btn-lg" %></h1>
       </div>
     </div>
   </div>

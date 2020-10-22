@@ -6,13 +6,14 @@
       </div>
 
   <div class="col">
-    <h2><%= button_to "Back",start_path, method: :get, class: "btn btn-success btn-lg" %></h2>
+    <h2><%= button_to "Back",instruction1_path, method: :get, class: "btn btn-success btn-lg" %></h2>
       <%= video_tag "Inorder.mp4", :size => "350x200", :controls => true %>
     </div>
     
     <div class="col">
-    <h2><%= button_to "Continue",instruction3_path, method: :get, class: "btn btn-success btn-lg" %></h2>
+    <h2><%= button_to "Skip Instructions",level_path, method: :get, class: "btn btn-info btn-lg" %></h2>
       <%= image_tag "Instruction3.png", width: 300,height: 220 %>
+      <h2><%= button_to "Continue",instruction3_path, method: :get, class: "btn btn-success btn-lg" %></h2>
        </div>
     </div>
 </div>

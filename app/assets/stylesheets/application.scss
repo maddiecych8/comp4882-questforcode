@@ -52,6 +52,17 @@ h1 {
     padding: 30px;
 }
 
+.level {
+  position: relative;
+  left: 180px;
+  top: 30px;
+  font-weight: bold;
+}
+
+.column {
+  top: 60px;
+}
+
 .over {
   z-index: 2;
   position: relative;

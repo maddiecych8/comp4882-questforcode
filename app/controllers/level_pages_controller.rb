@@ -1,7 +1,10 @@
 class LevelPagesController < ApplicationController
-   def level
+
+  def level
+    nodes = EasyLevel.all
     respond_to do |format|
-      format.html { render :level }
+      format.html { render :level, locals: { nodes: nodes } }
+    end
   end
- end
+
 end

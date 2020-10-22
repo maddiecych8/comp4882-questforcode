@@ -29,5 +29,5 @@ Rails.application.routes.draw do
   get 'instruction3', to: 'instruction_pages#instruction3', as: 'instruction3'
   get 'instruction4', to: 'instruction_pages#instruction4', as: 'instruction4'
   get 'instruction5', to: 'instruction_pages#instruction5', as: 'instruction5'
-  get 'instruction6', to: 'instruction_pages#instruction6', as: 'instruction6'
+
 end

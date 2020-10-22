@@ -35,12 +35,6 @@ class InstructionPagesController < ApplicationController
       format.html { render :instruction5 }
         end
     end
-      
-  def instruction6
-    respond_to do |format|
-      format.html { render :instruction6 }
-        end
-    end
 
 end
   

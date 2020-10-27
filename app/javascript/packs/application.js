@@ -15,12 +15,18 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+//= require bootstrap-sprockets
 
 import 'bootstrap'
 import { autosize } from 'autosize'
+import "../stylesheets/application"
+import "../stylesheets/easy_levels"
 
  document.addEventListener("turbolinks:load", () => {
    $('[data-toggle="tooltip"]').tooltip()
    $('[data-toggle="popover"]').popover()
  })
  
+ $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})

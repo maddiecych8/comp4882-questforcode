@@ -1,5 +1,7 @@
-<body class="game-bg">
+<!DOCTYPE html>  
+<html>
 
+<body class="game-bg">
 
 <div style="padding: 20px">
   <div class="row no-gutters justify-content-md-center">
@@ -20,7 +22,25 @@
         <%= link_to node.node2, easy_level2_path(node), class: "btn btn-success btn-lg" %>
         <%= link_to node.node3, easy_level2_path(node), class: "btn btn-success btn-lg" %>
       </div>
+
+    <div class="row-center">
+    <div style="padding: 100px">
+      <!-- Trigger/Open The Modal -->
+      <button id="myBtn">HINT</button>
+   
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+   
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>                                                               
+          <p>The left subtree is visited first</p>
+         </div>
+       </div>
+      </div>
+     </div>
     </div>
+   
     <div class="col ">
       <div style="padding: 10px" align="right">
             <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
@@ -42,3 +62,6 @@
     </div>
   </div>
 </div>
+
+</body>
+</html>

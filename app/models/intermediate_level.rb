@@ -1,0 +1,2 @@
+class IntermediateLevel < ApplicationRecord
+end

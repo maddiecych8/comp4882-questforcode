@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'intermediate_level/index'
-  get 'intermediate_level', to: 'intermediate_level#index', as: 'intermediate_levels' # intermediate level index
-  get 'intermediate_level/:id', to: 'intermediate_level#show', as: 'intermediate_level' # intermediate level index
+  get 'intermediate_levels/index'
+  get 'intermediate_levels', to: 'intermediate_levels#index', as: 'intermediate_levels' # intermediate level index
+  get 'intermediate_levels/:id', to: 'intermediate_levels#show', as: 'intermediate_level' # intermediate level index
   
   get 'level', to: 'level_pages#level', as: 'level'
   get 'endpage', to: 'static_pages#endpage', as: 'endpage'

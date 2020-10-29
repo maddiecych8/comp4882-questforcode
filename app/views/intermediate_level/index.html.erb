@@ -8,15 +8,25 @@
       <div class="under"><%= image_tag "Intermediate_tree.png",width: 500, height: 510 %></div>
     </div>
     <div class="col-md-auto third-Element slideInDown" align="center">
-      <h3>Select Button to Move</h3>
+     <h4>Traversing Through Binary Tree</h4>
       <div class="btn-group-vertical">
-       
-      </div>
-      <h3 style="padding: 10px">Return Node</h3>
-      <div class="btn-group" role="group">
-       
-      </div>
+     </div>
+      <h5 style="padding: 10px">Enter your code to make the boy traverse the tree!</h5>
+       <div class="btn-group" role="group">
+        <div class="row-center">
+         <div style="padding: 100px">
+          <button id="help">Hint</button>
+        <script>
+      function hint() {
+     alert('check if there is a branch to climb');
+     }
+      document.getElementById("help").addEventListener("click", hint);
+      </script>
+     </div>
     </div>
+   </div>
+  </div>
+
     <div class="col second-Element slideInRight">
       <div style="padding: 10px" align="right">
             <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>

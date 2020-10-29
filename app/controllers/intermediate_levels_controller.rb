@@ -1,4 +1,4 @@
-class IntermediateLevelController < ApplicationController
+class IntermediateLevelsController < ApplicationController
 
     def index
       nodes = IntermediateLevel.all

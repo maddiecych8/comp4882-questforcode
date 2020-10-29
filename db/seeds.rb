@@ -23,3 +23,11 @@ e3 = EasyLevel.create!(
     node2: 8,
     node3: 9,
 )
+i1 = IntermediateLevel.create!(
+    node1: 1,
+    node2: 2,
+    node3: 3,
+    node4: 4,
+    node5: 5,
+    node6: 6,
+)

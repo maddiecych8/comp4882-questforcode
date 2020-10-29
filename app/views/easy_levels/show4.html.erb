@@ -4,17 +4,16 @@
 <div style="padding: 20px">
   <div class="row no-gutters justify-content-md-center">
     <div class="col">
-      <div class="over4"><%= image_tag "climber_left.png", height: 100 %> </div>
-      <div class="under"><%= image_tag "game_tree2.png", height: 500 %></div>
+      <div class="over4 second-move"><%= image_tag "climber_left.png", height: 100 %> </div>
+      <div class="under"><%= image_tag "game_tree4.png", height: 550 %></div>
     </div>
     <div class="col-md-auto" align="center">
       <h3>Select Button to Move</h3>
       <div class="btn-group-vertical">
-        <%= link_to 'no branches to climb this way', easy_level4_path(node), class: "btn btn-success btn-lg" %>
         <%= link_to 'climb branch to the left of 2', easy_level5_path(node), class: "btn btn-success btn-lg" %>
         <%= link_to 'climb branch to the right of 2', easy_level4_path(node), class: "btn btn-success btn-lg" %>
       </div>
-      <h3 style="padding: 10px">Return Node</h3>
+      <h3 style="padding: 10px">Return Apple</h3>
       <div class="btn-group" role="group">
         <%= link_to node.node1, easy_level4_path(node), class: "btn btn-success btn-lg" %>
         <%= link_to node.node2, easy_level4_path(node), class: "btn btn-success btn-lg" %>
@@ -37,14 +36,14 @@ document.getElementById("help").addEventListener("click", hint);
             <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
       </div>
       <div >
-            <%= image_tag "new_playtest_algo2.png", height: 300 %>
+            <%= image_tag "new_playtest_algo3.png", height: 300 %>
       </div>
-      <div class="card border-dark mb-3" style="max-width: 28.5rem;">
+      <div class="card border-dark mb-3" style="max-width: 29.5rem;">
         <div class="card-header">Console Output</div>
         <div class="table-wrap">
-        <p class="card-text">check if there is a branch to climb<br>
+        <p class="card-text">check if there is an apple<br>
         climb branch to the left of 1<br>
-        check if there is a branch to climb</p>
+        check if there is an apple</p>
       </div>
       <div class="input-group mb-3" style="padding: 20px">
         <div class="input-group-prepend">

@@ -18,10 +18,6 @@ Rails.application.routes.draw do
   get 'easy_levels14/:id', to: 'easy_levels#show14', as: 'easy_level14' # easy level show page 14
   get 'easy_levels15/:id', to: 'easy_levels#show15', as: 'easy_level15' # easy level show page 15
   get 'easy_levels16/:id', to: 'easy_levels#show16', as: 'easy_level16' # easy level show page 16
-  get 'easy_levels17/:id', to: 'easy_levels#show17', as: 'easy_level17' # easy level show page 17
-  get 'easy_levels18/:id', to: 'easy_levels#show18', as: 'easy_level18' # easy level show page 18
-  get 'easy_levels19/:id', to: 'easy_levels#show19', as: 'easy_level19' # easy level show page 19
-  get 'easy_levels20/:id', to: 'easy_levels#show20', as: 'easy_level20' # easy level show page 20
   get 'start', to: 'static_pages#start', as: 'start'
   get 'instruction', to: 'instruction_pages#instruction', as: 'instruction'
   get 'instruction1', to: 'instruction_pages#instruction1', as: 'instruction1'

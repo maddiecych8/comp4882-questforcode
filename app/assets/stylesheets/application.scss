@@ -32,7 +32,7 @@ body {
   background-image: image-url('/assets/game_background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: left left;
   background-attachment: fixed;
 }
 
@@ -42,12 +42,12 @@ body {
   background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: left left;
   background-attachment: fixed;
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
     margin: 10px;
     padding: 30px;
 }
@@ -59,23 +59,49 @@ h1 {
   font-weight: bold;
 }
 
-.column {
-  top: 60px;
+/*
+.over-node1 {
+  z-index: 2;
+  position: absolute;
+  left: 275px;
+  top: -5px;
+  font-weight: bold;
+  font-size: 350%;
 }
+
+.over-node2 {
+  z-index: 2;
+  position: absolute;
+  left: 180px;
+  top: 35px;
+  font-weight: bold;
+  font-size: 350%;
+}
+
+.over-node3 {
+  z-index: 2;
+  position: absolute;
+  left: 365px;
+  top: -45px;
+  font-weight: bold;
+  font-size: 350%;
+}
+
+*/
 
 .over {
   z-index: 2;
   width: 130px;
   position: relative;
-  left: 200px;
-  top: 40px;
+  left: 210px;
+  top: 50px;
 }
 
 .over3 {
   z-index: 2;
   width: 130px;
   position: relative;
-  left: 150px;
+  left: 160px;
   top: 150px;
 }
 
@@ -84,31 +110,52 @@ h1 {
   width: 130px;
   position: relative;
   left: 120px;
-  top: 200px;
+  top: 190px;
 }
 
 .over5 {
   z-index: 2;
   width: 130px;
   position: relative;
-  left: 110px;
-  top: 250px;
+  left: 80px;
+  top: 260px;
+}
+
+.over6 {
+  z-index: 2;
+  position: relative;
+  left: 50px;
+  top: 360px;
 }
 
 .over8 {
   z-index: 2;
   width: 130px;
   position: relative;
-  left: 150px;
-  top: 200px;
+  left: 180px;
+  top: 250px;
 }
 
 .over9 {
   z-index: 2;
   width: 130px;
   position: relative;
-  left: 160px;
-  top: 250px;
+  left: 210px;
+  top: 360px;
+}
+
+.over11 {
+  z-index: 2;
+  position: relative;
+  left: 270px;
+  top: 130px;
+}
+
+.over12 {
+  z-index: 2;
+  position: relative;
+  left: 300px;
+  top: 170px;
 }
 
 .over13 {
@@ -116,31 +163,38 @@ h1 {
   width: 130px;
   position: relative;
   left: 250px;
-  top: 150px;
+  top: 250px;
 }
 
 .over14 {
   z-index: 2;
   width: 130px;
   position: relative;
-  left: 270px;
-  top: 170px;
+  left: 220px;
+  top: 350px;
 }
 
 .over15 {
   z-index: 2;
   width: 130px;
   position: relative;
-  left: 250px;
-  top: 250px;
+  left: 270px;
+  top: 280px;
 }
 
-.over19 {
+.over16 {
   z-index: 2;
   width: 130px;
   position: relative;
-  left: 310px;
-  top: 250px;
+  left: 370px;
+  top: 260px;
+}
+
+.over-end {
+  z-index: 2;
+  position: relative;
+  left: 390px;
+  top: 350px;
 }
 
 .under {
@@ -180,9 +234,9 @@ h1 {
 @keyframes slideInRight {
   0% {
 
-    -webkit-transform: translateX(2000px);
-    -ms-transform: translateX(2000px);
-    transform: translateX(2000px);
+    -webkit-transform: translateX(1000px);
+    -ms-transform: translateX(1000px);
+    transform: translateX(1000px);
   }
 
   100% {
@@ -195,9 +249,9 @@ h1 {
 @keyframes slideInDown {
   0% {
 
-    -webkit-transform: translateY(-2000px);
-    -ms-transform: translateY(-2000px);
-    transform: translateY(-2000px);
+    -webkit-transform: translateY(-1000px);
+    -ms-transform: translateY(-1000px);
+    transform: translateY(-1000px);
   }
 
   100% {
@@ -205,6 +259,255 @@ h1 {
     -ms-transform: translateY(0);
     transform: translateY(0);
   }
+}
+
+@keyframes swinging {
+  0% {
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes moveDown1 {
+  0% {
+    left: 210px;
+    top: 50px;
+    }
+  10% {
+    left: 185px;
+    top: 100px;
+    }
+  100% {
+    left: 160px;
+    top: 150px;
+    }
+}
+
+@keyframes moveDown2 {
+  0% {
+    left: 160px;
+    top: 150px;
+    }
+  10% {
+    left: 140px;
+    top: 170px;
+    }
+  100% {
+    left: 120px;
+    top: 190px;
+    }
+}
+
+@keyframes moveDown3 {
+  0% {
+    left: 120px;
+    top: 190px;
+    }
+  10% {
+    left: 110px;
+    top: 235px;
+    }
+  100% {
+    left: 80px;
+    top: 260px;
+    }
+}
+
+@keyframes moveUp1 {
+  0% {
+    left: 50px;
+    top: 360px;
+    }
+  50% {
+    left: 125px;
+    top: 235px;
+    }
+  100% {
+    left: 150px;
+    top: 190px;
+    }
+}
+
+@keyframes moveDown4 {
+  0% {
+    left: 80px;
+    top: 260px;
+    }
+  50% {
+    left: 65px;
+    top: 275px;
+    }
+  100% {
+    left: 50px;
+    top: 360px;
+    }
+}
+
+@keyframes moveDown5 {
+  0% {
+    left: 150px;
+    top: 190px;
+    }
+  10% {
+    left: 175px;
+    top: 225px;
+    }
+  100% {
+    left: 180px;
+    top: 250px;
+    }
+}
+
+@keyframes moveDown6 {
+  0% {
+    left: 180px;
+    top: 250px;
+    }
+  10% {
+    left: 200px;
+    top: 305px;
+    }
+  100% {
+    left: 210px;
+    top: 360px;
+    }
+}
+
+@keyframes moveUp2 {
+  0% {
+    left: 210px;
+    top: 360px;
+    }
+  30% {
+    left: 150px;
+    top: 190px;
+    }
+  60% {
+    left: 160px;
+    top: 150px;
+    }
+  100% {
+    left: 210px;
+    top: 50px;
+    }
+}
+
+@keyframes moveDown7 {
+  0% {
+    left: 210px;
+    top: 50px;
+    }
+  10% {
+    left: 255px;
+    top: 90px;
+    }
+  100% {
+    left: 270px;
+    top: 130px;
+    }
+}
+
+@keyframes moveDown8 {
+  0% {
+    left: 270px;
+    top: 130px;
+    }
+  10% {
+    left: 285px;
+    top: 150px;
+    }
+  100% {
+    left: 300px;
+    top: 170px;
+    }
+}
+
+@keyframes moveDown9 {
+  0% {
+    left: 300px;
+    top: 170px;
+    }
+  10% {
+    left: 275px;
+    top: 195px;
+    }
+  100% {
+    left: 250px;
+    top: 250px;
+    }
+}
+
+@keyframes moveDown10 {
+  0% {
+    left: 250px;
+    top: 250px;
+    }
+  10% {
+    left: 235px;
+    top: 275px;
+    }
+  100% {
+    left: 220px;
+    top: 350px;
+    }
+}
+
+@keyframes moveUp3 {
+  0% {
+    left: 220px;
+    top: 350px;
+    }
+  50% {
+    left: 260px;
+    top: 260px;
+    }
+  100% {
+    left: 300px;
+    top: 170px;
+    }
+}
+
+@keyframes moveDown11 {
+  0% {
+    left: 300px;
+    top: 170px;
+    }
+  50% {
+    left: 345px;
+    top: 215px;
+    }
+  100% {
+    left: 370px;
+    top: 260px;
+    }
+}
+
+@keyframes moveDown12 {
+  0% {
+    left: 370px;
+    top: 260px;
+    }
+  50% {
+    left: 380px;
+    top: 305px;
+    }
+  100% {
+    left: 390px;
+    top: 350px;
+    }
 }
 
 .first-Element {
@@ -242,6 +545,152 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+
+.swing-image-fourth-move{
+  -webkit-transform-origin: 5% 0;
+  transform-origin: 5% 0;
+  -webkit-animation: moveDown4 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+  animation: moveDown4 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+}
+
+.swing-image-seventh-move{
+  -webkit-transform-origin: 5% 0;
+  transform-origin: 5% 0;
+  -webkit-animation: moveDown6 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+  animation: moveDown6 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+}
+
+.swing-image-twelfth-move{
+  -webkit-transform-origin: 5% 0;
+  transform-origin: 5% 0;
+  -webkit-animation: moveDown10 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+  animation: moveDown10 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+}
+
+.swing-image-fifteenth-move{
+  -webkit-transform-origin: 5% 0;
+  transform-origin: 5% 0;
+  -webkit-animation: moveDown12 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+  animation: moveDown12 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+}
+
+.swing-image{
+  -webkit-transform-origin: 5% 0;
+  transform-origin: 5% 0;
+  -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+  animation: swinging 3.5s ease-in-out forwards infinite;
+}
+
+.first-move {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDown1;
+  animation-name: moveDown1;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+.second-move {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDown2;
+  animation-name: moveDown2;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+.third-move {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDown3;
+  animation-name: moveDown3;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+.fifth-move {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveUp1;
+  animation-name: moveUp1;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+.sixth-move {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDown5;
+  animation-name: moveDown5;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+.eighth-move {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveUp2;
+  animation-name: moveUp2;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+.ninth-move {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDown7;
+  animation-name: moveDown7;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+.tenth-move {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDown8;
+  animation-name: moveDown8;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+.eleventh-move {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDown9;
+  animation-name: moveDown9;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+.thirteenth-move {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveUp3;
+  animation-name: moveUp3;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
+.fourteenth-move {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDown11;
+  animation-name: moveDown11;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
 table {
   border-collapse: collapse;
 }

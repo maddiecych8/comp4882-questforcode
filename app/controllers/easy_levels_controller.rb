@@ -119,33 +119,5 @@ class EasyLevelsController < ApplicationController
         end
     end
 
-    def show17
-        node = EasyLevel.find(params[:id])
-        respond_to do |format|
-            format.html { render :show17, locals: { node: node } }
-        end
-    end
-
-    def show18
-        node = EasyLevel.find(params[:id])
-        respond_to do |format|
-            format.html { render :show18, locals: { node: node } }
-        end
-    end
-
-    def show19
-        node = EasyLevel.find(params[:id])
-        respond_to do |format|
-            format.html { render :show19, locals: { node: node } }
-        end
-    end
-
-    def show20
-        node = EasyLevel.find(params[:id])
-        respond_to do |format|
-            format.html { render :show20, locals: { node: node } }
-        end
-    end
-
 
 end

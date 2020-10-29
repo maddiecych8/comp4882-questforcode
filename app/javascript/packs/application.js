@@ -24,3 +24,4 @@ import { autosize } from 'autosize'
    $('[data-toggle="popover"]').popover()
  })
  
+ 

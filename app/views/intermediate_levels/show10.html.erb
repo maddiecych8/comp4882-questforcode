@@ -1,25 +1,27 @@
 <body class="game-bg">
 
+
 <div style="padding: 20px">
   <div class="row no-gutters justify-content-md-center">
-    <div class="col first-Element">
-      <div class="over"><%= image_tag "climber_left.png", height: 100 %> </div>
-      <div class="under"><%= image_tag "game_tree1.png", height: 550 %></div>
+    <div class="col">
+      <div class="over eighth-move"><%= image_tag "climber_right.png", height: 100 %> </div>
+      <div class="under"><%= image_tag "game_tree6.png", height: 550 %></div>
     </div>
-    <div class="col-md-auto third-Element slideInDown" align="center">
+    <div class="col-md-auto" align="center">
+      
       <div class="row-center">
       <div style="padding: 100px">
       <button id="help">Hint</button>
 <script>
 function hint() {
-alert('Look for apples');
+alert('The right subtree is visited.');
 }
 document.getElementById("help").addEventListener("click", hint);
 </script>
 </div>
 </div>
     </div>
-    <div class="col second-Element slideInRight">
+    <div class="col ">
       <div style="padding: 10px" align="right">
             <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
       </div>
@@ -28,8 +30,16 @@ document.getElementById("help").addEventListener("click", hint);
       </div>
       <div class="card border-dark mb-3" style="max-width: 29.5rem;">
         <div class="card-header">Console Output</div>
-        <div class="card-body text-dark">
-            <p class="card-text"></p>
+        <div class="table-wrap">
+            <p class="card-text">check if there is an apple<br>
+            climb branch to the left of 1<br>
+            check if there is an apple<br>
+            climb branch to the left of 2<br>
+            check if there is an apple<br>
+            2<br>
+            climb branch to the right of 2<br>
+            check if there is an apple<br>
+            1</p>
       </div>
       <div class="input-group mb-3" style="padding: 20px">
         <div class="input-group-prepend">
@@ -40,7 +50,3 @@ document.getElementById("help").addEventListener("click", hint);
     </div>
   </div>
 </div>
-
-
-
-

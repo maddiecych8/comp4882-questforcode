@@ -112,7 +112,13 @@ h1 {
   left: 120px;
   top: 190px;
 }
-
+.over41 {
+  z-index: 2;
+  width: 130px;
+  position: relative;
+  left: 10px;
+  top: 270px;
+}
 .over5 {
   z-index: 2;
   width: 130px;
@@ -120,6 +126,14 @@ h1 {
   left: 80px;
   top: 260px;
 }
+.over51 {
+  z-index: 2;
+  width: 130px;
+  position: relative;
+  left: 49px;
+  top: 260px;
+}
+
 
 .over6 {
   z-index: 2;
@@ -325,7 +339,49 @@ h1 {
     top: 260px;
     }
 }
+@keyframes moveDown21 {
+  0% {
+    left: 160px;
+    top: 150px;
+    }
+  10% {
+    left: 120px;
+    top: 150px;
+    }
+  100% {
+    left: 100px;
+    top: 160px;
+    }
+}
+@keyframes moveDown31 {
+  0% {
+    left: 100px;
+    top: 190px;
+    }
+  10% {
+    left: 70px;
+    top: 200px;
+    }
+  100% {
+    left: 60px;
+    top: 220px;
+    }
+}
 
+@keyframes moveDown41 {
+  0% {
+    left: 100px;
+    top: 190px;
+    }
+  10% {
+    left: 70px;
+    top: 200px;
+    }
+  100% {
+    left: 60px;
+    top: 220px;
+    }
+}
 @keyframes moveUp1 {
   0% {
     left: 50px;
@@ -600,7 +656,15 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
-
+.second-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDown21;
+  animation-name: moveDown21;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
 .third-move {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -610,7 +674,15 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
-
+.third-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDown31;
+  animation-name: moveDown31;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
 .fifth-move {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -705,12 +777,607 @@ height: 222px;
 overflow-y: scroll;
 display: inline-block;
 }
-
-
-
-
-
-  
-
-  
- 
+@keyframes moveDownInt5 {
+  0% {
+    left: 60px;
+    top: 220px;
+    }
+  10% {
+    left: 45px;
+    top: 240px;
+    }
+  100% {
+    left: 10px;
+    top: 270px;
+    }
+}
+.fifth-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDownInt5;
+  animation-name: moveDownInt5;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+.swing-image-int1{
+  -webkit-transform-origin: 5% 0;
+  transform-origin: 5% 0;
+  -webkit-animation: moveDownInt7  3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+  animation: moveDownInt7  3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+}
+.swing-image-int2{
+  -webkit-transform-origin: 5% 0;
+  transform-origin: 5% 0;
+  -webkit-animation: moveDownInt9  3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+  animation: moveDownInt9 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+}
+.swing-image-int3{
+  -webkit-transform-origin: 5% 0;
+  transform-origin: 5% 0;
+  -webkit-animation: moveDownInt13  3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+  animation: moveDownInt13  3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+}
+.swing-image-int4{
+  -webkit-transform-origin: 5% 0;
+  transform-origin: 5% 0;
+  -webkit-animation: moveDownInt15 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+  animation: moveDownInt15  3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+}
+.swing-image-int5{
+  -webkit-transform-origin: 5% 0;
+  transform-origin: 5% 0;
+  -webkit-animation: moveDownInt19 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+  animation: moveDownInt19  3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+}
+.swing-image-int9{
+  -webkit-transform-origin: 5% 0;
+  transform-origin: 5% 0;
+  -webkit-animation: moveDownInt23 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+  animation: moveDownInt23  3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+}
+.swing-image-int10{
+  -webkit-transform-origin: 5% 0;
+  transform-origin: 5% 0;
+  -webkit-animation: moveDownInt25 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+  animation: moveDownInt25  3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
+}
+@keyframes moveDownInt7 {
+  0% {
+    left: -40px;
+    top: 320px;
+    }
+  10% {
+    left: -40px;
+    top: 350px;
+    }
+  100% {
+    left: -50px;
+    top: 380px;
+    }
+}
+@keyframes moveDownInt6 {
+  0% {
+    left: 10px;
+    top: 270px;
+    }
+  10% {
+    left: -10px;
+    top: 300px;
+    }
+  100% {
+    left: -40px;
+    top: 320px;
+    }
+}
+.sixth-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDownInt6;
+  animation-name: moveDownInt6;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+.seventh-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveUpInt;
+  animation-name: moveUpInt;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+@keyframes moveUpInt {
+  0% {
+    left: -40px;
+    top: 320px;
+    }
+  50% {
+    left: -10px;
+    top: 300px;
+    }
+  100% {
+    left: 10px;
+    top: 270px;
+    }
+}
+@keyframes moveDownInt8 {
+  0% {
+    left: 10px;
+    top: 270px;
+    }
+  10% {
+    left: 50px;
+    top: 300px;
+    }
+  100% {
+    left: 70px;
+    top: 320px;
+    }
+}  
+.eight-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDownInt8;
+  animation-name: moveDownInt8;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+@keyframes moveDownInt9 {
+  0% {
+    left: 70px;
+    top: 320px;
+    }
+  10% {
+    left: 80px;
+    top: 340px;
+    }
+  100% {
+    left: 90px;
+    top: 360px;
+    }
+}    
+@keyframes moveUpInt2 {
+  0% {
+    left: 90px;
+    top: 360px;
+    }
+  40% {
+    left: 50px;
+    top: 270px;
+    }
+  100% {
+    left: 110px;
+    top: 140px;
+    }
+} 
+.ninth-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveUpInt2;
+  animation-name: moveUpInt2;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+.tenth-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDownInt10;
+  animation-name: moveDownInt10;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+.eleventh-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDownInt11;
+  animation-name: moveDownInt11;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+.twelve-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDownInt12;
+  animation-name: moveDownInt12;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+@keyframes moveDownInt10 {
+  0% {
+    left: 110px;
+    top: 140px;
+    }
+  10% {
+    left: 140px;
+    top: 200px;
+    }
+  100% {
+    left: 160px;
+    top: 230px;
+    }
+}   
+@keyframes moveDownInt11 {
+  0% {
+    left: 160px;
+    top: 230px;
+    }
+  10% {
+    left: 170px;
+    top: 250px;
+    }
+  100% {
+    left: 180px;
+    top: 260px;
+    }
+}
+@keyframes moveDownInt12 {
+  0% {
+    left: 180px;
+    top: 260px;
+    }
+  25% {
+    left: 120px;
+    top: 300px;
+    }
+  100% {
+    left: 110px;
+    top: 330px;
+    }
+} 
+@keyframes moveDownInt13 {
+  0% {
+    left: 110px;
+    top: 330px;
+    }
+  10% {
+    left: 90px;
+    top: 350px;
+    }
+  100% {
+    left: 90px;
+    top: 400px;
+    }
+} 
+@keyframes moveUpInt3 {
+  0% {
+    left: 90px;
+    top: 400px;
+    }
+  20% {
+    left: 90px;
+    top: 350px;
+    }
+  100% {
+    left: 180px;
+    top: 260px;
+    }
+} 
+.thirteen-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveUpInt3;
+  animation-name: moveUpInt3;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+.fourteen-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDownInt14;
+  animation-name: moveDownInt14;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}            
+@keyframes moveDownInt14 {
+  0% {
+    left: 180px;
+    top: 260px;
+    }
+  25% {
+    left: 220px;
+    top: 330px;
+    }
+  100% {
+    left: 230px;
+    top: 350px;
+    }
+}
+.sixteen-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveUpInt4;
+  animation-name: moveUpInt4;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+@keyframes moveDownInt15 {
+  0% {
+    left: 230px;
+    top: 350px;
+    }
+  25% {
+    left: 230px;
+    top: 370px;
+    }
+  100% {
+    left: 230px;
+    top: 400px;
+    }
+}   
+@keyframes moveUpInt4 {
+  0% {
+    left: 230px;
+    top: 400px;
+    }
+  50% {
+    left: 180px;
+    top: 260px;
+    }
+  50% {
+    left: 110px;
+    top: 180px;
+      }
+  100% {
+    left: 230px;
+    top: 90px;
+    }
+}
+.seventeenth-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDownInt16;
+  animation-name: moveDownInt16;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+@keyframes moveDownInt16 {
+  0% {
+    left: 230px;
+    top: 90px;
+    }
+  25% {
+    left: 270px;
+    top: 130px;
+    }
+  100% {
+    left: 290px;
+    top: 150px;
+    }
+} 
+@keyframes moveDownInt17 {
+  0% {
+    left: 290px;
+    top: 150px;
+    }
+  25% {
+    left: 290px;
+    top: 160px;
+    }
+  100% {
+    left: 310px;
+    top: 170px;
+    }
+} 
+.eighteenth-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDownInt17;
+  animation-name: moveDownInt17;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+@keyframes moveDownInt18 {
+  0% {
+    left: 310px;
+    top: 170px;
+    }
+  25% {
+    left: 270px;
+    top: 210px;
+    }
+  100% {
+    left: 250px;
+    top: 250px;
+    }
+} 
+.nineteenth-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDownInt18;
+  animation-name: moveDownInt18;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+@keyframes moveDownInt19 {
+  0% {
+    left: 250px;
+    top: 250px;
+    }
+  25% {
+    left: 240px;
+    top: 260px;
+    }
+  100% {
+    left: 235px;
+    top: 310px;
+    }
+} 
+@keyframes moveUpInt5 {
+  0% {
+    left: 235px;
+    top: 310px;
+    }
+  50% {
+    left: 240px;
+    top: 260px;
+    }
+  100% {
+    left: 310px;
+    top: 170px;
+    }
+}
+.twentieth-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveUpInt5;
+  animation-name: moveUpInt5;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+@keyframes moveDownInt20 {
+  0% {
+    left: 310px;
+    top: 170px;
+    }
+  25% {
+    left: 350px;
+    top: 200px;
+    }
+  100% {
+    left: 360px;
+    top: 240px;
+    }
+}
+.twentieth1-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDownInt20;
+  animation-name: moveDownInt20;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+} 
+.twentieth2-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDownInt21;
+  animation-name: moveDownInt21;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+} 
+@keyframes moveDownInt21 {
+  0% {
+    left: 360px;
+    top: 240px;
+    }
+  25% {
+    left: 380px;
+    top: 250px;
+    }
+  100% {
+    left: 390px;
+    top: 260px;
+    }
+}
+.twentieth3-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDownInt22;
+  animation-name: moveDownInt22;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+} 
+@keyframes moveDownInt22 {
+  0% {
+    left: 390px;
+    top: 260px;
+    }
+  25% {
+    left: 330px;
+    top: 300px;
+    }
+  100% {
+    left: 330px;
+    top: 340px;
+    }
+}
+@keyframes moveDownInt23 {
+  0% {
+    left: 330px;
+    top: 340px;
+    }
+  25% {
+    left: 320px;
+    top: 360px;
+    }
+  100% {
+    left: 315px;
+    top: 390px;
+    }
+}
+@keyframes moveUpInt6 {
+  0% {
+    left: 315px;
+    top: 390px;
+    }
+  50% {
+    left: 330px;
+    top: 340px;
+    }
+  100% {
+    left: 390px;
+    top: 260px;
+    }
+}
+.twentieth4-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveUpInt6 ;
+  animation-name: moveUpInt6 ;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+} 
+.twentieth5-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDownInt24 ;
+  animation-name: moveDownInt24 ;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+} 
+@keyframes moveDownInt24 {
+  0% {
+    left: 390px;
+    top: 260px;
+    }
+  25% {
+    left: 420px;
+    top: 300px;
+    }
+  100% {
+    left: 440px;
+    top: 330px;
+    }
+}
+@keyframes moveDownInt25 {
+  0% {
+    left: 440px;
+    top: 330px;
+    }
+  25% {
+    left: 450px;
+    top: 370px;
+    }
+  100% {
+    left: 460px;
+    top: 400px;
+    }
+}

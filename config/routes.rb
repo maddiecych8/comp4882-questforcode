@@ -29,8 +29,10 @@ Rails.application.routes.draw do
   get 'intermediate_levels26/:id', to: 'intermediate_levels#show26', as: 'intermediate_level26' # intermediate level show page 26
   get 'intermediate_levels27/:id', to: 'intermediate_levels#show27', as: 'intermediate_level27' # intermediate level show page 27
   get 'intermediate_levels28/:id', to: 'intermediate_levels#show28', as: 'intermediate_level28' # intermediate level show page 28
-  get 'intermediate_levels29/:id', to: 'intermediate_levels#show28', as: 'intermediate_level29' # intermediate level show page 29
+  get 'intermediate_levels29/:id', to: 'intermediate_levels#show29', as: 'intermediate_level29' # intermediate level show page 29
   get 'intermediate_levels30/:id', to: 'intermediate_levels#show30', as: 'intermediate_level30' # intermediate level show page 30
+  get 'intermediate_levels31/:id', to: 'intermediate_levels#show31', as: 'intermediate_level31' # intermediate level show page 31
+  get 'intermediate_levels32/:id', to: 'intermediate_levels#show32', as: 'intermediate_level32' # intermediate level show page 32
   
   get 'start', to: 'static_pages#start', as: 'start' #start page
   get 'level', to: 'level_pages#level', as: 'level' #level page

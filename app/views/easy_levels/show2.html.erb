@@ -16,8 +16,8 @@
       <h3 style="padding: 10px">Return Apple</h3>
       <div class="btn-group" role="group">
         <%= link_to node.node1, easy_level2_path(node), class: "btn btn-success btn-lg" %>
-        <%= link_to node.node2, easy_level2_path(node), class: "btn btn-success btn-lg" %>
-        <%= link_to node.node3, easy_level2_path(node), class: "btn btn-success btn-lg" %>
+        <%#<%= link_to node.node2, easy_level2_path(node), class: "btn btn-success btn-lg" %>
+        <%#<%= link_to node.node3, easy_level2_path(node), class: "btn btn-success btn-lg" %>
       </div>
       <div class="row-center">
       <div style="padding: 100px">
@@ -42,12 +42,6 @@ document.getElementById("help").addEventListener("click", hint);
         <div class="card-header">Console Output</div>
         <div class="table-wrap">
             <p class="card-text">check if there is an apple</p>
-      </div>
-      <div class="input-group mb-3" style="padding: 20px">
-        <div class="input-group-prepend">
-            <span class="input-group-text" id="inputGroup-sizing-default">Enter Console Output</span>
-        </div>
-        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
       </div>
     </div>
   </div>

@@ -1,7 +1,7 @@
 <body class="game-bg">
 
 
-<div style="padding: 20px;margin-left: auto;margin-right: auto;width:1600px;">
+<div style="padding: 20px">
   <div class="row no-gutters justify-content-md-center">
     <div class="col">
       <div class="over8 sixth-move"><%= image_tag "climber_right.png", height: 100 %> </div>
@@ -16,7 +16,7 @@
       <div class="btn-group" role="group">
         <%= link_to node.node1, easy_level8_path(node), class: "btn btn-success btn-lg" %>
         <%= link_to node.node2, easy_level8_path(node), class: "btn btn-success btn-lg" %>
-        <%= link_to node.node3, easy_level8_path(node), class: "btn btn-success btn-lg" %>
+        <%#<%= link_to node.node3, easy_level8_path(node), class: "btn btn-success btn-lg" %>
       </div>
       <div class="row-center">
       <div style="padding: 100px">
@@ -47,12 +47,6 @@ document.getElementById("help").addEventListener("click", hint);
             check if there is an apple<br>
             2<br>
             climb branch to the right of 2</p>
-      </div>
-      <div class="input-group mb-3" style="padding: 20px">
-        <div class="input-group-prepend">
-            <span class="input-group-text" id="inputGroup-sizing-default">Enter Console Output</span>
-        </div>
-        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
       </div>
     </div>
   </div>

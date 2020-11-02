@@ -1,0 +1,55 @@
+<body class="game-bg">
+
+
+<div style="padding: 20px">
+  <div class="row no-gutters justify-content-md-center">
+    <div class="col">
+      <div class="over41 second-moveint"><%= image_tag "climber_left.png", height: 100 %> </div>
+      <div class="under"><%= image_tag "intermediate3.png", height: 550 %></div>
+    </div>
+    <div class="col-md-auto" align="center">
+    <h3>Select Button to Move</h3>
+    <div class="btn-group-vertical">
+      <%= link_to 'climb branch to the left of 2', intermediate_level5_path(node), class: "btn btn-success btn-lg" %>
+      <%= link_to 'climb branch to the right of 2', intermediate_level4_path(node), class: "btn btn-success btn-lg" %>
+    </div>
+    <h3 style="padding: 10px">Return Apple</h3>
+    <div class="btn-group" role="group">
+      <%= link_to node.node1, intermediate_level4_path(node), class: "btn btn-success btn-lg" %>
+      <%= link_to node.node2, intermediate_level4_path(node), class: "btn btn-success btn-lg" %>
+    </div>   
+      <div class="row-center">
+      <div style="padding: 100px">
+      <button id="help">Hint</button>
+<script>
+function hint() {
+alert('Left to right!');
+}
+document.getElementById("help").addEventListener("click", hint);
+</script>
+</div>
+</div>
+    </div>
+    <div class="col ">
+      <div style="padding: 10px" align="right">
+            <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
+      </div>
+      <div >
+            <%= image_tag "new_playtest_algo3.png", height: 300 %>
+      </div>
+      <div class="card border-dark mb-3" style="max-width: 29.5rem;">
+        <div class="card-header">Console Output</div>
+        <div class="table-wrap">
+        <p class="card-text">check if there is an apple<br>
+        climb branch to the left of 1<br>
+        check if there is an apple</p>
+      </div>
+      <div class="input-group mb-3" style="padding: 20px">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Enter Console Output</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+    </div>
+  </div>
+</div>

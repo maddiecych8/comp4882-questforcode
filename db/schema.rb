@@ -10,12 +10,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_04_145827) do
+ActiveRecord::Schema.define(version: 2020_10_27_215408) do
 
   create_table "easy_levels", force: :cascade do |t|
     t.integer "node1"
     t.integer "node2"
     t.integer "node3"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "intermediate_levels", force: :cascade do |t|
+    t.integer "node1"
+    t.integer "node2"
+    t.integer "node3"
+    t.integer "node4"
+    t.integer "node5"
+    t.integer "node6"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

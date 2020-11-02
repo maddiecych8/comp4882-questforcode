@@ -24,3 +24,7 @@ import { autosize } from 'autosize'
    $('[data-toggle="popover"]').popover()
  })
  
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 045b2850304bfc88ca7567fb3342c21252f192b5

@@ -8,12 +8,23 @@
       <div class="under"><%= image_tag "intermediate8.png", height: 550 %></div>
     </div>
     <div class="col-md-auto" align="center">
+    <h3>Select Button to Move</h3>
+    <div class="btn-group-vertical">
+      <%= link_to 'check if there is an apple', intermediate_level22_path(node), class: "btn btn-success btn-lg" %>
+    </div>
+    <h3 style="padding: 10px">Return Apple</h3>
+    <div class="btn-group" role="group">
+    <%= link_to node.node1, intermediate_level21_path(node), class: "btn btn-success btn-lg" %>
+    <%= link_to node.node2, intermediate_level21_path(node), class: "btn btn-success btn-lg" %>
+    <%= link_to node.node4, intermediate_level21_path(node), class: "btn btn-success btn-lg" %>
+    <%= link_to node.node5, intermediate_level21_path(node), class: "btn btn-success btn-lg" %>
+    </div> 
       <div class="row-center">
       <div style="padding: 100px">
       <button id="help">Hint</button>
 <script>
 function hint() {
-alert('Any more apples in this subtree?');
+alert('Any apples on this branch?');
 }
 document.getElementById("help").addEventListener("click", hint);
 </script>

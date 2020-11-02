@@ -6,7 +6,14 @@
       <div class="over"><%= image_tag "climber_left.png", height: 100 %> </div>
       <div class="under"><%= image_tag "game_tree1.png", height: 550 %></div>
     </div>
-    <div class="col-md-auto third-Element slideInDown" align="center">
+    <div class="col-md-auto first-Element slideInDown" align="center">
+    <h3>Select Button to Move</h3>
+    <div class="btn-group-vertical">
+      <%= link_to 'check if there is an apple', intermediate_level2_path(node), class: "btn btn-success btn-lg" %>
+    </div>
+    <h3 style="padding: 10px">Return Apple</h3>
+    <div class="btn-group" role="group">
+    </div>
       <div class="row-center">
       <div style="padding: 100px">
       <button id="help">Hint</button>
@@ -18,7 +25,7 @@ document.getElementById("help").addEventListener("click", hint);
 </script>
 </div>
 </div>
-    </div>
+</div>
     <div class="col second-Element slideInRight">
       <div style="padding: 10px" align="right">
             <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>

@@ -1381,3 +1381,28 @@ display: inline-block;
     top: 400px;
     }
 }
+
+@keyframes bounceInInt {
+  0% {
+    transform: scale(0.1);
+
+  }
+  60% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.first-ElementInt {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-name: bounceInInt;
+  animation-name: bounceInInt;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}

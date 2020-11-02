@@ -216,5 +216,11 @@ def show30
         format.html { render :show30, locals: { node: node } }
     end
 end
+def show31
+    node = IntermediateLevel.find(params[:id])
+    respond_to do |format|
+        format.html { render :show31, locals: { node: node } }
+    end
+end
 end
 

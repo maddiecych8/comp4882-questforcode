@@ -1,0 +1,39 @@
+# == Schema Information
+#
+# Table name: difficult_levels
+#
+#  id         :integer          not null, primary key
+#  node1      :integer
+#  node2      :integer
+#  node3      :integer
+#  node4      :integer
+#  node5      :integer
+#  node6      :integer
+#  node7      :integer
+#  node8      :integer
+#  node9      :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+one:
+  node1: 1
+  node2: 1
+  node3: 1
+  node4: 1
+  node5: 1
+  node6: 1
+  node7: 1
+  node8: 1
+  node9: 1
+
+two:
+  node1: 1
+  node2: 1
+  node3: 1
+  node4: 1
+  node5: 1
+  node6: 1
+  node7: 1
+  node8: 1
+  node9: 1

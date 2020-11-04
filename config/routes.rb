@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'difficult_levels/index'
   get 'intermediate_levels/index'
   get 'intermediate_levels', to: 'intermediate_levels#index', as: 'intermediate_levels' # intermediate level index
   get 'intermediate_levels/:id', to: 'intermediate_levels#show', as: 'intermediate_level' # intermediate level show

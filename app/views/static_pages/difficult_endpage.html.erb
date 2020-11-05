@@ -1,0 +1,78 @@
+<body class="game-bg">
+
+
+<div style="padding: 20px">
+  <div class="row no-gutters justify-content-md-center">
+    <div class="col">
+    <div class="over-end swing-image-fifteenth-move"><%= image_tag "climber_right.png", height: 100 %> </div>
+      <div class="under"><%= image_tag "Difficult19.png", height: 550%></div>
+    </div>
+    
+<div style="padding: 20px">
+ <div class="col-md-auto" align="center">
+  <h3>Difficult Level Cleared</h3>
+    <div class="col ">
+      <div class="alert alert-info" role="alert">
+        <h4 class="alert-heading">Congratulations!</h4>
+          <p>You've won!</p>
+           <hr>
+            <h4 class="mb-0">Inorder Traversal: 7,3,2,5,1,8,4,9,6</h4>
+           </div>
+         <div class="col">
+       <h1><%= button_to "Play Again",level_path, method: :get, class: "btn btn-success btn-lg" %></h1>
+      </div>
+     </div>
+    </div>
+  </div>
+    
+    <div class="col ">
+      <div style="padding: 10px" align="right">
+            <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
+      </div>
+      <div >
+            <%= image_tag "new_playtest_algo3.png", height: 300 %>
+      </div>
+      <div class="card border-dark mb-3" style="max-width: 28.5rem;">
+        <div class="card-header">Console Output</div>
+        <div class="table-wrap">
+            <p class="card-text">check if there is an apple<br>
+            climb branch to the left of 1<br>
+            check if there is an apple<br>
+            climb branch to the left of 2<br>
+            check if there is an apple<br>
+            climb branch to the left of 4<br>
+            check if there is an apple<br>
+            4<br>
+            climb branch to the right of 4<br>
+            check if there is an apple<br>
+            2<br>
+            climb branch to the right of 2<br>
+            check if there is an apple<br>
+            climb branch to the left of 5<br>
+            check if there is an apple<br>
+            5<br>
+            climb branch to the right of 5<br>
+            check if there is an apple<br>
+            1<br>
+            climb branch to the right of 1<br>
+            check if there is an apple<br>
+            climb branch to the left of 3<br>
+            check if there is an apple<br>
+            3<br>
+            climb branch to the right of 3<br>
+            check if there is an apple<br>
+            climb branch to the left of 6<br>
+            check if there is an apple<br>
+            6<br>
+            climb branch to the right of 6<br>
+            check if there is an apple</p>
+      </div>
+      <div class="input-group mb-3" style="padding: 20px">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Enter Console Output</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+    </div>
+  </div>
+</div>

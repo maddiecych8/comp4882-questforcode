@@ -87,6 +87,7 @@ Rails.application.routes.draw do
   get 'level', to: 'level_pages#level', as: 'level' #level page
   get 'endpage', to: 'static_pages#endpage', as: 'endpage' #easy level endpage
   get 'intermediate_endpage', to: 'static_pages#intermediate_endpage', as: 'intermediate_endpage' #intermediate level endpage
+  get 'difficult_endpage', to: 'static_pages#difficult_endpage', as: 'difficult_endpage' #difficult level endpage
 
   get 'easy_levels', to: 'easy_levels#index', as: 'easy_levels' # easy level index
   get 'easy_levels/:id', to: 'easy_levels#show', as: 'easy_level' # easy level show

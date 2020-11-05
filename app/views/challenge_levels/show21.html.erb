@@ -1,0 +1,71 @@
+<body class="game-bg">
+
+
+<div style="padding: 20px">
+  <div class="row no-gutters ">
+    <div class="col ">
+      <div class="over"><%= image_tag "climber_left.png", height: 100 %> </div>
+      <div class="under"><%= image_tag "challenge_level_14.png", height: 550 %></div>
+    </div>
+    
+    
+
+    <div class="col ">
+      <div class="float-container" style="padding: 10px" >
+        <div class="row-center float-child" style="display: inline-block ">
+            <div>
+                <button id="help" class="btn btn-success btn-lg">Hint</button>
+                    <script>
+                    function hint() {
+                    alert('Look for apples');
+                    }
+                    document.getElementById("help").addEventListener("click", hint);
+                    </script>
+            </div>
+        </div>
+        <div class="float-child" style="display: inline-block">
+            <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
+        </div>
+      </div>
+      <div >
+            <%= image_tag "new_playtest_algo3.png", height: 300 %>
+      </div>
+      <div class="card border-dark mb-3" style="max-width: 29.5rem;">
+        <div class="card-header">Console Output</div>
+        <div class="table-wrap">
+            <p class="card-text">check if there is an apple<br>
+            climb branch to the left of 5<br>
+            check if there is an apple<br>
+            climb branch to the left of 1<br>
+            check if there is an apple<br>
+            climb branch to the left of 7<br>
+            check if there is an apple<br>
+            climb branch to the left of 4<br>
+            check if there is an apple<br>
+            4<br>
+            climb branch to the right of 4<br>
+            check if there is an apple<br>
+            7<br>
+            climb branch to the right of 7<br>
+            check if there is an apple<br>
+            climb branch to the left of 2<br>
+            check if there is an apple<br>
+            climb branch to the left of 11<br>
+            check if there is an apple<br>
+            11</p>
+      </div>
+      <div class="input-group mb-3" style="padding: 20px">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Enter Console Output</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+    </div>
+    <div style="padding: 10px" >
+        <%= link_to 'Next', challenge_level22_path(node), class: "btn btn-success btn-lg" %>
+    </div>
+  </div>
+</div>
+
+
+

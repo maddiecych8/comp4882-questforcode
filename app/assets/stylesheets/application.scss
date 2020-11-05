@@ -59,6 +59,16 @@ h1 {
   font-weight: bold;
 }
 
+.float-container {
+  padding: 20px;
+}
+
+.float-child {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}  
+
 /*
 .over-node1 {
   z-index: 2;
@@ -779,6 +789,7 @@ height: 222px;
 overflow-y: scroll;
 display: inline-block;
 }
+
 @keyframes moveDownInt5 {
   0% {
     left: 60px;

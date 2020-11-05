@@ -1,0 +1,31 @@
+<body class="game-bg">
+
+
+<div style="padding: 20px">
+  <div class="row no-gutters justify-content-md-center">
+    <div class="col">
+      <div class="over "><%= image_tag "climber_right.png", height: 100 %> </div>
+      <div class="under"><%= image_tag "challenge_level_33.png", height: 550 %></div>
+    </div>
+    
+<div style="padding: 90px">
+ <div class="col" align="center">
+  <h3>Challenge Level Cleared</h3>
+    <div class="col ">
+      <div class="alert alert-info" role="alert">
+        <h4 class="alert-heading">Congratulations!</h4>
+          <p>You've won!</p>
+           <hr>
+            <h4 class="mb-0">Inorder Traversal: 4, 7, 11, 2, 1, 5, 6, 8, 10, 3, 9</h4>
+           </div>
+         <div class="float-container" style="padding: 10px">
+            <div class="float-child" style="display: inline-block">
+                <%= button_to "Play Again",level_path, method: :get, class: "btn btn-success btn-lg" %>
+            </div>
+            <div class="float-child" style="display: inline-block">
+                <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
+            <div>
+     </div>
+    </div>
+  </div>
+</div>

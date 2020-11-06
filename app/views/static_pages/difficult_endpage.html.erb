@@ -1,0 +1,35 @@
+<body class="game-bg">
+
+
+<div style="padding: 20px">
+  <div class="row no-gutters justify-content-md-center">
+    <div class="col">
+    <div class="over-end swing-image-fifteenth-move"><%= image_tag "climber_right.png", height: 100 %> </div>
+      <div class="under"><%= image_tag "End_difficult.png", height: 550%></div>
+    </div>
+    
+<div style="padding: 20px">
+ <div class="col-md-auto" align="center">
+  <h3>Difficult Level Cleared</h3>
+    <div class="col ">
+      <div class="alert alert-info" role="alert">
+        <h4 class="alert-heading">Congratulations!</h4>
+          <p>You've won!</p>
+           <hr>
+            <h4 class="mb-0">Inorder Traversal: 7, 3, 2, 5, 1, 8, 4, 9, 6</h4>
+           </div>
+         <div class="col">
+       <h1><%= button_to "Play Again",level_path, method: :get, class: "btn btn-success btn-lg" %></h1>
+      </div>
+     </div>
+    </div>
+  </div>
+    
+    <div class="col ">
+      <div style="padding: 10px" align="center">
+            <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
+      </div>
+      
+    </div>
+  </div>
+</div>

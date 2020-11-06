@@ -46,6 +46,9 @@ Rails.application.routes.draw do
   get 'difficult_levels43/:id', to: 'difficult_levels#show43', as: 'difficult_level43' # difficult level show 43
   get 'difficult_levels44/:id', to: 'difficult_levels#show44', as: 'difficult_level44' # difficult level show 44
   get 'difficult_levels45/:id', to: 'difficult_levels#show45', as: 'difficult_level45' # difficult level show 45
+  get 'difficult_levels46/:id', to: 'difficult_levels#show46', as: 'difficult_level46' # difficult level show 46
+  get 'difficult_levels47/:id', to: 'difficult_levels#show47', as: 'difficult_level47' # difficult level show 47
+
 
 
   get 'intermediate_levels/index'

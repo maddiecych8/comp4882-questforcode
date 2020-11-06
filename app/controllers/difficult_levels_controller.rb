@@ -321,6 +321,20 @@ def show45
       format.html { render :show45, locals: { node: node } }
   end
  end
+
+ def show46
+  node = DifficultLevel.find(params[:id])
+  respond_to do |format|
+      format.html { render :show46, locals: { node: node } }
+  end
+ end
+
+ def show47
+  node = DifficultLevel.find(params[:id])
+  respond_to do |format|
+      format.html { render :show47, locals: { node: node } }
+  end
+ end
 end
 
 

@@ -2,51 +2,54 @@
 
 
 <div style="padding: 20px">
-  <div class="row no-gutters justify-content-md-center">
-    <div class="col">
-      <div class="over5 six-move"><%= image_tag "climber_left.png", height: 100 %> </div>
-      <div class="under"><%= image_tag "Difficult_tree6.png", height: 550, width: 500 %></div>
-    </div>
-    <div class="col-md-auto" align="center">
-      <h3>Select Button to Move</h3>
-      <div class="btn-group-vertical">
-        <%= link_to 'climb branch to the left of 7', difficult_level8_path(node), class: "btn btn-success btn-lg" %>
-        <%= link_to 'climb branch to the right of 7', difficult_level7_path(node), class: "btn btn-success btn-lg" %>
-      </div>
-      <h3 style="padding: 10px">Return Apple</h3>
-      <div class="btn-group" role="group">
-        <%= link_to node.node3, difficult_level7_path(node), class: "btn btn-success btn-lg" %>
-        <%= link_to node.node7, difficult_level7_path(node), class: "btn btn-success btn-lg" %>
-        <%= link_to node.node8, difficult_level7_path(node), class: "btn btn-success btn-lg" %>
-      </div>
-      <div class="row-center">
-      <div style="padding: 100px">
-      <button id="help">Hint</button>
-<script>
-function hint() {
-alert('Left to right!');
-}
-document.getElementById("help").addEventListener("click", hint);
-</script>
-</div>
-</div>
-    </div>
+  <div class="row no-gutters ">
     <div class="col ">
-      <div style="padding: 10px" align="right">
+      <div class="over"><%= image_tag "climber_left.png", height: 100 %> </div>
+      <div class="under"><%= image_tag "Difficult6.png", height: 550 %></div>
+    </div>
+    
+    
+    <div class="col ">
+      <div class="float-container" style="padding: 10px" >
+        <div class="row-center float-child" style="display: inline-block ">
+            <div>
+                <button id="help" class="btn btn-success btn-lg">Hint</button>
+                    <script>
+                    function hint() {
+                    alert('Move left to right');
+                    }
+                    document.getElementById("help").addEventListener("click", hint);
+                    </script>
+            </div>
+        </div>
+        <div class="float-child" style="display: inline-block">
             <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
+        </div>
       </div>
       <div >
             <%= image_tag "new_playtest_algo3.png", height: 300 %>
       </div>
       <div class="card border-dark mb-3" style="max-width: 29.5rem;">
         <div class="card-header">Console Output</div>
-        <div class="table-wrap">
-            <p class="card-text">check if there is an apple<br>
+        <div class="card-body text-dark">
+            <p class="card-text">
+            check if there is an apple<br>
             climb branch to the left of 8<br>
             check if there is an apple<br>
-            climb branch to the left of 3<br>
-            check if there is an apple</p>
+            climb branch to the left of 3 <br>
+            check if there is an apple<br>
+            climb branch to the left of 7</p>
       </div>
+      <div class="input-group mb-3" style="padding: 20px">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Enter Console Output</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+    </div>
+    <div style="padding: 10px" >
+        <%= link_to 'Next', difficult_level8_path(node), class: "btn btn-success btn-lg" %>
     </div>
   </div>
 </div>
+

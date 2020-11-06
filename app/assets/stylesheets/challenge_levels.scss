@@ -1,3 +1,1708 @@
 // Place all the styles related to the ChallengeLevels controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+.over-top {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 245px;
+    top: 20px;
+}
+
+.over-c3 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 200px;
+    top: 65px;
+}
+
+.over-c4 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 170px;
+    top: 75px;
+}
+
+.over-c5 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 135px;
+    top: 125px;
+}
+
+.over-c6 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 110px;
+    top: 145px;
+}
+
+.over-c7 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 75px;
+    top: 200px;
+}
+
+.over-c8 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 40px;
+    top: 220px;
+}
+
+.over-c9 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 20px;
+    top: 270px;
+}
+
+.over-c10 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 0px;
+    top: 350px;
+}
+
+.over-c12 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 105px;
+    top: 290px;
+}
+
+.over-c13 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 115px;
+    top: 360px;
+}
+
+.over-c15 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 150px;
+    top: 210px;
+}
+
+.over-c16 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 185px;
+    top: 235px;
+}
+
+.over-c17 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 135px;
+    top: 275px;
+}
+
+.over-c18 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 120px;
+    top: 285px;
+}
+
+.over-c19 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 75px;
+    top: 330px;
+}
+
+.over-c20 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 55px;
+    top: 405px;
+}
+
+.over-c22 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 155px;
+    top: 330px;
+}
+
+.over-c23 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 170px;
+    top: 410px;
+}
+
+.over-c25 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 210px;
+    top: 275px;
+}
+
+.over-c26 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 220px;
+    top: 355px;
+}
+
+.over-c28 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 215px;
+    top: 145px;
+}
+
+.over-c29 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 235px;
+    top: 225px;
+}
+
+.over-c31 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 290px;
+    top: 80px;
+}
+
+.over-c32 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 315px;
+    top: 100px;
+}
+
+.over-c33 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 270px;
+    top: 175px;
+}
+
+.over-c34 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 255px;
+    top: 185px;
+}
+
+.over-c35 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 230px;
+    top: 250px;
+}
+
+.over-c36 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 215px;
+    top: 335px;
+}
+
+.over-c38 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 305px;
+    top: 235px;
+}
+
+.over-c39 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 325px;
+    top: 255px;
+}
+
+.over-c40 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 285px;
+    top: 320px;
+}
+
+.over-c41 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 270px;
+    top: 400px;
+}
+
+.over-c43 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 355px;
+    top: 305px;
+}
+
+.over-c44 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 365px;
+    top: 390px;
+}
+
+.over-c46 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 355px;
+    top: 150px;
+}
+
+.over-c47 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 385px;
+    top: 170px;
+}
+
+.over-c48 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 345px;
+    top: 250px;
+}
+
+.over-c49 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 340px;
+    top: 330px;
+}
+
+.over-c51 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 420px;
+    top: 230px;
+}
+
+.over-c52 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 435px;
+    top: 240px;
+}
+
+.over-c53 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 390px;
+    top: 295px;
+}
+
+.over-c54 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 375px;
+    top: 380px;
+}
+
+.over-c56 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 465px;
+    top: 285px;
+}
+
+.under {
+    z-index: 1;
+    width: 500px;
+}
+
+@keyframes c-moveDown1 {
+    0% {
+        left: 245px;
+        top: 20px;
+    }
+    10% {
+        left: 220px;
+        top: 45px;
+    }
+    100% {
+        left: 200px;
+        top: 65px;
+    }
+}
+
+@keyframes c-moveDown2 {
+    0% {
+        left: 200px;
+        top: 65px;
+    }
+    10% {
+        left: 185px;
+        top: 70px;
+    }
+    100% {
+        left: 170px;
+        top: 75px;
+    }
+}
+
+@keyframes c-moveDown3 {
+    0% {
+        left: 170px;
+        top: 75px;
+    }
+    10% {
+        left: 155px;
+        top: 100px;
+    }
+    100% {
+        left: 135px;
+        top: 125px;
+    }
+}
+
+@keyframes c-moveDown4 {
+    0% {
+        left: 135px;
+        top: 125px;
+    }
+    10% {
+        left: 120px;
+        top: 135px;
+    }
+    100% {
+        left: 110px;
+        top: 145px;
+    }
+}
+
+@keyframes c-moveDown5 {
+    0% {
+        left: 110px;
+        top: 145px;
+    }
+    10% {
+        left: 95px;
+        top: 170px;
+    }
+    100% {
+        left: 75px;
+        top: 200px;
+    }
+}
+
+@keyframes c-moveDown6 {
+    0% {
+        left: 75px;
+        top: 200px;
+    }
+    10% {
+        left: 50px;
+        top: 210px;
+    }
+    100% {
+        left: 40px;
+        top: 220px;
+    }
+}
+
+@keyframes c-moveDown7 {
+    0% {
+        left: 40px;
+        top: 220px;
+    }
+    10% {
+        left: 30px;
+        top: 245px;
+    }
+    100% {
+        left: 20px;
+        top: 270px;
+    }
+}
+
+@keyframes c-moveDown8 {
+    0% {
+        left: 20px;
+        top: 270px;
+    }
+    50% {
+        left: 10px;
+        top: 310px;
+    }
+    100% {
+        left: 0px;
+        top: 350px;
+    }
+}
+
+@keyframes c-moveUp9 {
+    0% {
+        left: 0px;
+        top: 350px;
+      }
+    50% {
+        left: 20px;
+        top: 285px;
+      }
+    100% {
+        left: 40px;
+        top: 220px;
+      }
+}
+
+@keyframes c-moveDown10 {
+    0% {
+        left: 40px;
+        top: 220px;
+    }
+    50% {
+        left: 70px;
+        top: 255px;
+    }
+    100% {
+        left: 105px;
+        top: 290px;
+    }
+}
+
+@keyframes c-moveDown11 {
+    0% {
+        left: 105px;
+        top: 290px;
+    }
+    50% {
+        left: 110px;
+        top: 325px;
+    }
+    100% {
+        left: 115px;
+        top: 360px;
+    }
+}
+
+@keyframes c-moveUp12 {
+    0% {
+        left: 115px;
+        top: 360px;
+      }
+    50% {
+        left: 30px;
+        top: 275px;
+      }
+    100% {
+        left: 110px;
+        top: 145px;
+      }
+}
+
+@keyframes c-moveDown13 {
+    0% {
+        left: 110px;
+        top: 145px;
+    }
+    50% {
+        left: 130px;
+        top: 175px;
+    }
+    100% {
+        left: 150px;
+        top: 210px;
+    }
+}
+
+@keyframes c-moveDown14 {
+    0% {
+        left: 150px;
+        top: 210px;
+    }
+    50% {
+        left: 165px;
+        top: 220px;
+    }
+    100% {
+        left: 185px;
+        top: 235px;
+    }
+}
+
+@keyframes c-moveDown15 {
+    0% {
+        left: 185px;
+        top: 235px;
+    }
+    50% {
+        left: 160px;
+        top: 255px;
+    }
+    100% {
+        left: 135px;
+        top: 275px;
+    }
+}
+
+@keyframes c-moveDown16 {
+    0% {
+        left: 135px;
+        top: 275px;
+    }
+    50% {
+        left: 127px;
+        top: 280px;
+    }
+    100% {
+        left: 120px;
+        top: 285px;
+    }
+}
+
+@keyframes c-moveDown17 {
+    0% {
+        left: 120px;
+        top: 285px;
+    }
+    50% {
+        left: 100px;
+        top: 305px;
+    }
+    100% {
+        left: 75px;
+        top: 330px;
+    }
+}
+
+@keyframes c-moveDown18 {
+    0% {
+        left: 75px;
+        top: 330px;
+    }
+    50% {
+        left: 65px;
+        top: 365px;
+    }
+    100% {
+        left: 55px;
+        top: 405px;
+    }
+}
+
+@keyframes c-moveUp19 {
+    0% {
+        left: 55px;
+        top: 405px;
+    }
+    50% {
+        left: 85px;
+        top: 345px;
+    }
+    100% {
+        left: 120px;
+        top: 285px;
+    }
+}
+
+@keyframes c-moveDown20 {
+    0% {
+        left: 120px;
+        top: 285px;
+    }
+    50% {
+        left: 135px;
+        top: 305px;
+    }
+    100% {
+        left: 155px;
+        top: 330px;
+    }
+}
+
+@keyframes c-moveDown21 {
+    0% {
+        left: 155px;
+        top: 330px;
+    }
+    50% {
+        left: 162px;
+        top: 370px;
+    }
+    100% {
+        left: 170px;
+        top: 410px;
+    }
+}
+
+@keyframes c-moveUp22 {
+    0% {
+        left: 170px;
+        top: 410px;
+    }
+    50% {
+        left: 120px;
+        top: 285px;
+    }
+    100% {
+        left: 185px;
+        top: 235px;
+    }
+}
+
+@keyframes c-moveDown23 {
+    0% {
+        left: 185px;
+        top: 235px;
+    }
+    50% {
+        left: 200px;
+        top: 255px;
+    }
+    100% {
+        left: 210px;
+        top: 275px;
+    }
+}
+
+@keyframes c-moveDown24 {
+    0% {
+        left: 210px;
+        top: 275px;
+    }
+    50% {
+        left: 215px;
+        top: 315px;
+    }
+    100% {
+        left: 220px;
+        top: 355px;
+    }
+}
+
+@keyframes c-moveUp25 {
+    0% {
+        left: 220px;
+        top: 355px;
+    }
+    30% {
+        left: 185px;
+        top: 235px;
+    }
+    60% {
+        left: 110px;
+        top: 145px;
+    }
+    100% {
+        left: 170px;
+        top: 75px;
+    }
+}
+
+@keyframes c-moveDown26 {
+    0% {
+        left: 170px;
+        top: 75px;
+    }
+    50% {
+        left: 195px;
+        top: 110px;
+    }
+    100% {
+        left: 215px;
+        top: 145px;
+    }
+}
+
+@keyframes c-moveDown27 {
+    0% {
+        left: 215px;
+        top: 145px;
+    }
+    50% {
+        left: 225px;
+        top: 185px;
+    }
+    100% {
+        left: 235px;
+        top: 225px;
+    }
+}
+
+@keyframes c-moveUp28 {
+    0% {
+        left: 235px;
+        top: 225px;
+    }
+    50% {
+        left: 170px;
+        top: 75px;
+    }
+    100% {
+        left: 245px;
+        top: 20px;
+    }
+}
+
+@keyframes c-moveDown29 {
+    0% {
+        left: 245px;
+        top: 20px;
+    }
+    50% {
+        left: 265px;
+        top: 50px;
+    }
+    100% {
+        left: 290px;
+        top: 80px;
+    }
+}
+
+@keyframes c-moveDown30 {
+    0% {
+        left: 290px;
+        top: 80px;
+    }
+    50% {
+        left: 300px;
+        top: 90px;
+    }
+    100% {
+        left: 315px;
+        top: 100px;
+    }
+}
+
+@keyframes c-moveDown31 {
+    0% {
+        left: 315px;
+        top: 100px;
+    }
+    50% {
+        left: 295px;
+        top: 130px;
+    }
+    100% {
+        left: 270px;
+        top: 175px;
+    }
+}
+
+@keyframes c-moveDown32 {
+    0% {
+        left: 270px;
+        top: 175px;
+    }
+    50% {
+        left: 260px;
+        top: 180px;
+    }
+    100% {
+        left: 255px;
+        top: 185px;
+    }
+}
+
+@keyframes c-moveDown33 {
+    0% {
+        left: 255px;
+        top: 185px;
+    }
+    50% {
+        left: 240px;
+        top: 215px;
+    }
+    100% {
+        left: 230px;
+        top: 250px;
+    }
+}
+
+@keyframes c-moveDown34 {
+    0% {
+        left: 230px;
+        top: 250px;
+    }
+    50% {
+        left: 222px;
+        top: 290px;
+    }
+    100% {
+        left: 215px;
+        top: 335px;
+    }
+}
+
+@keyframes c-moveUp35 {
+    0% {
+        left: 215px;
+        top: 335px;
+    }
+    50% {
+        left: 235px;
+        top: 260px;
+    }
+    100% {
+        left: 255px;
+        top: 185px;
+    }
+}
+
+@keyframes c-moveDown36 {
+    0% {
+        left: 255px;
+        top: 185px;
+    }
+    50% {
+        left: 280px;
+        top: 210px;
+    }
+    100% {
+        left: 305px;
+        top: 235px;
+    }
+}
+
+@keyframes c-moveDown37 {
+    0% {
+        left: 305px;
+        top: 235px;
+    }
+    50% {
+        left: 315px;
+        top: 245px;
+    }
+    100% {
+        left: 325px;
+        top: 255px;
+    }
+}
+
+@keyframes c-moveDown38 {
+    0% {
+        left: 325px;
+        top: 255px;
+    }
+    50% {
+        left: 305px;
+        top: 285px;
+    }
+    100% {
+        left: 285px;
+        top: 320px;
+    }
+}
+
+@keyframes c-moveDown39 {
+    0% {
+        left: 285px;
+        top: 320px;
+    }
+    50% {
+        left: 277px;
+        top: 360px;
+    }
+    100% {
+        left: 270px;
+        top: 400px;
+    }
+}
+
+@keyframes c-moveUp40 {
+    0% {
+        left: 270px;
+        top: 400px;
+    }
+    50% {
+        left: 295px;
+        top: 330px;
+    }
+    100% {
+        left: 325px;
+        top: 255px;
+    }
+}
+
+@keyframes c-moveDown41 {
+    0% {
+        left: 325px;
+        top: 255px;
+    }
+    50% {
+        left: 340px;
+        top: 280px;
+    }
+    100% {
+        left: 355px;
+        top: 305px;
+    }
+}
+
+@keyframes c-moveDown42 {
+    0% {
+        left: 355px;
+        top: 305px;
+    }
+    50% {
+        left: 360px;
+        top: 345px;
+    }
+    100% {
+        left: 365px;
+        top: 390px;
+    }
+}
+
+@keyframes c-moveUp43 {
+    0% {
+        left: 365px;
+        top: 390px;
+    }
+    30% {
+        left: 325px;
+        top: 255px;
+    }
+    60% {
+        left: 255px;
+        top: 185px;
+    }
+    100% {
+        left: 315px;
+        top: 100px;
+    }
+}
+
+@keyframes c-moveDown44 {
+    0% {
+        left: 315px;
+        top: 100px;
+    }
+    50% {
+        left: 335px;
+        top: 125px;
+    }
+    100% {
+        left: 355px;
+        top: 150px;
+    }
+}
+
+@keyframes c-moveDown45 {
+    0% {
+        left: 355px;
+        top: 150px;
+    }
+    50% {
+        left: 370px;
+        top: 160px;
+    }
+    100% {
+        left: 385px;
+        top: 170px;
+    }
+}
+
+@keyframes c-moveDown46 {
+    0% {
+        left: 385px;
+        top: 170px;
+    }
+    50% {
+        left: 365px;
+        top: 210px;
+    }
+    100% {
+        left: 345px;
+        top: 250px;
+    }
+}
+
+@keyframes c-moveDown47 {
+    0% {
+        left: 345px;
+        top: 250px;
+    }
+    50% {
+        left: 343px;
+        top: 290px;
+    }
+    100% {
+        left: 340px;
+        top: 330px;
+    }
+}
+
+@keyframes c-moveUp48 {
+    0% {
+        left: 340px;
+        top: 330px;
+    }
+    50% {
+        left: 360px;
+        top: 250px;
+    }
+    100% {
+        left: 385px;
+        top: 170px;
+    }
+}
+
+@keyframes c-moveDown49 {
+    0% {
+        left: 385px;
+        top: 170px;
+    }
+    50% {
+        left: 400px;
+        top: 200px;
+    }
+    100% {
+        left: 420px;
+        top: 230px;
+    }
+}
+
+@keyframes c-moveDown50 {
+    0% {
+        left: 420px;
+        top: 230px;
+    }
+    50% {
+        left: 427px;
+        top: 235px;
+    }
+    100% {
+        left: 435px;
+        top: 240px;
+    }
+}
+
+@keyframes c-moveDown51 {
+    0% {
+        left: 435px;
+        top: 240px;
+    }
+    50% {
+        left: 410px;
+        top: 270px;
+    }
+    100% {
+        left: 390px;
+        top: 295px;
+    }
+}
+
+@keyframes c-moveDown52 {
+    0% {
+        left: 390px;
+        top: 295px;
+    }
+    50% {
+        left: 383px;
+        top: 335px;
+    }
+    100% {
+        left: 375px;
+        top: 380px;
+    }
+}
+
+@keyframes c-moveUp53 {
+    0% {
+        left: 375px;
+        top: 380px;
+    }
+    50% {
+        left: 405px;
+        top: 310px;
+    }
+    100% {
+        left: 435px;
+        top: 240px;
+    }
+}
+
+@keyframes c-moveDown54 {
+    0% {
+        left: 435px;
+        top: 240px;
+    }
+    50% {
+        left: 450px;
+        top: 260px;
+    }
+    100% {
+        left: 465px;
+        top: 285px;
+    }
+}
+
+
+
+@keyframes swinging {
+    0% {
+      -webkit-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+      transform: rotate(10deg);
+    }
+  
+    50% {
+      -webkit-transform: rotate(-5deg);
+      -ms-transform: rotate(-5deg);
+      transform: rotate(-5deg);
+    }
+  
+    100% {
+      -webkit-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+      transform: rotate(10deg);
+    }
+}
+
+.c-move-1 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown1;
+    animation-name: c-moveDown1;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-2 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown2;
+    animation-name: c-moveDown2;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-3 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown3;
+    animation-name: c-moveDown3;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-4 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown4;
+    animation-name: c-moveDown4;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-5 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown5;
+    animation-name: c-moveDown5;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-6 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown6;
+    animation-name: c-moveDown6;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-7 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown7;
+    animation-name: c-moveDown7;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.swing-image-c-move-8 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: c-moveDown8 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: c-moveDown8 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.c-move-9 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveUp9;
+    animation-name: c-moveUp9;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-10 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown10;
+    animation-name: c-moveDown10;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.swing-image-c-move-11 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: c-moveDown11 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: c-moveDown11 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.c-move-12 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveUp12;
+    animation-name: c-moveUp12;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-13 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown13;
+    animation-name: c-moveDown13;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-14 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown14;
+    animation-name: c-moveDown14;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-15 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown15;
+    animation-name: c-moveDown15;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-16 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown16;
+    animation-name: c-moveDown16;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-17 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown17;
+    animation-name: c-moveDown17;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.swing-image-c-move-18 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: c-moveDown18 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: c-moveDown18 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.c-move-19 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveUp19;
+    animation-name: c-moveUp19;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-20 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown20;
+    animation-name: c-moveDown20;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.swing-image-c-move-21 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: c-moveDown21 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: c-moveDown21 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.c-move-22 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveUp22;
+    animation-name: c-moveUp22;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-23 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown23;
+    animation-name: c-moveDown23;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.swing-image-c-move-24 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: c-moveDown24 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: c-moveDown24 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.c-move-25 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveUp25;
+    animation-name: c-moveUp25;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-26 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown26;
+    animation-name: c-moveDown26;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.swing-image-c-move-27 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: c-moveDown27 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: c-moveDown27 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.c-move-28 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveUp28;
+    animation-name: c-moveUp28;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-29 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown29;
+    animation-name: c-moveDown29;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-30 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown30;
+    animation-name: c-moveDown30;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-31 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown31;
+    animation-name: c-moveDown31;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-32 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown32;
+    animation-name: c-moveDown32;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-33 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown33;
+    animation-name: c-moveDown33;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.swing-image-c-move-34 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: c-moveDown34 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: c-moveDown34 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.c-move-35 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveUp35;
+    animation-name: c-moveUp35;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-36 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown36;
+    animation-name: c-moveDown36;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-37 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown37;
+    animation-name: c-moveDown37;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-38 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown38;
+    animation-name: c-moveDown38;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.swing-image-c-move-39 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: c-moveDown39 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: c-moveDown39 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.c-move-40 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveUp40;
+    animation-name: c-moveUp40;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-41 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown41;
+    animation-name: c-moveDown41;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.swing-image-c-move-42 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: c-moveDown42 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: c-moveDown42 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.c-move-43 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveUp43;
+    animation-name: c-moveUp43;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-44 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown44;
+    animation-name: c-moveDown44;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-45 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown45;
+    animation-name: c-moveDown45;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-46 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown46;
+    animation-name: c-moveDown46;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.swing-image-c-move-47 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: c-moveDown47 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: c-moveDown47 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.c-move-48 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveUp48;
+    animation-name: c-moveUp48;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-49 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown49;
+    animation-name: c-moveDown49;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-50 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown50;
+    animation-name: c-moveDown50;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-51 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown51;
+    animation-name: c-moveDown51;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.swing-image-c-move-52 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: c-moveDown52 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: c-moveDown52 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.c-move-53 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveUp53;
+    animation-name: c-moveUp53;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.c-move-54 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown54;
+    animation-name: c-moveDown54;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}

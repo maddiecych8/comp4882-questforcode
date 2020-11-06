@@ -1,3 +1,53 @@
 // Place all the styles related to the LevelPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.over-c-end {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 485px;
+    top: 375px;
+}
+
+@keyframes c-moveDown55 {
+    0% {
+        left: 465px;
+        top: 285px;
+    }
+    50% {
+        left: 475px;
+        top: 330px;
+    }
+    100% {
+        left: 485px;
+        top: 375px;
+    }
+}
+
+@keyframes swinging {
+    0% {
+      -webkit-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+      transform: rotate(10deg);
+    }
+  
+    50% {
+      -webkit-transform: rotate(-5deg);
+      -ms-transform: rotate(-5deg);
+      transform: rotate(-5deg);
+    }
+  
+    100% {
+      -webkit-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+      transform: rotate(10deg);
+    }
+}
+
+.swing-image-c-move-55 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: c-moveDown55 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: c-moveDown55 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}

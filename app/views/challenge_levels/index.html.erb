@@ -1,0 +1,19 @@
+<body class="game-bg">
+
+<h1>Challenge Level Nodes</h1>
+
+ <% nodes.each do |node| %>
+     <div id="<%= dom_id(node) %>">
+         <p><%= node.node1 %></p>
+         <p><%= node.node2 %></p>
+         <p><%= node.node3 %></p>
+         <p><%= node.node4 %></p>
+         <p><%= node.node5 %></p>
+         <p><%= node.node6 %></p>
+         <p><%= node.node7 %></p>
+         <p><%= node.node8 %></p>
+         <p><%= node.node9 %></p>
+         <p><%= node.node10 %></p>
+         <p><%= node.node11 %></p>
+     </div>
+ <% end %>

@@ -31,7 +31,6 @@ i1 = IntermediateLevel.create!(
     node5: 5,
     node6: 6,
 )
-
 d1 = DifficultLevel.create!(
     node1: 1,
     node2: 2,
@@ -42,4 +41,18 @@ d1 = DifficultLevel.create!(
     node7: 7,
     node8: 8,
     node9: 9,
+)
+
+c1 = ChallengeLevel.create!(
+    node1: 1,
+    node2: 2,
+    node3: 3,
+    node4: 4,
+    node5: 5,
+    node6: 6,
+    node7: 7,
+    node8: 8,
+    node9: 9,
+    node10: 10,
+    node11: 11,
 )

@@ -41,7 +41,6 @@ ActiveRecord::Schema.define(version: 2020_11_05_014459) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-
   create_table "easy_levels", force: :cascade do |t|
     t.integer "node1"
     t.integer "node2"

@@ -1,3 +1,1025 @@
 // Place all the styles related to the DifficultLevels controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.over100 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 230px;
+    top: 30px;
+  }
+  
+  .over101 {
+    z-index: 2;
+    position: relative;
+    left: -25px;
+    top: 310px;
+  }
+
+  .over102 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 0px;
+    top: 250px;
+}
+
+
+  @keyframes moveDown100 {
+    0% {
+      left: 200px;
+      top: 30px;
+      }
+    10% {
+      left: 185px;
+      top: 50px;
+      }
+    100% {
+      left: 160px;
+      top: 90px;
+      }
+  }
+  
+  @keyframes moveDown101 {
+    0% {
+      left: 150px;
+      top: 90px;
+      }
+    10% {
+      left: 130px;
+      top: 90px;
+      }
+    100% {
+      left: 120px;
+      top: 90px;
+      }
+  }
+  
+  @keyframes moveDown102 {
+    0% {
+      left: 70px;
+      top: 150px;
+      }
+    10% {
+      left: 50px;
+      top: 160px;
+      }
+    100% {
+      left: 30px;
+      top: 200px;
+      }
+  }
+
+  @keyframes moveDown103 {
+    0% {
+      left: 120px;
+      top: 120px;
+      }
+    10% {
+      left: 100px;
+      top: 140px;
+      }
+    100% {
+      left: 60px;
+      top: 160px;
+      }
+  }
+  
+  @keyframes moveDown104 {
+    0% {
+      left: 20px;
+      top: 200px;
+      }
+    10% {
+      left: 0px;
+      top: 220px;
+      }
+    100% {
+      left: -40px;
+      top: 240px;
+      }
+  }
+
+  @keyframes moveDown105 {
+    0% {
+        left: 50px;
+        top: 220px;
+    }
+    50% {
+        left: 70px;
+        top: 250px;
+    }
+    100% {
+        left: 75px;
+        top: 280px;
+    }
+}
+
+@keyframes moveDown106 {
+    0% {
+        left: 65px;
+        top: 270px;
+    }
+    50% {
+        left: 80px;
+        top: 295px;
+    }
+    100% {
+        left: 95px;
+        top: 310px;
+    }
+}
+
+@keyframes moveDown107 {
+    0% {
+        left: 155px;
+        top: 145px;
+    }
+    50% {
+        left: 170px;
+        top: 185px;
+    }
+    100% {
+        left: 180px;
+        top: 200px;
+    }
+}
+
+@keyframes moveDown108 {
+    0% {
+        left: 170px;
+        top: 165px;
+    }
+    50% {
+        left: 175px;
+        top: 180px;
+    }
+    100% {
+        left: 195px;
+        top: 185px;
+    }
+}
+
+@keyframes moveDown109 {
+    0% {
+        left: 145px;
+        top: 220px;
+    }
+    50% {
+        left: 120px;
+        top: 225px;
+    }
+    100% {
+        left: 100px;
+        top: 230px;
+    }
+}
+  
+
+@keyframes moveDown110 {
+    0% {
+        left: 70px;
+        top: 340px;
+    }
+    50% {
+        left: 55px;
+        top: 350px;
+    }
+    100% {
+        left: 40px;
+        top: 365px;
+    }
+}
+
+@keyframes moveDown111 {
+    0% {
+        left: 155px;
+        top: 350px;
+    }
+    50% {
+        left: 170px;
+        top: 360px;
+    }
+    100% {
+        left: 187px;
+        top: 375px;
+    }
+}
+
+@keyframes moveDown112 {
+    0% {
+        left: 225px;
+        top: 230px;
+    }
+    50% {
+        left: 235px;
+        top: 235px;
+    }
+    100% {
+        left: 245px;
+        top: 245px;
+    }
+}
+
+@keyframes moveDown113 {
+    0% {
+        left: 240px;
+        top: 270px;
+    }
+    50% {
+        left: 225px;
+        top: 290px;
+    }
+    100% {
+        left: 200px;
+        top: 300px;
+    }
+}
+
+@keyframes moveDown114 {
+    0% {
+        left: 170px;
+        top: 215px;
+    }
+    50% {
+        left: 175px;
+        top: 285px;
+    }
+    100% {
+        left: 180px;
+        top: 365px;
+    }
+}
+
+@keyframes moveDown115 {
+    0% {
+        left: 270px;
+        top: 285px;
+    }
+    50% {
+        left: 280px;
+        top: 345px;
+    }
+    100% {
+        left: 295px;
+        top: 370px;
+    }
+}
+
+@keyframes moveDown116 {
+    0% {
+        left: 220px;
+        top: 215px;
+    }
+    50% {
+        left: 265px;
+        top: 285px;
+    }
+    100% {
+        left: 297px;
+        top: 382px;
+    }
+}
+
+@keyframes moveDown117 {
+    0% {
+        left: 225px;
+        top: 20px;
+    }
+    50% {
+        left: 245px;
+        top: 50px;
+    }
+    100% {
+        left: 270px;
+        top: 80px;
+    }
+}
+
+@keyframes moveDown118 {
+    0% {
+        left: 300px;
+        top: 120px;
+    }
+    50% {
+        left: 285px;
+        top: 125px;
+    }
+    100% {
+        left: 260px;
+        top: 145px;
+    }
+}
+
+@keyframes moveDown119 {
+    0% {
+        left: 210px;
+        top: 165px;
+    }
+    50% {
+        left: 225px;
+        top: 185px;
+    }
+    100% {
+        left: 250px;
+        top: 220px;
+    }
+}
+
+@keyframes moveDown120 {
+    0% {
+        left: 295px;
+        top: 100px;
+    }
+    50% {
+        left: 315px;
+        top: 125px;
+    }
+    100% {
+        left: 335px;
+        top: 150px;
+    }
+}
+
+@keyframes moveDown121 {
+    0% {
+        left: 315px;
+        top: 140px;
+    }
+    50% {
+        left: 338px;
+        top: 160px;
+    }
+    100% {
+        left: 355px;
+        top: 175px;
+    }
+}
+
+@keyframes moveDown122 {
+    0% {
+        left: 365px;
+        top: 180px;
+    }
+    50% {
+        left: 345px;
+        top: 200px;
+    }
+    100% {
+        left: 335px;
+        top: 220px;
+    }
+}
+
+@keyframes moveDown123 {
+    0% {
+        left: 345px;
+        top: 210px;
+    }
+    50% {
+        left: 333px;
+        top: 220px;
+    }
+    100% {
+        left: 310px;
+        top: 230px;
+    }
+}
+
+@keyframes moveDown124 {
+    0% {
+        left: 260px;
+        top: 360px;
+    }
+    50% {
+        left: 255px;
+        top: 375px;
+    }
+    100% {
+        left: 250px;
+        top: 380px;
+    }
+}
+
+@keyframes moveDown125 {
+    0% {
+        left: 280px;
+        top: 290px;
+    }
+    50% {
+        left: 265px;
+        top: 300px;
+    }
+    100% {
+        left: 260px;
+        top: 310px;
+    }
+}
+
+@keyframes moveUp126 {
+    0% {
+        left: 260px;
+        top: 320px;
+    }
+    50% {
+        left: 300px;
+        top: 280px;
+    }
+    100% {
+        left: 315px;
+        top: 240px;
+    }
+}
+
+@keyframes moveDown127 {
+    0% {
+        left: 325px;
+        top: 280px;
+    }
+    50% {
+        left: 340px;
+        top: 290px;
+    }
+    100% {
+        left: 360px;
+        top: 300px;
+    }
+}
+
+@keyframes moveDown128 {
+    0% {
+        left: 360px;
+        top: 360px;
+    }
+    50% {
+        left: 370px;
+        top: 370px;
+    }
+    100% {
+        left: 380px;
+        top: 385px;
+    }
+}
+
+
+@keyframes moveDown129 {
+    0% {
+        left: 400px;
+        top: 240px;
+    }
+    50% {
+        left: 415px;
+        top: 270px;
+    }
+    100% {
+        left: 420px;
+        top: 300px;
+    }
+}
+
+@keyframes moveDown130{
+    0% {
+        left: 405px;
+        top: 300px;
+    }
+    50% {
+        left: 420px;
+        top: 310px;
+    }
+    100% {
+        left: 435px;
+        top: 320px;
+    }
+}
+
+
+@keyframes moveDown131 {
+    0% {
+        left: 100px;
+        top: 250px;
+    }
+    50% {
+        left: 70px;
+        top: 275px;
+    }
+    100% {
+        left: 50px;
+        top: 300px;
+    }
+}
+///////////////////////////////////////////////////////////////
+
+  @keyframes moveUp100 {
+    0% {
+        left: -40px;
+        top: 280px;
+      }
+    50% {
+        left: -20px;
+        top: 250px;
+      }
+    100% {
+        left: 20px;
+        top: 180px;
+      }
+}
+
+
+
+@keyframes moveUp101 {
+    0% {
+        left: 85px;
+        top: 260px;
+      }
+    50% {
+        left: 15px;
+        top: 180px;
+      }
+    100% {
+        left: 120px;
+        top: 105px;
+      }
+}
+
+@keyframes moveUp103 {
+    0% {
+        left: 55px;
+        top: 305px;
+    }
+    50% {
+        left: 75px;
+        top: 255px;
+    }
+    100% {
+        left: 100px;
+        top: 215px;
+    }
+}
+
+@keyframes moveUp104 {
+    0% {
+        left: 170px;
+        top: 350px;
+    }
+    50% {
+        left: 120px;
+        top: 245px;
+    }
+    100% {
+        left: 185px;
+        top: 180px;
+    }
+}
+
+@keyframes moveUp105 {
+    0% {
+        left: 205px;
+        top: 305px;
+    }
+    50% {
+        left: 225px;
+        top: 255px;
+    }
+    100% {
+        left: 240px;
+        top: 225px;
+    }
+}
+
+@keyframes moveUp106 {
+    0% {
+        left: 250px;
+        top: 275px;
+    }
+    30% {
+        left: 195px;
+        top: 175px;
+    }
+    60% {
+        left: 130px;
+        top: 115px;
+    }
+    100% {
+        left: 220px;
+        top: 37px;
+    }
+}
+
+@keyframes moveUp107 {
+    0% {
+        left: 255px;
+        top: 145px;
+    }
+    50% {
+        left: 275px;
+        top: 120px;
+    }
+    100% {
+        left: 295px;
+        top: 105px;
+    }
+}
+
+@keyframes moveUp108 {
+    0% {
+        left: 360px;
+        top: 320px;
+    }
+    50% {
+        left: 320px;
+        top: 240px;
+    }
+    100% {
+        left: 360px;
+        top: 180px;
+    }
+}
+
+
+  .first-move100 {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-name: moveDown100;
+    animation-name: moveDown100;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+
+  
+.second-move100 {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-name: moveDown101;
+    animation-name: moveDown101;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+  
+  .second-move101 {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-name: moveDown102;
+    animation-name: moveDown102;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+  
+  .second-move102 {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-name: moveDown104;
+    animation-name: moveDown104;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+  
+  .third-move100 {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-name: moveDown103;
+    animation-name: moveDown103;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+
+
+.move100 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveUp100;
+    animation-name: moveUp100;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move101 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveDown105;
+    animation-name: moveDown105;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move102 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveUp101;
+    animation-name: moveUp101;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move103 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveDown107;
+    animation-name: moveDown107;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move104 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: c-moveDown08;
+    animation-name: moveDown108;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move105 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveDown109;
+    animation-name: moveDown109;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move106 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveDown131;
+    animation-name: moveDown131;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move107 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveUp103;
+    animation-name: moveUp103;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move108 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveUp104;
+    animation-name: moveUp104;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move109 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveDown112;
+    animation-name: moveDown112;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move110 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveDown113;
+    animation-name: moveDown113;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move111 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveUp105;
+    animation-name: moveUp105;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move112 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveDown115;
+    animation-name: moveDown115;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move113 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveUp106;
+    animation-name: moveUp106;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move114 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveDown117;
+    animation-name: moveDown117;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move115 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveDown118;
+    animation-name: moveDown118;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move116 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveDown119;
+    animation-name: moveDown119;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move117 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveUp107;
+    animation-name: moveUp107;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+
+.move118 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveDown120;
+    animation-name: moveDown120;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move119 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveDown121;
+    animation-name: moveDown121;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move120 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveDown122;
+    animation-name: moveDown122;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move121 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveDown123;
+    animation-name: moveDown123;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move122 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveDown125;
+    animation-name: moveDown125;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move123 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveUp126;
+    animation-name: moveUp126;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move124 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveDown127;
+    animation-name: moveDown127;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+
+.move125 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveUp108;
+    animation-name: moveUp108;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.move126 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: moveDown129;
+    animation-name: moveDown129;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.swing-image-move100 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: moveDown106 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: moveDown106 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.swing-image-move101 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: moveDown110 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: moveDown110 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.swing-image-move102 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: moveDown111 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: moveDown111 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.swing-image-move103 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: moveDown114 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: moveDown114 ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.swing-image-move104 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: moveDown116 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: moveDown116 ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.swing-image-move105 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: moveDown119 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: moveDown119 ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.swing-image-move106 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: moveDown124 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: moveDown124 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.swing-image-move107 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: moveDown128 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: moveDown128 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}
+
+.swing-image-move108 {
+    -webkit-transform-origin: 5% 0;
+    transform-origin: 5% 0;
+    -webkit-animation: moveDown130 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+    animation: moveDown130 1s ease-in 0s 1 normal both, swinging 2.5s ease-in-out 1s forwards infinite;
+}

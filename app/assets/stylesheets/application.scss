@@ -697,6 +697,15 @@ h1 {
   animation-fill-mode: both;
 }
 
+.third-moveint {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: moveDown31;
+  animation-name: moveDown31;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
 
 .fifth-move {
   -webkit-animation-duration: 3s;

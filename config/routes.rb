@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   get 'difficult_levels/index'
   get 'difficult_levels', to: 'difficult_levels#index', as: 'difficult_levels' # difficult level index
   get 'difficult_levels/:id', to: 'difficult_levels#show', as: 'difficult_level' # difficult level show 

@@ -61,3 +61,6 @@ gem 'annotate', group: :development
 
 # Animate.css gem
 gem 'animate.css-rails'
+
+# Authentication
+gem 'devise'

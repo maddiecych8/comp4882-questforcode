@@ -107,6 +107,7 @@ h1 {
   top: 50px;
 }
 
+
 .over3 {
   z-index: 2;
   width: 130px;
@@ -151,6 +152,7 @@ h1 {
   left: 50px;
   top: 360px;
 }
+
 
 .over8 {
   z-index: 2;
@@ -307,6 +309,7 @@ h1 {
   }
 }
 
+
 @keyframes moveDown1 {
   0% {
     left: 210px;
@@ -351,6 +354,8 @@ h1 {
     top: 260px;
     }
 }
+
+
 @keyframes moveDown21 {
   0% {
     left: 160px;
@@ -590,6 +595,7 @@ h1 {
   animation-fill-mode: both;
 }
 
+
 .second-Element {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -649,6 +655,7 @@ h1 {
   animation: swinging 3.5s ease-in-out forwards infinite;
 }
 
+
 .first-move {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -659,6 +666,7 @@ h1 {
   animation-fill-mode: both;
 }
 
+
 .second-move {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -668,6 +676,8 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+
+
 .second-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -686,15 +696,8 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
-.third-moveint {
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
-  -webkit-animation-name: moveDown31;
-  animation-name: moveDown31;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
+
+
 .fifth-move {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;

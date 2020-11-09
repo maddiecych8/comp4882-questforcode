@@ -49,12 +49,20 @@
             check if there is an apple</p>
       </div>
       <div class="input-group mb-3" style="padding: 20px">
-        <div class="input-group-prepend">
-            <span class="input-group-text" id="inputGroup-sizing-default">Enter Console Output</span>
-        </div>
-        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      <div class="input-group-prepend">
+          <input type="text" name="inputanswer" id="inputanswer" autocomplete="off"  placeholder="Enter your decision!" onkeydown="redirect(this)">
+      <script>
+          function redirect(ele) {
+              if(event.key === 'Enter') {
+                  if(ele.value === 'climb branch to the left of 5')
+                       window.location.href = 'http://localhost:3000/difficult_levels15/1';
+                  else
+                      alert("Invalid");
+              }
+          }
+      </script>
       </div>
-    </div>
+  </div>
     <div style="padding: 10px" >
         <%= link_to 'Next', difficult_level15_path(node), class: "btn btn-success btn-lg" %>
     </div>

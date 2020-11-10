@@ -2,3 +2,161 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+@keyframes slideOutDown {
+    0% {
+      -webkit-transform: translateY(0) rotate(360deg);
+      -ms-transform: translateY(0) rotate(360deg);
+      transform: translateY(0) rotate(360deg);
+    }
+  
+    100% {
+      opacity: 0;
+      -webkit-transform: translateY(2000px) rotate(720deg);
+      -ms-transform: translateY(2000px) rotate(720deg);
+      transform: translateY(2000px) rotate(720deg);
+    }
+
+}
+
+.fall2 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 210px;
+    top: 50px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.fall3 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 160px;
+    top: 150px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.fall4 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 120px;
+    top: 190px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.fall5 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 80px;
+    top: 260px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.fall6 {
+    z-index: 2;
+    position: relative;
+    left: 50px;
+    top: 360px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.fall7 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 120px;
+    top: 190px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.fall8 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 180px;
+    top: 250px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.fall9 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 210px;
+    top: 360px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.fall11 {
+    z-index: 2;
+    position: relative;
+    left: 270px;
+    top: 130px;
+    width: 130px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.fall12 {
+    z-index: 2;
+    position: relative;
+    left: 300px;
+    top: 170px;
+    width: 130px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.fall13 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 250px;
+    top: 250px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.fall14 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 220px;
+    top: 350px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.fall15 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 270px;
+    top: 280px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.fall16 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 370px;
+    top: 260px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+
+
+  

@@ -8,7 +8,7 @@
       <div class="under"><%= image_tag "game_tree10.png", height: 550 %></div>
     </div>
     
-<div style="padding: 20px">
+<div style="padding: 200px">
  <div class="col-md-auto" align="center">
   <h3>Easy Level Cleared</h3>
     <div class="col ">
@@ -18,40 +18,16 @@
            <hr>
             <h4 class="mb-0">Inorder Traversal: 2, 1, 3</h4>
            </div>
-         <div class="col">
-            <%= button_to "Play Again",level_path, method: :get, class: "btn btn-success btn-lg" %>
+         <div class="float-container" style="padding: 10px">
+            <div class="float-child" style="display: inline-block">
+                <%= button_to "Play Again",level_path, method: :get, class: "btn btn-success btn-lg" %>
+            </div>
+            <div class="float-child" style="display: inline-block">
+                <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
+            <div>
       </div>
      </div>
     </div>
   </div>
     
-    <div class="col ">
-      <div style="padding: 10px" align="right">
-            <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
-      </div>
-      <div >
-            <%= image_tag "new_playtest_algo3.png", height: 300 %>
-      </div>
-      <div class="card border-dark mb-3" style="max-width: 29.5rem;">
-        <div class="card-header">Console Output</div>
-        <div class="table-wrap">
-            <p class="card-text">check if there is an apple<br>
-            climb branch to the left of 1<br>
-            check if there is an apple<br>
-            climb branch to the left of 2<br>
-            check if there is an apple<br>
-            2<br>
-            climb branch to the right of 2<br>
-            check if there is an apple<br>
-            1<br>
-            climb branch to the right of 1<br>
-            check if there is an apple<br>
-            climb branch to the left of 3<br>
-            check if there is an apple<br>
-            3<br>
-            climb branch to the right of 3<br>
-            check if there is an apple</p>
-      </div>
-    </div>
-  </div>
-</div>
+    

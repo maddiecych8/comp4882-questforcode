@@ -5,9 +5,6 @@
   <div class="row no-gutters justify-content-md-center">
     <div class="col first-Element">
       <div class="over"><%= image_tag "climber_left.png", height: 100 %> </div>
-       <%# <div class="over-node1"><%= node.node1 %> 
-       <%# <div class="over-node2"><%= node.node2 %> 
-       <%# <div class="over-node3"><%= node.node3 %> 
       <div class="under"><%= image_tag "game_tree1.png", height: 550 %></div>
     </div>
     <div class="col-md-auto third-Element slideInDown" align="center">
@@ -16,14 +13,9 @@
         <%= link_to 'check if there is an apple', easy_level2_path(node), class: "btn btn-success btn-lg" %>
       </div>
       <h3 style="padding: 10px">Return Apple</h3>
-      <div class="btn-group" role="group">
-        <%#<%= link_to node.node1, easy_level_path(node), class: "btn btn-success btn-lg" %>
-        <%#<%= link_to node.node2, easy_level_path(node), class: "btn btn-success btn-lg" %>
-        <%#<%= link_to node.node3, easy_level_path(node), class: "btn btn-success btn-lg" %>
-      </div>
       <div class="row-center">
       <div style="padding: 100px">
-      <button id="help">Hint</button>
+      <button id="help" class="btn btn-success btn-lg">Hint</button>
 <script>
 function hint() {
 alert('Look for apples');

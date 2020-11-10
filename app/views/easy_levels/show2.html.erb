@@ -11,17 +11,15 @@
       <h3>Select Button to Move</h3>
       <div class="btn-group-vertical">
         <%= link_to 'climb branch to the left of 1', easy_level3_path(node), class: "btn btn-success btn-lg" %>
-        <%= link_to 'climb branch to the right of 1', easy_level2_path(node), class: "btn btn-success btn-lg" %>
+        <button id="error-button" class= "btn btn-success btn-lg">climb branch to the right of 1 <button><%= javascript_pack_tag 'packs/error'%>
       </div>
       <h3 style="padding: 10px">Return Apple</h3>
       <div class="btn-group" role="group">
         <%= link_to node.node1, easy_level2_path(node), class: "btn btn-success btn-lg" %>
-        <%#<%= link_to node.node2, easy_level2_path(node), class: "btn btn-success btn-lg" %>
-        <%#<%= link_to node.node3, easy_level2_path(node), class: "btn btn-success btn-lg" %>
       </div>
       <div class="row-center">
       <div style="padding: 100px">
-      <button id="help">Hint</button>
+      <button id="help" class="btn btn-success btn-lg">Hint</button>
 <script>
 function hint() {
 alert('Move left to right');

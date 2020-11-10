@@ -8,8 +8,8 @@
       <div class="under"><%= image_tag "End_difficult.png", height: 550%></div>
     </div>
     
-<div style="padding: 20px">
- <div class="col-md-auto" align="center">
+<div style="padding: 150px">
+ <div class="col " align="center">
   <h3>Difficult Level Cleared</h3>
     <div class="col ">
       <div class="alert alert-info" role="alert">
@@ -18,18 +18,14 @@
            <hr>
             <h4 class="mb-0">Inorder Traversal: 7, 3, 2, 5, 1, 8, 4, 9, 6</h4>
            </div>
-         <div class="col">
-       <h1><%= button_to "Play Again",level_path, method: :get, class: "btn btn-success btn-lg" %></h1>
+         <div class="float-container" style="padding: 10px">
+            <div class="float-child" style="display: inline-block">
+                <%= button_to "Play Again",level_path, method: :get, class: "btn btn-success btn-lg" %>
+            </div>
+            <div class="float-child" style="display: inline-block">
+                <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
+            <div>
       </div>
-     </div>
-    </div>
-  </div>
-    
-    <div class="col ">
-      <div style="padding: 10px" align="center">
-            <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
-      </div>
-      
     </div>
   </div>
 </div>

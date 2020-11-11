@@ -1,0 +1,21 @@
+<div class="container" style="padding: 100px">
+<div class="text-center">
+  <div class="row">
+    <div class="col">
+    <div class="text-left">
+     <%= image_tag "boy picking apple.png", width: 400,height: 500 %>
+      </div>
+      </div>
+
+<div class="col">
+
+
+<p>Hello <%= @email %>!</p>
+
+<% if @resource.try(:unconfirmed_email?) %>
+  <p>We're contacting you to notify you that your email is being changed to <%= @resource.unconfirmed_email %>.</p>
+<% else %>
+  <p>We're contacting you to notify you that your email has been changed to <%= @resource.email %>.</p>
+<% end %>
+
+</div>

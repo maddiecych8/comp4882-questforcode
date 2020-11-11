@@ -1,5 +1,7 @@
 class InstructionPagesController < ApplicationController
     
+  before_action :authenticate_user!
+  
   def instruction
       respond_to do |format|
         format.html { render :instruction }

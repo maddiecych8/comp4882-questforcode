@@ -1,0 +1,20 @@
+<div class="container" style="padding: 100px">
+<div class="text-center">
+  <div class="row">
+    <div class="col">
+    <div class="text-left">
+     <%= image_tag "boy picking apple.png", width: 400,height: 500 %>
+      </div>
+      </div>
+
+<div class="col">
+
+<p>Hello <%= @resource.email %>!</p>
+
+<p>Your account has been locked due to an excessive number of unsuccessful sign in attempts.</p>
+
+<p>Click the link below to unlock your account:</p>
+
+<p><%= link_to 'Unlock my account', unlock_url(@resource, unlock_token: @token) %></p>
+
+</div>

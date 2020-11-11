@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+  devise_for :users
   get 'difficult_levels/index'
   get 'difficult_levels', to: 'difficult_levels#index', as: 'difficult_levels' # difficult level index
   get 'difficult_levels/:id', to: 'difficult_levels#show', as: 'difficult_level' # difficult level show 
@@ -141,6 +143,7 @@ Rails.application.routes.draw do
   get 'intermediate_levels31/:id', to: 'intermediate_levels#show31', as: 'intermediate_level31' # intermediate level show page 31
   get 'intermediate_levels32/:id', to: 'intermediate_levels#show32', as: 'intermediate_level32' # intermediate level show page 32
   
+  get 'home', to: 'static_pages#home', as: 'home' #home page
   get 'start', to: 'static_pages#start', as: 'start' #start page
   get 'level', to: 'level_pages#level', as: 'level' #level page
   get 'endpage', to: 'static_pages#endpage', as: 'endpage' #easy level endpage
@@ -173,4 +176,5 @@ Rails.application.routes.draw do
   get 'instruction4', to: 'instruction_pages#instruction4', as: 'instruction4'
   get 'instruction5', to: 'instruction_pages#instruction5', as: 'instruction5'
 
+  root to: redirect('/start', status: 302)
 end

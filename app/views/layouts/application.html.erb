@@ -10,6 +10,7 @@
   </head>
 
   <body>
+
    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
        <a class="navbar-brand" href="#">Quest for Code</a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +20,7 @@
        <div class="collapse navbar-collapse" id="navbarColor01">
          <ul class="navbar-nav mr-auto">
            <li class="nav-item active">
-             <%= link_to 'Home', start_path, class: 'nav-link' %>
+             <%= link_to 'Home', home_path, class: 'nav-link' %>
            </li>
            <li class="nav-item">
              <a link_to class="nav-link" href="#">About</a>
@@ -31,18 +32,30 @@
              <a class="nav-link" href="#">Profile</a>
            </li>
          </ul>
-         <ul class="navbar-nav">
-             <li class="nav-item">
-               <a class="nav-link" href="#">Sign In</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="#">Sign Up</a>
-             </li>
-         </ul>
-     </nav>
 
+        
+         <ul class="navbar-nav">
+
+         <% if user_signed_in? %>
+           <li><%= link_to "Hi, #{current_user.email}", edit_user_registration_path %></li>
+           <li><%= link_to 'Sign Out', destroy_user_session_path, method: :get %></li>
+ 
+         <% else %>
+
+
+         <li class="nav-item">
+         <li><%= link_to 'Sign In', new_user_session_path, class: 'nav-link'%></li>
+           
+         <li class="nav-item">
+         <li><%= link_to 'Sign Up', new_user_registration_path, class: 'nav-link' %></li>
+           <% end %>
+        </ul>
+      </nav>
+   </ul>
+
+      
      <% flash.each do |key, message| %>
-       <p><%= message %></p>
+       
        <div class="alert <%= flash_class(key) %> alert-dismissible fade show text-center" role="alert">
          <%= message %>
          <button type="button" class="close" data-dismiss="alert" aria-label="Close">

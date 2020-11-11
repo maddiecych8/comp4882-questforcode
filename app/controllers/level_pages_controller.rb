@@ -1,5 +1,7 @@
 class LevelPagesController < ApplicationController
 
+  before_action :authenticate_user!
+  
   def level
     nodes = EasyLevel.all
     inodes = IntermediateLevel.all

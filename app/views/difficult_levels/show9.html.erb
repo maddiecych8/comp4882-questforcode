@@ -52,7 +52,9 @@
                   if(ele.value === 'climb branch to the right of 7')
                        window.location.href = 'http://localhost:3000/difficult_levels10/1';
                   else
-                      alert("Invalid");
+                      document.getElementById("fall").className = "fall9"
+                      setTimeout(() => alert("Oops, wrong move!"),1000);
+                      setTimeout(() => window.location.href = 'http://localhost:3000/difficult_levels/1', 1100);
               }
           }
       </script>

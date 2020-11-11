@@ -4,7 +4,7 @@
 <div style="padding: 20px">
   <div class="row no-gutters ">
     <div class="col ">
-      <div class="over-c16 c-move-22"><%= image_tag "climber_right.png", height: 100 %> </div>
+      <div class="over-c16 c-move-22" id="fall"><%= image_tag "climber_right.png", height: 100 %> </div>
       <div class="under"><%= image_tag "challenge_level_15.png", height: 550 %></div>
     </div>
     
@@ -66,14 +66,13 @@
                   if(ele.value === 'climb branch to the right of 2')
                        window.location.href = 'http://localhost:3000/challenge_levels25/1';
                   else
-                      alert("Invalid");
+                      document.getElementById("fall").className = "c-fall24"
+                      setTimeout(() => alert("Oops, wrong move!"),1000);
+                      setTimeout(() => window.location.href = 'http://localhost:3000/challenge_levels/1', 1100);
               }
           }
       </script>
       </div>
-  </div>
-    <div style="padding: 10px" >
-        <%= link_to 'Next', challenge_level25_path(node), class: "btn btn-success btn-lg" %>
     </div>
   </div>
 </div>

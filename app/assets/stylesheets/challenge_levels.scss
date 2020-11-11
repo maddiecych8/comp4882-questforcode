@@ -1706,3 +1706,585 @@
     animation-iteration-count: 1;
     animation-fill-mode: both;
 }
+
+//// error messages
+
+@keyframes slideOutDown {
+    0% {
+      -webkit-transform: translateY(0) rotate(360deg);
+      -ms-transform: translateY(0) rotate(360deg);
+      transform: translateY(0) rotate(360deg);
+    }
+  
+    100% {
+      opacity: 0;
+      -webkit-transform: translateY(2000px) rotate(720deg);
+      -ms-transform: translateY(2000px) rotate(720deg);
+      transform: translateY(2000px) rotate(720deg);
+    }
+
+}
+
+.c-fall {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 245px;
+    top: 20px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall2 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 245px;
+    top: 20px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall3 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 200px;
+    top: 65px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall4 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 170px;
+    top: 75px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall5 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 135px;
+    top: 125px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall6 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 110px;
+    top: 145px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall7 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 75px;
+    top: 200px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall8 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 40px;
+    top: 220px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall9 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 20px;
+    top: 270px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall10 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 0px;
+    top: 350px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall11 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 40px;
+    top: 220px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall12 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 105px;
+    top: 290px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall13 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 115px;
+    top: 360px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall14 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 110px;
+    top: 145px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall15 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 150px;
+    top: 210px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall16 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 185px;
+    top: 235px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall17 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 135px;
+    top: 275px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall18 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 120px;
+    top: 285px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall19 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 75px;
+    top: 330px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall20 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 55px;
+    top: 405px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall21 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 120px;
+    top: 285px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall22 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 155px;
+    top: 330px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall23 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 170px;
+    top: 410px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall24 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 185px;
+    top: 235px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall25 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 210px;
+    top: 275px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall26 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 220px;
+    top: 355px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall27 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 170px;
+    top: 75px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall28 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 215px;
+    top: 145px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall29 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 235px;
+    top: 225px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall30 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 245px;
+    top: 20px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall31 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 290px;
+    top: 80px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall32 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 315px;
+    top: 100px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall33 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 270px;
+    top: 175px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall34 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 255px;
+    top: 185px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall35 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 230px;
+    top: 250px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall36 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 215px;
+    top: 335px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall37 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 255px;
+    top: 185px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall38 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 305px;
+    top: 235px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall39 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 325px;
+    top: 255px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall40 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 285px;
+    top: 320px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall41 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 270px;
+    top: 400px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall42 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 325px;
+    top: 255px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall43 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 355px;
+    top: 305px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall44 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 365px;
+    top: 390px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall45 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 315px;
+    top: 100px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall46 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 355px;
+    top: 150px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall47 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 385px;
+    top: 170px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall48 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 345px;
+    top: 250px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall49 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 340px;
+    top: 330px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall50 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 385px;
+    top: 170px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall51 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 420px;
+    top: 230px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall52 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 435px;
+    top: 240px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall53 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 390px;
+    top: 295px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall54 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 375px;
+    top: 380px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall55 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 435px;
+    top: 240px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+.c-fall56 {
+    z-index: 2;
+    width: 130px;
+    position: relative;
+    left: 465px;
+    top: 285px;
+    -webkit-animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+    animation: slideOutDown 3s ease-in-out 0s 1 normal forwards;
+}
+
+
+
+

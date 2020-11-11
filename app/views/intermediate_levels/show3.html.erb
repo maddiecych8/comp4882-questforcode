@@ -4,7 +4,7 @@
 <div style="padding: 20px">
   <div class="row no-gutters justify-content-md-center">
     <div class="col">
-      <div class="over3 first-move"><%= image_tag "climber_left.png", height: 100 %> </div>
+      <div class="over3 first-move" id="fall"><%= image_tag "climber_left.png", height: 100 %> </div>
       <div class="under"><%= image_tag "intermediate2.png", height: 550 %></div>
     </div>
     <div class="col-md-auto" align="center">
@@ -14,19 +14,27 @@
     </div>
     <h3 style="padding: 10px">Return Apple</h3>
     <div class="btn-group" role="group">
-      <%= link_to node.node1, intermediate_level3_path(node), class: "btn btn-success btn-lg" %>
+      <button id="error" type="button" class="btn btn-success btn-lg">1</button>
+          <script>
+              function redirect() {
+                document.getElementById("fall").className = "i-fall3"
+                setTimeout(() => alert("Oops, wrong move! Can't return apple yet."),1000);
+                setTimeout(() => window.location.href = 'http://localhost:3000/intermediate_levels/1', 1100);
+              }
+              document.getElementById("error").addEventListener("click", redirect);
+          </script>
     </div>       
       <div class="row-center">
       <div style="padding: 100px">
       <button id="help" class="btn btn-success btn-lg">Hint</button>
-<script>
-function hint() {
-alert('Any more apples?');
-}
-document.getElementById("help").addEventListener("click", hint);
-</script>
-</div>
-</div>
+        <script>
+        function hint() {
+        alert('Any more apples?');
+        }
+        document.getElementById("help").addEventListener("click", hint);
+        </script>
+        </div>
+        </div>
     </div>
     <div class="col ">
       <div style="padding: 10px" align="right">

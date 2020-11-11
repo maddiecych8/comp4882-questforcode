@@ -4,35 +4,91 @@
 <div style="padding: 20px">
   <div class="row no-gutters justify-content-md-center">
     <div class="col">
-      <div class="overint30 twentieth4-moveint"><%= image_tag "climber_left.png", height: 100 %> </div>
+      <div class="overint30 twentieth4-moveint" id="fall"><%= image_tag "climber_left.png", height: 100 %> </div>
       <div class="under"><%= image_tag "branch6.png", height: 550 %></div>
     </div>
     <div class="col-md-auto" align="center">
     <h3>Select Button to Move</h3>
     <div class="btn-group-vertical">
-      <%= link_to 'climb branch to the left of 6', intermediate_level30_path(node), class: "btn btn-success btn-lg" %>
+      <button id="error" class="btn btn-success btn-lg">climb branch to the left of 6</button>
+          <script>
+              function redirect() {
+                document.getElementById("fall").className = "i-fall30"
+                setTimeout(() => alert("Oops, wrong move! Already checked left."),1000);
+                setTimeout(() => window.location.href = 'http://localhost:3000/intermediate_levels/1', 1100);
+              }
+              document.getElementById("error").addEventListener("click", redirect);
+          </script>
       <%= link_to 'climb branch to the right of 6', intermediate_level31_path(node), class: "btn btn-success btn-lg" %>
     </div>
     <h3 style="padding: 10px">Return Apple</h3>
     <div class="btn-group" role="group">
-    <%= link_to node.node1, intermediate_level30_path(node), class: "btn btn-success btn-lg" %>
-    <%= link_to node.node2, intermediate_level30_path(node), class: "btn btn-success btn-lg" %>
-    <%= link_to node.node3, intermediate_level30_path(node), class: "btn btn-success btn-lg" %>
-    <%= link_to node.node4, intermediate_level30_path(node), class: "btn btn-success btn-lg" %>
-    <%= link_to node.node5, intermediate_level30_path(node), class: "btn btn-success btn-lg" %>
-    <%= link_to node.node6, intermediate_level30_path(node), class: "btn btn-success btn-lg" %>
+      <button id="error2" type="button" class="btn btn-success btn-lg">1</button>
+          <script>
+              function redirect() {
+                document.getElementById("fall").className = "i-fall30"
+                setTimeout(() => alert("Oops, wrong move! Already returned apple."),1000);
+                setTimeout(() => window.location.href = 'http://localhost:3000/intermediate_levels/1', 1100);
+              }
+              document.getElementById("error2").addEventListener("click", redirect);
+          </script>
+      <button id="error3" type="button" class="btn btn-success btn-lg">2</button>
+          <script>
+              function redirect() {
+                document.getElementById("fall").className = "i-fall30"
+                setTimeout(() => alert("Oops, wrong move! Already returned apple."),1000);
+                setTimeout(() => window.location.href = 'http://localhost:3000/intermediate_levels/1', 1100);
+              }
+              document.getElementById("error3").addEventListener("click", redirect);
+          </script>
+      <button id="error4" type="button" class="btn btn-success btn-lg">3</button>
+          <script>
+              function redirect() {
+                document.getElementById("fall").className = "i-fall30"
+                setTimeout(() => alert("Oops, wrong move! Already returned apple."),1000);
+                setTimeout(() => window.location.href = 'http://localhost:3000/intermediate_levels/1', 1100);
+              }
+              document.getElementById("error4").addEventListener("click", redirect);
+          </script>
+      <button id="error5" type="button" class="btn btn-success btn-lg">4</button>
+          <script>
+              function redirect() {
+                document.getElementById("fall").className = "i-fall30"
+                setTimeout(() => alert("Oops, wrong move! Already returned apple."),1000);
+                setTimeout(() => window.location.href = 'http://localhost:3000/intermediate_levels/1', 1100);
+              }
+              document.getElementById("error5").addEventListener("click", redirect);
+          </script>
+      <button id="error6" type="button" class="btn btn-success btn-lg">5</button>
+          <script>
+              function redirect() {
+                document.getElementById("fall").className = "i-fall30"
+                setTimeout(() => alert("Oops, wrong move! Already returned apple."),1000);
+                setTimeout(() => window.location.href = 'http://localhost:3000/intermediate_levels/1', 1100);
+              }
+              document.getElementById("error6").addEventListener("click", redirect);
+          </script>
+      <button id="error7" type="button" class="btn btn-success btn-lg">6</button>
+          <script>
+              function redirect() {
+                document.getElementById("fall").className = "i-fall30"
+                setTimeout(() => alert("Oops, wrong move! Already returned apple."),1000);
+                setTimeout(() => window.location.href = 'http://localhost:3000/intermediate_levels/1', 1100);
+              }
+              document.getElementById("error7").addEventListener("click", redirect);
+          </script>
     </div> 
       <div class="row-center">
       <div style="padding: 100px">
       <button id="help" class="btn btn-success btn-lg">Hint</button>
-<script>
-function hint() {
-alert('left to right');
-}
-document.getElementById("help").addEventListener("click", hint);
-</script>
-</div>
-</div>
+        <script>
+        function hint() {
+        alert('left to right');
+        }
+        document.getElementById("help").addEventListener("click", hint);
+        </script>
+        </div>
+        </div>
     </div>
     <div class="col ">
       <div style="padding: 10px" align="right">

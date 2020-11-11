@@ -1,4 +1,7 @@
 class ChallengeLevelsController < ApplicationController
+    
+    before_action :authenticate_user!
+    
     def index
         nodes = ChallengeLevel.all
         respond_to do |format|

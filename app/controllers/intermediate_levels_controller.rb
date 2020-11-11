@@ -1,5 +1,7 @@
 class IntermediateLevelsController < ApplicationController
 
+    before_action :authenticate_user!
+    
     def index
       nodes = IntermediateLevel.all
       respond_to do |format|

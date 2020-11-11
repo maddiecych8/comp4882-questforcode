@@ -1,5 +1,7 @@
 class DifficultLevelsController < ApplicationController
 
+  before_action :authenticate_user!
+  
   def index
       nodes = DifficultLevel.all
       respond_to do |format|

@@ -1,5 +1,7 @@
 class EasyLevelsController < ApplicationController
 
+    before_action :authenticate_user!
+    
     def index
         nodes = EasyLevel.all
         respond_to do |format|

@@ -4,7 +4,7 @@
 <div style="padding: 20px">
   <div class="row no-gutters ">
     <div class="col ">
-      <div class="over-c56 c-move-54"><%= image_tag "climber_right.png", height: 100 %> </div>
+      <div class="over-c56 c-move-54" id="fall"><%= image_tag "climber_right.png", height: 100 %> </div>
       <div class="under"><%= image_tag "challenge_level_33.png", height: 550 %></div>
     </div>
     
@@ -66,7 +66,7 @@
             check if there is an apple<br>
             climb branch to the left of 10<br>
             check if there is an apple<br>
-            climb branch to the left of 6
+            climb branch to the left of 6<br>
             check if there is an apple<br>
             6<br>
             climb branch to the right of 6<br>
@@ -98,14 +98,13 @@
                   if(ele.value === 'check if there is an apple')
                        window.location.href = 'http://localhost:3000/challenge_endpage';
                   else
-                      alert("Invalid");
+                      document.getElementById("fall").className = "c-fall56"
+                      setTimeout(() => alert("Oops, wrong move!"),1000);
+                      setTimeout(() => window.location.href = 'http://localhost:3000/challenge_levels/1', 1100);
               }
           }
       </script>
       </div>
-  </div>
-    <div style="padding: 10px" >
-        <%= link_to 'Next', challenge_endpage_path, class: "btn btn-success btn-lg" %>
     </div>
   </div>
 </div>

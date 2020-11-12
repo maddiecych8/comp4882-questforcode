@@ -4,7 +4,7 @@
 <div style="padding: 20px">
   <div class="row no-gutters ">
     <div class="col ">
-      <div class="over-d11 swing-image-move100"><%= image_tag "climber_right.png", height: 100 %> </div>
+      <div class="over-d11 swing-image-move100" id="fall"><%= image_tag "climber_right.png", height: 100 %> </div>
       <div class="under"><%= image_tag "Difficult7.png", height: 550 %></div>
     </div>
     
@@ -54,7 +54,7 @@
                   if(ele.value === '3')
                        window.location.href = 'http://localhost:3000/difficult_levels12/1';
                   else
-                      document.getElementById("fall").className = "fall11"
+                      document.getElementById("fall").className = "d-fall11"
                       setTimeout(() => alert("Oops, wrong move!"),1000);
                       setTimeout(() => window.location.href = 'http://localhost:3000/difficult_levels/1', 1100);
               }
@@ -62,8 +62,5 @@
       </script>
       </div>
   </div>
-    <div style="padding: 10px" >
-        <%= link_to 'Next', difficult_level12_path(node), class: "btn btn-success btn-lg" %>
-    </div>
   </div>
 </div>

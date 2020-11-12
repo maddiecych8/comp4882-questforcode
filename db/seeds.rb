@@ -56,3 +56,15 @@ c1 = ChallengeLevel.create!(
     node10: 10,
     node11: 11,
 )
+
+u1 = User.create!(
+  email: 'bob@gmail.com',
+  password: 'password',
+
+)
+
+u2 = User.create!(
+    email: 'alice@gmail.com',
+    password: 'password',
+   
+  )

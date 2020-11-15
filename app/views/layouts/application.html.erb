@@ -20,7 +20,7 @@
        <div class="collapse navbar-collapse" id="navbarColor01">
          <ul class="navbar-nav mr-auto">
            <li class="nav-item active">
-             <%= link_to 'Home', home_path, class: 'nav-link' %>
+             <%= link_to 'Home', start_path, class: 'nav-link' %>
            </li>
            <li class="nav-item">
            <%= link_to 'About', about_path, class: 'nav-link' %>
@@ -29,7 +29,7 @@
              <%= link_to 'Instructions', instruction_path, class: 'nav-link' %>
            </li>
            <li class="nav-item">
-             <a class="nav-link" href="#">Profile</a>
+           <%= link_to 'Profile', edit_user_registration_path, class: 'nav-link' %>
            </li>
          </ul>
 

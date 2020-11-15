@@ -143,6 +143,7 @@ Rails.application.routes.draw do
   get 'intermediate_levels31/:id', to: 'intermediate_levels#show31', as: 'intermediate_level31' # intermediate level show page 31
   get 'intermediate_levels32/:id', to: 'intermediate_levels#show32', as: 'intermediate_level32' # intermediate level show page 32
   
+  get 'about', to: 'static_pages#about', as: 'about' #about page
   get 'home', to: 'static_pages#home', as: 'home' #home page
   get 'start', to: 'static_pages#start', as: 'start' #start page
   get 'level', to: 'level_pages#level', as: 'level' #level page

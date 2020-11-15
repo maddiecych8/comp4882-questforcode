@@ -54,7 +54,7 @@ h1 {
 
 .level {
   position: relative;
-  left: 180px;
+  left: 140px;
   top: 30px;
   font-weight: bold;
 }
@@ -68,6 +68,13 @@ h1 {
   float: left;
   padding: 20px;
 }  
+
+.instruction {
+  background-color: aliceblue;
+  font-size: 15px;
+  text-align: center;
+  border-style: solid;
+}
 
 /*
 .over-node1 {

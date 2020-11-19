@@ -1,11 +1,11 @@
-<body class="game-bg">
+<body class="game-bg"><!-this shows the background image on each page and the class is in application.scss->
 
 
-<div style="padding: 20px">
-  <div class="row no-gutters justify-content-md-center">
+<div style="padding: 20px"><!-padding for the UI->
+  <div class="row no-gutters justify-content-md-center"><!-Makes the UI center->
     <div class="col">
-      <div class="overint15 twelve-moveint" id="fall"><%= image_tag "climber_left.png", height: 100 %> </div>
-      <div class="under"><%= image_tag "branch3.png", height: 550 %></div>
+      <div class="overint15 twelve-moveint" id="fall"><%= image_tag "climber_left.png", height: 100 %> </div><!-over is the position of the climber, the move is animation for moving the climber, and fall is the animation if you misclick. climber_left is the image->
+      <div class="under"><%= image_tag "branch3.png", height: 550 %></div><!-image for game tree and under is the position of the tree->
     </div>
     <div class="col-md-auto" align="center">
     <h3>Select Button to Move</h3>

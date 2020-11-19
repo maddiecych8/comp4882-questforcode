@@ -1,16 +1,16 @@
-<body class="game-bg">
+<body class="game-bg"><!-this shows the background image on each page and the class is in application.scss->
 
 
-<div style="padding: 20px">
-  <div class="row no-gutters justify-content-md-center">
+<div style="padding: 20px"><!-padding for the UI->
+  <div class="row no-gutters justify-content-md-center"><!-Makes the UI center->
     <div class="col">
-      <div class="over4 fifth-move" id='fall'><%= image_tag "climber_left.png", height: 100 %> </div>
-      <div class="under"><%= image_tag "game_tree5.png", height: 550 %></div>
+      <div class="over4 fifth-move" id='fall'><%= image_tag "climber_left.png", height: 100 %> </div><!-over is the position of the climber, the move is animation for moving the climber, and fall is the animation if you misclick. climber_left is the image->
+      <div class="under"><%= image_tag "game_tree5.png", height: 550 %></div><!-image for game tree and under is the position of the tree->
     </div>
-    <div class="col-md-auto" align="center">
+    <div class="col-md-auto" align="center"><!-col-md-auto is for where the button is->
       <h3>Select Button to Move</h3>
-      <div class="btn-group-vertical">
-        <button id="error" class="btn btn-success btn-lg">climb branch to the left of 2</button>
+      <div class="btn-group-vertical"><!-type of button->
+        <button id="error" class="btn btn-success btn-lg">climb branch to the left of 2</button><!-movement button that links to the next page->
           <script>
               function redirect() {
                 document.getElementById("fall").className = "fall7"
@@ -18,12 +18,13 @@
                 setTimeout(() => window.location.href = 'http://localhost:3000/easy_levels/1', 1100);
               }
               document.getElementById("error").addEventListener("click", redirect);
-          </script>
-        <%= link_to 'climb branch to the right of 2', easy_level8_path(node), class: "btn btn-success btn-lg" %>
+          </script><!-this script tells you the error you make and also makes the animation of the fall to activate classname is the animation which you can find in intermediate_level.scss and 
+          and redirects you to the beginning of the level->
+        <%= link_to 'climb branch to the right of 2', easy_level8_path(node), class: "btn btn-success btn-lg" %><!-movement button that links to the next page->
       </div>
       <h3 style="padding: 10px">Return Apple</h3>
       <div class="btn-group" role="group">
-        <button id="error2" type="button" class="btn btn-success btn-lg">1</button>
+        <button id="error2" type="button" class="btn btn-success btn-lg">1</button><!-button for returning to apple->
           <script>
               function redirect() {
                 document.getElementById("fall").className = "fall7"
@@ -31,8 +32,9 @@
                 setTimeout(() => window.location.href = 'http://localhost:3000/easy_levels/1', 1100);
               }
               document.getElementById("error2").addEventListener("click", redirect);
-          </script>
-        <button id="error3" type="button" class="btn btn-success btn-lg">2</button>
+          </script><!-this script tells you the error you make and also makes the animation of the fall to activate classname is the animation which you can find in intermediate_level.scss and 
+          and redirects you to the beginning of the level->
+        <button id="error3" type="button" class="btn btn-success btn-lg">2</button><!-button for returning to apple->
           <script>
               function redirect() {
                 document.getElementById("fall").className = "fall7"
@@ -40,28 +42,29 @@
                 setTimeout(() => window.location.href = 'http://localhost:3000/easy_levels/1', 1100);
               }
               document.getElementById("error3").addEventListener("click", redirect);
-          </script>
+          </script><!-this script tells you the error you make and also makes the animation of the fall to activate classname is the animation which you can find in intermediate_level.scss and 
+          and redirects you to the beginning of the level->
       </div>
       <div class="row-center">
       <div style="padding: 100px">
-      <button id="help" class="btn btn-success btn-lg">Hint</button>
+      <button id="help" class="btn btn-success btn-lg">Hint</button><!-button for hint function in game->
         <script>
         function hint() {
         alert('Left to right!');
         }
         document.getElementById("help").addEventListener("click", hint);
-        </script>
+        </script><!-this script activates when you click hint on the game levels and displays the alert above->
       </div>
       </div>
     </div>
     <div class="col ">
       <div style="padding: 10px" align="right">
-            <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
+            <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %><!-button to go to start page->
       </div>
       <div >
-            <%= image_tag "new_playtest_algo3.png", height: 300 %>
+            <%= image_tag "new_playtest_algo3.png", height: 300 %><!-image for algorithm->
       </div>
-      <div class="card border-dark mb-3" style="max-width: 29.7rem;">
+      <div class="card border-dark mb-3" style="max-width: 29.7rem;"><!-This is the output box and the size and what type we used->
         <div class="card-header">Console Output</div>
         <div class="table-wrap">
             <p class="card-body">check if there is an apple<br>

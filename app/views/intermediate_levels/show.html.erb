@@ -1,22 +1,22 @@
-<body class="game-bg">
+<body class="game-bg"> <!-this shows the background image on each page and the class is in application.scss->
 
-<div style="padding: 20px">
-  <div class="row no-gutters justify-content-md-center">
-    <div class="col first-Element">
-      <div class="over"><%= image_tag "climber_left.png", height: 100 %> </div>
-      <div class="under"><%= image_tag "game_tree1.png", height: 550 %></div>
+<div style="padding: 20px"> <!-padding for the UI->
+  <div class="row no-gutters justify-content-md-center"> <!-Makes the UI center->
+    <div class="col first-Element"><!-makes column. first-element grabs the animation from the application.scss file that makes the pictures move on first page->
+      <div class="over"><%= image_tag "climber_left.png", height: 100 %> </div> <!-image for the climber over is the animation the image does->
+      <div class="under"><%= image_tag "game_tree1.png", height: 550 %></div><!-image for game tree and under is the position of the tree->
     </div>
-    <div class="col-md-auto first-Element slideInDown" align="center">
+    <div class="col-md-auto first-Element slideInDown" align="center"><!-col-md-auto is for where the UI is. first-element slides in the animation. slideindown also has the animation come in from the top->
     <h3>Select Button to Move</h3>
-    <div class="btn-group-vertical">
-      <%= link_to 'check if there is an apple', intermediate_level2_path(node), class: "btn btn-success btn-lg" %>
+    <div class="btn-group-vertical"><!-type of button->
+      <%= link_to 'check if there is an apple', intermediate_level2_path(node), class: "btn btn-success btn-lg" %> <!-movement button that links to the next page->
     </div>
     <h3 style="padding: 10px">Return Apple</h3>
-    <div class="btn-group" role="group">
+    <div class="btn-group" role="group"><!-type of button->
     </div>
-      <div class="row-center">
+      <div class="row-center"><!-effects the UI->
       <div style="padding: 100px">
-      <button id="help" class="btn btn-success btn-lg">Hint</button>
+      <button id="help" class="btn btn-success btn-lg">Hint</button><!-button for hint function in game->
         <script>
         function hint() {
         alert('Look for apples');
@@ -25,15 +25,15 @@
         </script>
         </div>
         </div>
-    </div>
-    <div class="col second-Element slideInRight">
-      <div style="padding: 10px" align="right">
+    </div><!-this script activates when you click hint on the game levels and displays the alert above->
+    <div class="col second-Element slideInRight"><!-second-element is an animation for the first page when the image and output area slides in and slideinright makes it slide in from the right->
+      <div style="padding: 10px" align="right"><makes it to the right>
             <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
+      </div><!-button to go to start page->
+      <div>
+            <%= image_tag "new_playtest_algo3.png", height: 300 %><!-image for algorithm->
       </div>
-      <div >
-            <%= image_tag "new_playtest_algo3.png", height: 300 %>
-      </div>
-      <div class="card border-dark mb-3" style="max-width: 29.5rem;">
+      <div class="card border-dark mb-3" style="max-width: 29.5rem;"><!-This is the output box and the size and what type we used->
         <div class="card-header">Console Output</div>
         <div class="card-body text-dark">
             <p class="card-body"></p>

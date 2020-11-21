@@ -1,14 +1,16 @@
 // Place all the styles related to the intermediate_level controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-  .overint1 {
+//all the overint(number) in here refer to the climbers position on each show page the number on the overint is the show page that is associated with climber position
+//some overint are used on different pages which I'll comment those below 
+.overint1 {
     z-index: 2;
     width: 130px;
     position: relative;
     left: 210px;
     top: 50px;
   }
-
+//show page 5
   .overint4 {
     z-index: 2;
     width: 130px;
@@ -235,7 +237,7 @@
   }
 
 }
-
+//all .fall(number) correlate with the correct show page and all of them use the same animation above to fall out at the position they are in
 .i-fall2 {
   z-index: 2;
   width: 130px;

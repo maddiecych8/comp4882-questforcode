@@ -19,14 +19,14 @@
  @import "../node_modules/bootswatch/dist/flatly/variables";
  @import "../node_modules/bootstrap/scss/bootstrap";
  @import "../node_modules/bootswatch/dist/flatly/bootswatch";
-
+//overall page size
 html {
   padding: 0;
   margin: 0;
   width: 100%;
   height: 100%;
 }
-
+//background
 body {
   min-height: 100%;
   background-image: image-url('/assets/game_background.jpg');
@@ -35,7 +35,7 @@ body {
   background-position: left left;
   background-attachment: fixed;
 }
-
+//background for most pages
 .game-bg {
   min-height: 100%;
   background: image-url('/assets/game_background.jpg');
@@ -45,13 +45,13 @@ body {
   background-position: left left;
   background-attachment: fixed;
 }
-
+//header 
 h1 {
     text-align: left;
     margin: 10px;
     padding: 30px;
 }
-
+//level page ui positioning
 .level {
   position: relative;
   left: 140px;
@@ -105,7 +105,7 @@ h1 {
 }
 
 */
-
+//climber position for show 1,2,10 on easy and 1,2 intermediate level
 .over {
   z-index: 2;
   width: 130px;
@@ -114,7 +114,7 @@ h1 {
   top: 50px;
 }
 
-
+//climber position for show 3 on easy and show 3 on intermediate level
 .over3 {
   z-index: 2;
   width: 130px;
@@ -122,7 +122,7 @@ h1 {
   left: 160px;
   top: 150px;
 }
-
+//climber position for show 4,7 on easy
 .over4 {
   z-index: 2;
   width: 130px;
@@ -130,6 +130,7 @@ h1 {
   left: 120px;
   top: 190px;
 }
+//position of climber on show page 4 intermediate level
 .over41 {
   z-index: 2;
   width: 130px;
@@ -137,6 +138,7 @@ h1 {
   left: 100px;
   top: 160px;
 }
+//climber position for show 5 on easy
 .over5 {
   z-index: 2;
   width: 130px;
@@ -152,7 +154,7 @@ h1 {
   top: 260px;
 }
 
-
+//climber position for show 6 on easy
 .over6 {
   z-index: 2;
   position: relative;
@@ -160,7 +162,7 @@ h1 {
   top: 360px;
 }
 
-
+//climber position for show 8 on easy
 .over8 {
   z-index: 2;
   width: 130px;
@@ -168,7 +170,7 @@ h1 {
   left: 180px;
   top: 250px;
 }
-
+//climber position for show 9 on easy
 .over9 {
   z-index: 2;
   width: 130px;
@@ -176,7 +178,7 @@ h1 {
   left: 210px;
   top: 360px;
 }
-
+//climber position for show 11 on easy
 .over11 {
   z-index: 2;
   position: relative;
@@ -184,7 +186,7 @@ h1 {
   top: 130px;
   width: 130px;
 }
-
+//climber position for show 12 on easy
 .over12 {
   z-index: 2;
   position: relative;
@@ -192,7 +194,7 @@ h1 {
   top: 170px;
   width: 130px;
 }
-
+//climber position for show 13 on easy
 .over13 {
   z-index: 2;
   width: 130px;
@@ -200,7 +202,7 @@ h1 {
   left: 250px;
   top: 250px;
 }
-
+//climber position for show 14 on easy
 .over14 {
   z-index: 2;
   width: 130px;
@@ -208,7 +210,7 @@ h1 {
   left: 220px;
   top: 350px;
 }
-
+//climber position for show 15 on easy
 .over15 {
   z-index: 2;
   width: 130px;
@@ -216,7 +218,7 @@ h1 {
   left: 270px;
   top: 280px;
 }
-
+//climber position for show 16 on easy
 .over16 {
   z-index: 2;
   width: 130px;
@@ -224,14 +226,14 @@ h1 {
   left: 370px;
   top: 260px;
 }
-
+//end page position for easy
 .over-end {
   z-index: 2;
   position: relative;
   left: 390px;
   top: 350px;
 }
-
+//tree position for all pages
 .under {
   z-index: 1;
   width: 500px;
@@ -251,7 +253,7 @@ h1 {
 .alert-dismissible {
   padding-left: $close-font-size + $alert-padding-x * 2;
 }
-
+//animation for when the first page of level appears
 @keyframes bounceIn {
   0% {
     transform: scale(0.1);
@@ -265,7 +267,7 @@ h1 {
     transform: scale(1);
   }
 }
-
+//animation for when the first page of level appears
 @keyframes slideInRight {
   0% {
 
@@ -280,7 +282,7 @@ h1 {
     transform: translateX(0);
   }
 }
-
+//animation for when the first page of level appears
 @keyframes slideInDown {
   0% {
 
@@ -295,7 +297,7 @@ h1 {
     transform: translateY(0);
   }
 }
-
+//animation for all swinging effects(the constant swaying when the climber is at the end of the branch)
 @keyframes swinging {
   0% {
     -webkit-transform: rotate(10deg);
@@ -316,7 +318,7 @@ h1 {
   }
 }
 
-
+//animation of first-move (overall reference the left: and top: indicate how far the image is from those two points of the page)
 @keyframes moveDown1 {
   0% {
     left: 210px;
@@ -331,7 +333,7 @@ h1 {
     top: 150px;
     }
 }
-
+//animation of second-move
 @keyframes moveDown2 {
   0% {
     left: 160px;
@@ -346,7 +348,7 @@ h1 {
     top: 190px;
     }
 }
-
+//animation of third move
 @keyframes moveDown3 {
   0% {
     left: 120px;
@@ -362,7 +364,7 @@ h1 {
     }
 }
 
-
+//second move on intermediate levels animation
 @keyframes moveDown21 {
   0% {
     left: 160px;
@@ -377,6 +379,7 @@ h1 {
     top: 160px;
     }
 }
+//third move on intermediate levels animation
 @keyframes moveDown31 {
   0% {
     left: 100px;
@@ -391,7 +394,6 @@ h1 {
     top: 220px;
     }
 }
-
 @keyframes moveDown41 {
   0% {
     left: 100px;
@@ -406,6 +408,7 @@ h1 {
     top: 220px;
     }
 }
+//animation of fifth move
 @keyframes moveUp1 {
   0% {
     left: 50px;
@@ -420,7 +423,7 @@ h1 {
     top: 190px;
     }
 }
-
+//animation of swing-image-fourth-move
 @keyframes moveDown4 {
   0% {
     left: 80px;
@@ -435,7 +438,7 @@ h1 {
     top: 360px;
     }
 }
-
+//animation of sixth move
 @keyframes moveDown5 {
   0% {
     left: 150px;
@@ -450,7 +453,7 @@ h1 {
     top: 250px;
     }
 }
-
+//animation of swing-image-seventh-move
 @keyframes moveDown6 {
   0% {
     left: 180px;
@@ -465,7 +468,7 @@ h1 {
     top: 360px;
     }
 }
-
+//animation of eight move
 @keyframes moveUp2 {
   0% {
     left: 210px;
@@ -484,7 +487,7 @@ h1 {
     top: 50px;
     }
 }
-
+//animation of ninth move
 @keyframes moveDown7 {
   0% {
     left: 210px;
@@ -499,7 +502,7 @@ h1 {
     top: 130px;
     }
 }
-
+//animation of tenth move
 @keyframes moveDown8 {
   0% {
     left: 270px;
@@ -514,7 +517,7 @@ h1 {
     top: 170px;
     }
 }
-
+//animation of eleventh move
 @keyframes moveDown9 {
   0% {
     left: 300px;
@@ -529,7 +532,7 @@ h1 {
     top: 250px;
     }
 }
-
+//animation of swing-image-twelfth-move
 @keyframes moveDown10 {
   0% {
     left: 250px;
@@ -544,7 +547,7 @@ h1 {
     top: 350px;
     }
 }
-
+//animation of thirteenth move
 @keyframes moveUp3 {
   0% {
     left: 220px;
@@ -559,7 +562,7 @@ h1 {
     top: 170px;
     }
 }
-
+//animation of fourteenth move
 @keyframes moveDown11 {
   0% {
     left: 300px;
@@ -574,7 +577,7 @@ h1 {
     top: 260px;
     }
 }
-
+//animation of swing-image-fifteenth-move
 @keyframes moveDown12 {
   0% {
     left: 370px;
@@ -589,7 +592,7 @@ h1 {
     top: 350px;
     }
 }
-
+//this does the animation for bouncein on the first page of each level
 .first-Element {
   -webkit-animation-duration: 4s;
   animation-duration: 4s;
@@ -602,7 +605,7 @@ h1 {
   animation-fill-mode: both;
 }
 
-
+//this does the animation for slideinright for when the output and algorithm picture slide in
 .second-Element {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -614,7 +617,7 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
-
+// this is for slideindown when the tree comes from the top and also the buttons for moving
 .third-Element {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -626,7 +629,7 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
-
+//swing movements use the first names on the 3rd and 4th line to determine the animation and swinging is the universal animation for when hanging off the tree
 .swing-image-fourth-move{
   -webkit-transform-origin: 5% 0;
   transform-origin: 5% 0;
@@ -654,15 +657,15 @@ h1 {
   -webkit-animation: moveDown12 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
   animation: moveDown12 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
 }
-
+//animation for all swinging effects(the constant swaying when the climber is at the end of the branch)
 .swing-image{
   -webkit-transform-origin: 5% 0;
   transform-origin: 5% 0;
   -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
   animation: swinging 3.5s ease-in-out forwards infinite;
 }
-
-
+//movements like this use the lines on 3 and 4 to determine what animation to use
+//first move in easy level and intermediate level
 .first-move {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -673,7 +676,7 @@ h1 {
   animation-fill-mode: both;
 }
 
-
+//second move in easy level
 .second-move {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -684,7 +687,7 @@ h1 {
   animation-fill-mode: both;
 }
 
-
+//second move on intermediate level
 .second-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -694,6 +697,7 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+//third move in easy level
 .third-move {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -703,7 +707,7 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
-
+//third move on intermediate level
 .third-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -713,7 +717,7 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
-
+//fifth move in easy level
 .fifth-move {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -723,7 +727,7 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
-
+//sixt move in easy level
 .sixth-move {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -733,7 +737,7 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
-
+//eighth move in easy level
 .eighth-move {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -743,7 +747,7 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
-
+// ninth move in easy level
 .ninth-move {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -753,7 +757,7 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
-
+// tenth move in easy level
 .tenth-move {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -763,7 +767,7 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
-
+// eleventh move in easy level
 .eleventh-move {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -773,7 +777,7 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
-
+//thirteenth move in easy level
 .thirteenth-move {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -783,7 +787,7 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
-
+//fourteenth move in easy level
 .fourteenth-move {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -802,13 +806,13 @@ th, td {
   border: 1px solid black;
   padding: 15px 100px;
 }
-
+//this allows for scrolling in the output box that displays what you did
 .table-wrap {
 height: 222px;
 overflow-y: scroll;
 display: inline-block;
 }
-
+//fifth moveint animation
 @keyframes moveDownInt5 {
   0% {
     left: 60px;
@@ -823,6 +827,7 @@ display: inline-block;
     top: 270px;
     }
 }
+//fourth movement on the intermediate level
 .fifth-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -832,42 +837,50 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+//swing movements use the first names on the 3rd and 4th line to determine the animation and swinging is the universal animation for when hanging off the tree
+//sixth move in intermediate level
 .swing-image-int1{
   -webkit-transform-origin: 5% 0;
   transform-origin: 5% 0;
   -webkit-animation: moveDownInt7  3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
   animation: moveDownInt7  3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
 }
+//ninth move in intermediate level
 .swing-image-int2{
   -webkit-transform-origin: 5% 0;
   transform-origin: 5% 0;
   -webkit-animation: moveDownInt9  3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
   animation: moveDownInt9 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
 }
+//fourteenth move in intermediate level
 .swing-image-int3{
   -webkit-transform-origin: 5% 0;
   transform-origin: 5% 0;
   -webkit-animation: moveDownInt13  3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
   animation: moveDownInt13  3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
 }
+//seventeenth move in intermediate level
 .swing-image-int4{
   -webkit-transform-origin: 5% 0;
   transform-origin: 5% 0;
   -webkit-animation: moveDownInt15 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
   animation: moveDownInt15  3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
 }
+//22nd move for intermediate level
 .swing-image-int5{
   -webkit-transform-origin: 5% 0;
   transform-origin: 5% 0;
   -webkit-animation: moveDownInt19 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
   animation: moveDownInt19  3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
 }
+//27th move for intermediate level
 .swing-image-int9{
   -webkit-transform-origin: 5% 0;
   transform-origin: 5% 0;
   -webkit-animation: moveDownInt23 3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
   animation: moveDownInt23  3s ease-in 0s 1 normal both, swinging 3.5s ease-in-out 3s forwards infinite;
 }
+//30th move for intermediate level
 .swing-image-int10{
   -webkit-transform-origin: 5% 0;
   transform-origin: 5% 0;
@@ -888,6 +901,7 @@ display: inline-block;
     top: 380px;
     }
 }
+//animation for sixth moveint
 @keyframes moveDownInt6 {
   0% {
     left: 10px;
@@ -902,6 +916,7 @@ display: inline-block;
     top: 320px;
     }
 }
+// fifth movement on the intermediate level
 .sixth-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -911,6 +926,7 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+//seventh move on the intermediate level
 .seventh-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -920,6 +936,7 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+//seventh moveint animation
 @keyframes moveUpInt {
   0% {
     left: -40px;
@@ -934,6 +951,7 @@ display: inline-block;
     top: 270px;
     }
 }
+//animation for eight moveint
 @keyframes moveDownInt8 {
   0% {
     left: 10px;
@@ -948,6 +966,7 @@ display: inline-block;
     top: 320px;
     }
 }  
+//eight move on the intermediate level
 .eight-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -957,6 +976,7 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+//animation for swing-image-int2
 @keyframes moveDownInt9 {
   0% {
     left: 70px;
@@ -970,7 +990,8 @@ display: inline-block;
     left: 90px;
     top: 360px;
     }
-}    
+} 
+//animation for ninth-moveint   
 @keyframes moveUpInt2 {
   0% {
     left: 90px;
@@ -985,6 +1006,7 @@ display: inline-block;
     top: 140px;
     }
 } 
+//tenth move in intermediate level
 .ninth-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -994,6 +1016,7 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+//eleventh move in intermediate level
 .tenth-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -1003,6 +1026,7 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+//twelfth move in intermediate level
 .eleventh-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -1012,6 +1036,7 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+//thirteenth move in intermediate level
 .twelve-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -1021,6 +1046,7 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+//animation for tenth moveint
 @keyframes moveDownInt10 {
   0% {
     left: 110px;
@@ -1035,6 +1061,7 @@ display: inline-block;
     top: 230px;
     }
 }   
+//animation for eleventh moveint
 @keyframes moveDownInt11 {
   0% {
     left: 160px;
@@ -1049,6 +1076,7 @@ display: inline-block;
     top: 260px;
     }
 }
+//animation for twelve moveint
 @keyframes moveDownInt12 {
   0% {
     left: 180px;
@@ -1063,6 +1091,7 @@ display: inline-block;
     top: 330px;
     }
 } 
+//animation for swing-image-int3
 @keyframes moveDownInt13 {
   0% {
     left: 110px;
@@ -1077,6 +1106,7 @@ display: inline-block;
     top: 400px;
     }
 } 
+//animation for thirteen moveint
 @keyframes moveUpInt3 {
   0% {
     left: 90px;
@@ -1091,6 +1121,7 @@ display: inline-block;
     top: 260px;
     }
 } 
+//fifteenth move in intermediate level
 .thirteen-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -1100,6 +1131,7 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+//sixteenth move in intermediate level
 .fourteen-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -1108,7 +1140,8 @@ display: inline-block;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   animation-fill-mode: both;
-}            
+}
+//animation for fourteen moveint            
 @keyframes moveDownInt14 {
   0% {
     left: 180px;
@@ -1123,6 +1156,7 @@ display: inline-block;
     top: 350px;
     }
 }
+//eighteenth move for intermediate level
 .sixteen-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -1132,6 +1166,7 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+//animation for swing-image-int4
 @keyframes moveDownInt15 {
   0% {
     left: 230px;
@@ -1146,6 +1181,7 @@ display: inline-block;
     top: 400px;
     }
 }   
+//animation for sixteen moveint
 @keyframes moveUpInt4 {
   0% {
     left: 230px;
@@ -1164,6 +1200,7 @@ display: inline-block;
     top: 90px;
     }
 }
+//nineteenth move for intermediate level
 .seventeenth-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -1173,6 +1210,7 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+//animation for seventeenth moveint
 @keyframes moveDownInt16 {
   0% {
     left: 230px;
@@ -1186,7 +1224,7 @@ display: inline-block;
     left: 290px;
     top: 150px;
     }
-} 
+} //animation for eighteenth moveint
 @keyframes moveDownInt17 {
   0% {
     left: 290px;
@@ -1201,6 +1239,7 @@ display: inline-block;
     top: 170px;
     }
 } 
+//twentieth move for intermediate level
 .eighteenth-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -1210,6 +1249,7 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+//animation for nineteenth moveint
 @keyframes moveDownInt18 {
   0% {
     left: 310px;
@@ -1224,6 +1264,7 @@ display: inline-block;
     top: 250px;
     }
 } 
+//21th move for intermediate level
 .nineteenth-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -1233,6 +1274,7 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+//animation for swing-image-int5
 @keyframes moveDownInt19 {
   0% {
     left: 250px;
@@ -1247,6 +1289,7 @@ display: inline-block;
     top: 310px;
     }
 } 
+//animation for twentieth moveint
 @keyframes moveUpInt5 {
   0% {
     left: 235px;
@@ -1261,6 +1304,7 @@ display: inline-block;
     top: 170px;
     }
 }
+//23rd move for intermediate level
 .twentieth-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -1270,6 +1314,7 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 }
+//animation for twentieth1 moveint
 @keyframes moveDownInt20 {
   0% {
     left: 310px;
@@ -1284,6 +1329,7 @@ display: inline-block;
     top: 240px;
     }
 }
+//24th move for intermediate level
 .twentieth1-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -1293,6 +1339,7 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 } 
+//25th move for intermediate level
 .twentieth2-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -1302,6 +1349,7 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 } 
+//animation for twentieth2 moveint
 @keyframes moveDownInt21 {
   0% {
     left: 360px;
@@ -1316,6 +1364,7 @@ display: inline-block;
     top: 260px;
     }
 }
+//26th move for intermediate level
 .twentieth3-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -1325,6 +1374,7 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 } 
+//animation for twentieth3 moveint
 @keyframes moveDownInt22 {
   0% {
     left: 390px;
@@ -1339,6 +1389,7 @@ display: inline-block;
     top: 340px;
     }
 }
+//animation for swing-image-int9
 @keyframes moveDownInt23 {
   0% {
     left: 330px;
@@ -1353,6 +1404,7 @@ display: inline-block;
     top: 390px;
     }
 }
+//animation for twentieth4 moveint
 @keyframes moveUpInt6 {
   0% {
     left: 315px;
@@ -1367,6 +1419,7 @@ display: inline-block;
     top: 260px;
     }
 }
+//28th move for intermediate level
 .twentieth4-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -1376,6 +1429,7 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 } 
+//29th move for intermediate level
 .twentieth5-moveint {
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -1385,6 +1439,7 @@ display: inline-block;
   animation-iteration-count: 1;
   animation-fill-mode: both;
 } 
+//animation for twentieth5 moveint
 @keyframes moveDownInt24 {
   0% {
     left: 390px;
@@ -1399,6 +1454,7 @@ display: inline-block;
     top: 330px;
     }
 }
+//animation for swing-image-int10
 @keyframes moveDownInt25 {
   0% {
     left: 440px;
@@ -1413,7 +1469,7 @@ display: inline-block;
     top: 400px;
     }
 }
-
+//animation for how everything comes in on the first page of intermediate level
 @keyframes bounceInInt {
   0% {
     transform: scale(0.1);
@@ -1427,6 +1483,7 @@ display: inline-block;
     transform: scale(1);
   }
 }
+//this does the animation above by calling it in here
 .first-ElementInt {
   -webkit-animation-duration: 4s;
   animation-duration: 4s;

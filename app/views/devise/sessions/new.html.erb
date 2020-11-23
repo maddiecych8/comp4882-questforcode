@@ -3,7 +3,7 @@
   <div class="row">
     <div class="col">
     <div class="text-left">
-     <%= image_tag "boy picking apple.png", width: 400,height: 500 %>
+     <%= image_tag "boy picking apple.png", width: 400,height: 500 %> <!-Image for background->
       </div>
       </div>
 
@@ -11,24 +11,24 @@
 <h2>Log in</h2>
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="field">
+  <div class="field"><!-Asks for your email for your account you made->
     <%= f.label :email %><br />
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
   </div>
 
-  <div class="field">
+  <div class="field"><!-Asks for your password for your account you made->
     <%= f.label :password %><br />
     <%= f.password_field :password, autocomplete: "current-password" %>
   </div>
 
   <% if devise_mapping.rememberable? %>
-    <div class="field">
+    <div class="field"><!-Asks if you want the sign in page to remember your info->
       <%= f.check_box :remember_me %>
       <%= f.label :remember_me %>
     </div>
   <% end %>
 
-  <div class="actions">
+  <div class="actions"><!-Login button->
     <%= f.submit "Log in" %>
   </div>
 <% end %>

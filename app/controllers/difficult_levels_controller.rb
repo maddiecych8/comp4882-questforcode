@@ -1,6 +1,7 @@
 class DifficultLevelsController < ApplicationController
 
-  before_action :authenticate_user! #limit access to an action unless a user is logged in
+
+  before_action :authenticate_user!   # authenticate user - make sure the user is signed in, otherwise they cannot see see the page
   
   def index
       nodes = DifficultLevel.all
@@ -8,7 +9,7 @@ class DifficultLevelsController < ApplicationController
          format.html { render :index, locals: { nodes: nodes } }
       end
   end
-
+ # controller action for the difficult show pages
   def show
       node = DifficultLevel.find(params[:id])
       respond_to do |format|

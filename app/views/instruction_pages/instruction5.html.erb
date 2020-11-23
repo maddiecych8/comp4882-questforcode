@@ -2,20 +2,20 @@
 <div class="container" style="padding: 20px"><!-padding for the UI->
 <div class="text-left">
   <div class="row">
-    <div class="col">
-     <%= image_tag "boy picking apple.png", width: 280,height: 500 %>
+    <div class="col"><!- first column ->
+     <%= image_tag "boy picking apple.png", width: 280,height: 500 %><!- image->
       </div>
 
    
-    <div class="col">
+    <div class="col"><!- second column ->
     <div class="text-center">
-     <h2><%= button_to "Back",instruction4_path, method: :get, class: "btn btn-success btn-lg" %></h2>
+     <h2><%= button_to "Back",instruction4_path, method: :get, class: "btn btn-success btn-lg" %></h2><!-link to the start page ->
      </div>
       <%= image_tag "new_playtest_algo3.png", height: 290 %><!-image for algorithm->
        </div>
     
     <div class="col column">
-    <div class="text-center">
+    <div class="text-center"> <!- explantion of the game instruction ->
       <p class="instruction">Your task is to "climb" a binary tree, like the one in the video on the left, 
         by in-order traversal.</p>
       <p class="instruction">You will begin at the top of the tree. First, check if there are any apples.</p>
@@ -27,10 +27,10 @@
         (or enter) the number of the apple to return it.</p>
       <p class="instruction">To the left is the Python recursive function that you will use to move through the
         branches of the tree.</p>
-      <p class="instruction">Remember, you are starting from at the top of the tree. Good luck!</p>
+      <p class="instruction">Remember, you are starting from at the top of the tree. Good luck!</p> <!- explantion of the game instruction ->
        </div>
       <div class="text-center">
-        <h2><%= button_to "I'm ready",level_path, method: :get, class: "btn btn-success btn-lg" %></h2>
+        <h2><%= button_to "I'm ready",level_path, method: :get, class: "btn btn-success btn-lg" %></h2><!-link to the level page ->
      </div>
     </div>
  </div>

@@ -1,35 +1,35 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-This handles the navigation bar at the top of each page->
 <html>
   <head>
     <title>Comp4882Questforcode</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %><!-script to handle reloading on some pages->
     <%# <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %> 
   </head>
 
   <body>
 
-   <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+   <nav class="navbar navbar-expand-md navbar-dark bg-primary"> <!-This is for the navigation bar at the top of every page->
        <a class="navbar-brand" href="#">Quest for Code</a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation"> <!-This is for the navigation bar at the top of every page and determines what the button looks like->
          <span class="navbar-toggler-icon"></span>
        </button>
 
        <div class="collapse navbar-collapse" id="navbarColor01">
          <ul class="navbar-nav mr-auto">
-           <li class="nav-item active">
-             <%= link_to 'Home', start_path, class: 'nav-link' %>
+           <li class="nav-item active"> <!-Makes this appear on the navigation bar as a link->
+             <%= link_to 'Home', start_path, class: 'nav-link' %> <!-Links to the start page->
            </li>
            <li class="nav-item">
-           <%= link_to 'About', about_path, class: 'nav-link' %>
+           <%= link_to 'About', about_path, class: 'nav-link' %><!-Links to the about page->
             </li>
            <li class="nav-item">
-             <%= link_to 'Instructions', instruction_path, class: 'nav-link' %>
+             <%= link_to 'Instructions', instruction_path, class: 'nav-link' %> <!-Links to the instruction page->
            </li>
            <li class="nav-item">
-           <%= link_to 'Profile', edit_user_registration_path, class: 'nav-link' %>
+           <%= link_to 'Profile', edit_user_registration_path, class: 'nav-link' %><!-Links to the user edit page->
            </li>
          </ul>
 
@@ -37,17 +37,17 @@
         <ul class="navbar-nav">
           <% if user_signed_in? %>
             <li class="nav-item">
-              <%= link_to "Hi, #{current_user.email}", edit_user_registration_path %>
+              <%= link_to "Hi, #{current_user.email}", edit_user_registration_path %> <!- This displays the users email they are signed in with->
             </li>
             <li class="nav-item">
-              <%= link_to 'Sign Out', destroy_user_session_path, method: :get %>
+              <%= link_to 'Sign Out', destroy_user_session_path, method: :get %> <!- This is to sign out of your account->
             </li>
           <% else %>
             <li class="nav-item">
-              <%= link_to 'Sign In', new_user_session_path, class: 'nav-link'%>
+              <%= link_to 'Sign In', new_user_session_path, class: 'nav-link'%> <!- This is a sign in button for signing in->
             </li>
             <li class="nav-item">
-              <%= link_to 'Sign Up', new_user_registration_path, class: 'nav-link' %>
+              <%= link_to 'Sign Up', new_user_registration_path, class: 'nav-link' %> <!- This is how a user signs up with a new account->
             </li>
           <% end %>
         </ul>
@@ -56,7 +56,6 @@
 
       
      <% flash.each do |key, message| %>
-       
        <div class="alert <%= flash_class(key) %> alert-dismissible fade show text-center" role="alert">
          <%= message %>
          <button type="button" class="close" data-dismiss="alert" aria-label="Close">

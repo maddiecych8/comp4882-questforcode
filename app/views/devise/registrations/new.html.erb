@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col">
       <div class="text-left">
-       <%= image_tag "boy picking apple.png", width: 400,height: 500 %>
+       <%= image_tag "boy picking apple.png", width: 400,height: 500 %> <!-Image for background->
         </div>
         </div>
 
@@ -14,12 +14,12 @@
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
 
-  <div class="field">
+  <div class="field"><!-asks for the email you want to use for your account->
     <%= f.label :email %><br />
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
   </div>
 
-  <div class="field">
+  <div class="field"><!-Asks for the password you want to use->
     <%= f.label :password %>
     <% if @minimum_password_length %>
     <em>(<%= @minimum_password_length %> characters minimum)</em>
@@ -27,12 +27,12 @@
     <%= f.password_field :password, autocomplete: "new-password" %>
   </div>
 
-  <div class="field">
+  <div class="field"><!-asks you to reconfirm your password->
     <%= f.label :password_confirmation %><br />
     <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
   </div>
 
-  <div class="actions">
+  <div class="actions"><!-button for signing up your account->
     <%= f.submit "Sign up" %>
   </div>
 <% end %>

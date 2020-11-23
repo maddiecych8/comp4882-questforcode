@@ -8,7 +8,7 @@ class EasyLevelsController < ApplicationController
             format.html { render :index, locals: { nodes: nodes } }
         end
     end
-
+#All of theses below find the ID of the Easylevel and matches that to the show page
     def show
         node = EasyLevel.find(params[:id])
         respond_to do |format|

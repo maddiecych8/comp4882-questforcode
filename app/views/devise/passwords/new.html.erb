@@ -3,13 +3,13 @@
     <div class="row">
       <div class="col">
       <div class="text-left">
-       <%= image_tag "boy picking apple.png", width: 400,height: 500 %>
+       <%= image_tag "boy picking apple.png", width: 400,height: 500 %> <!-Image for background->
         </div>
         </div>
   
 
   <div class="col">
-<h2>Forgot your password?</h2>
+<h2>Forgot your password?</h2><!- Auto comes with devise gem when setting up. It is used to send an email to your email to make a new password we don't have setup->
 
 <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>

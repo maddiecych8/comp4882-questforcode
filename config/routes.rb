@@ -170,12 +170,12 @@ Rails.application.routes.draw do
   get 'easy_levels15/:id', to: 'easy_levels#show15', as: 'easy_level15' # easy level show page 15
   get 'easy_levels16/:id', to: 'easy_levels#show16', as: 'easy_level16' # easy level show page 16
 
-  get 'instruction', to: 'instruction_pages#instruction', as: 'instruction'
-  get 'instruction1', to: 'instruction_pages#instruction1', as: 'instruction1'
-  get 'instruction2', to: 'instruction_pages#instruction2', as: 'instruction2'
-  get 'instruction3', to: 'instruction_pages#instruction3', as: 'instruction3'
-  get 'instruction4', to: 'instruction_pages#instruction4', as: 'instruction4'
-  get 'instruction5', to: 'instruction_pages#instruction5', as: 'instruction5'
+  get 'instruction', to: 'instruction_pages#instruction', as: 'instruction' # first instruction page 
+  get 'instruction1', to: 'instruction_pages#instruction1', as: 'instruction1' # second instruction page 
+  get 'instruction2', to: 'instruction_pages#instruction2', as: 'instruction2' # third instruction page 
+  get 'instruction3', to: 'instruction_pages#instruction3', as: 'instruction3' # fourth instruction page 
+  get 'instruction4', to: 'instruction_pages#instruction4', as: 'instruction4' # fifth instruction page 
+  get 'instruction5', to: 'instruction_pages#instruction5', as: 'instruction5' # sixth instruction page 
 
-  root to: redirect('/start', status: 302)
+  root to: redirect('/start', status: 302) # root 
 end

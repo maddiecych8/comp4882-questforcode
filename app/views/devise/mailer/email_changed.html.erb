@@ -3,14 +3,14 @@
   <div class="row">
     <div class="col">
     <div class="text-left">
-     <%= image_tag "boy picking apple.png", width: 400,height: 500 %>
+     <%= image_tag "boy picking apple.png", width: 400,height: 500 %> <!-Image for background->
       </div>
       </div>
 
 <div class="col">
 
 
-<p>Hello <%= @email %>!</p>
+<p>Hello <%= @email %>!</p> <!-This auto comes with devise when setting up the gem everything below deals with confirmation instructions which we don't have setup in our project->
 
 <% if @resource.try(:unconfirmed_email?) %>
   <p>We're contacting you to notify you that your email is being changed to <%= @resource.unconfirmed_email %>.</p>

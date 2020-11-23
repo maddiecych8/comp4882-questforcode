@@ -1,21 +1,24 @@
-<div class="container" style="padding: 80px">
-  <div class="text-center">
+<div class="container" style="padding: 80px"> <!-padding for the UI->
+  <div class="text-center"> <!-center text in the columns for the UI->
   <h2 class="level">CHOOSE LEVEL</h2>
     <div class="row">
-      <div class="col">
-      <div class="text-left">
-       <%= image_tag "boy picking apple.png", width: 300,height: 500 %>
+      <div class="col"> <!-first column ->
+      <div class="text-left"> <!-move image to the left side of this column for the UI->
+       <%= image_tag "boy picking apple.png", width: 300,height: 500 %> <!-image->
       </div>
     </div>
     
-      <div class="col">
-     
+      <div class="col"> <!-second column ->
+        <!-link to the first show page view for the Easy Level ->
         <h1><%= button_to "EASY",easy_level_path(nodes.ids), method: :get, class: "btn btn-success btn-lg" %></h1>
+        <!-link to the first show page view for the Difficult Level ->
         <h1><%= button_to "DIFFICULT",difficult_level_path(nodes.ids), method: :get, class: "btn btn-success btn-lg" %></h1>
         </div>
         
-      <div class="col">
+      <div class="col"> <!-third column ->
+        <!-link to the first show page view for the Intermediate Level ->
         <h1><%= button_to "INTERMEDIATE",intermediate_level_path(nodes.ids), method: :get, class: "btn btn-success btn-lg" %></h1>
+        <!-link to the first show page view for the Challenge Level ->
         <h1><%= button_to "CHALLENGE MODE",challenge_level_path(nodes.ids), method: :get, class: "btn btn-success btn-lg" %></h1>
       </div>
     </div>

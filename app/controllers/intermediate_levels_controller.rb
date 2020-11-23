@@ -8,7 +8,7 @@ class IntermediateLevelsController < ApplicationController
           format.html { render :index, locals: { nodes: nodes } }
       end
   end
-
+  #All of theses below find the ID of the IntermediateLevel and matches that to the show page
   def show
       node = IntermediateLevel.find(params[:id])
       respond_to do |format|

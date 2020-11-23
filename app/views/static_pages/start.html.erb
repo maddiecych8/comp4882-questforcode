@@ -1,14 +1,17 @@
-<div class="container" style="padding: 100px">
+<div class="container" style="padding: 100px"> <!-padding for the UI->
     <div class="row">
-      <div class="col">
+      <div class="col"> <!- first column ->
         <div>
-        <%= image_tag "boy picking apple.png", width: 400,height: 500 %>
+        <%= image_tag "boy picking apple.png", width: 400,height: 500 %> <!- image->
         </div>
       </div>
   
-      <div class="col">
+      <div class="col"> <!- second column ->
+       <!- link to go to the first instuction view page->
        <h1 class="text-center"><%= button_to "START GAME",instruction_path, method: :get, class: "btn btn-success btn-lg" %></h1>
+       <!- link for the setting options -- this just returns to the start view page becasue we were unable to enable functionality for the options->
        <h1 class="text-center"><%= button_to "OPTIONS",start_path, method: :get, class: "btn btn-success btn-lg" %></h1>
+       <!- link to return to the start view page->
        <h1 class="text-center"><%= button_to "EXIT",start_path, method: :get, class: "btn btn-success btn-lg" %></h1>
       </div>
     </div>

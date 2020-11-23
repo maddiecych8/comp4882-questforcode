@@ -239,6 +239,7 @@ h1 {
   width: 500px;
 }
 
+// no gutters for columns on show pages
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -253,6 +254,7 @@ h1 {
 .alert-dismissible {
   padding-left: $close-font-size + $alert-padding-x * 2;
 }
+
 //animation for when the first page of level appears
 @keyframes bounceIn {
   0% {

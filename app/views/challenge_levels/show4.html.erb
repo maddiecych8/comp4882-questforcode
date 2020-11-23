@@ -1,51 +1,51 @@
-<body class="game-bg">
+<body class="game-bg"> <!-this shows the background image on each page and the class is in application.scss->
 
 
-<div style="padding: 20px">
-  <div class="row no-gutters ">
-    <div class="col ">
-      <div class="over-c4 c-move-2" id="fall"><%= image_tag "climber_left.png", height: 100 %> </div>
-      <div class="under"><%= image_tag "challenge_level_3.png", height: 550 %></div>
+<div style="padding: 20px"> <!-padding for the UI->
+  <div class="row no-gutters "> <!-no padding in between the columns for the UI->
+    <div class="col "> <!-first column->
+      <div class="over-c4 c-move-2" id="fall"><%= image_tag "climber_left.png", height: 100 %> </div> <!-image for the climber, over-c4 is the position of the image, c-move-2 is the animation to move the climber down the tree, fall is the animation id for falling out of the tree (id is linked to the js below)->
+      <div class="under"><%= image_tag "challenge_level_3.png", height: 550 %></div> <!-image for game tree, under is the position of the tree->
     </div>
     
     
 
-    <div class="col ">
-      <div class="float-container" style="padding: 10px" >
-        <div class="row-center float-child" style="display: inline-block ">
+    <div class="col "> <!-second column->
+      <div class="float-container" style="padding: 10px" > <!-puts buttons in container->
+        <div class="row-center float-child" style="display: inline-block "> <!-display buttons inline->
             <div>
-                <button id="help" class="btn btn-success btn-lg">Hint</button>
+                <button id="help" class="btn btn-success btn-lg">Hint</button> <!-button for hint function in game->
                     <script>
                     function hint() {
-                    alert('Look for apples');
+                    alert('Move left to right'); // hint message
                     }
                     document.getElementById("help").addEventListener("click", hint);
-                    </script>
+                    </script> <!-this script activates when you click hint on the game levels and displays the alert above->
             </div>
         </div>
-        <div class="float-child" style="display: inline-block">
-            <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
+        <div class="float-child" style="display: inline-block"> <!-display buttons inline->
+            <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %> <!-link to start view page->
         </div>
       </div>
       <div >
-            <%= image_tag "new_playtest_algo3.png", height: 300 %>
+            <%= image_tag "new_playtest_algo3.png", height: 300 %> <!-image for alogorithm->
       </div>
-      <div class="card border-dark mb-3" style="max-width: 29.5rem;">
-        <div class="card-header">Console Output</div>
+      <div class="card border-dark mb-3" style="max-width: 29.5rem;"> <!-This is the output box, styled as a card, the size and type of card are specified->
+        <div class="card-header">Console Output</div> <!-Console output appears below->
         <div class="table-wrap">
-            <p class="card-body">check if there is an apple<br>
+            <p class="card-body">check if there is an apple<br> <!-Console output appears here->
             climb branch to the left of 5<br>
             check if there is an apple</p>
       </div>
-      <div class="input-group mb-3" style="padding: 20px">
+      <div class="input-group mb-3" style="padding: 20px"> <!-Input group to accept player's input->
       <div class="input-group-prepend">
       <input type="text" name="inputanswer" id="inputanswer" autocomplete="off"  placeholder="Enter your decision!" onkeydown="redirect(this)">
-      <script>
+      <script> // this script activates when you click enter input on the game levels and displays an alert if the wrong input was entered
           function redirect(ele) {
-              if(event.key === 'Enter') {
-                  if(ele.value === 'climb branch to the left of 1')
-                       window.location.href = 'http://localhost:3000/challenge_levels5/1';
-                  else
+              if(event.key === 'Enter') { // event activated by user pressing 'Enter'
+                  if(ele.value === 'climb branch to the left of 1') // checks if correct answer was entered by player
+                       window.location.href = 'http://localhost:3000/challenge_levels5/1'; // if correct, redirected to next page
+                  else // activates falling animation, displays alert error message, and redirects to first show page of challenge level
                       document.getElementById("fall").className = "c-fall4"
                       setTimeout(() => alert("Oops, wrong move!"),1000);
                       setTimeout(() => window.location.href = 'http://localhost:3000/challenge_levels/1', 1100);

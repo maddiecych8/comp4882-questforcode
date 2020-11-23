@@ -1,29 +1,29 @@
-<body class="game-bg">
+<body class="game-bg"> <!-this shows the background image on each page and the class is in application.scss->
 
 
-<div style="padding: 20px">
-  <div class="row no-gutters justify-content-md-center">
-    <div class="col">
-    <div class="over-c-end swing-image-move108"><%= image_tag "climber_right.png", height: 100 %> </div>
-      <div class="under"><%= image_tag "End_difficult.png", height: 550%></div>
+<div style="padding: 20px"> <!-padding for the UI->
+  <div class="row no-gutters justify-content-md-center"> <!-Makes the UI center->
+    <div class="col"> <!-first column->
+    <div class="over-c-end swing-image-move108"><%= image_tag "climber_right.png", height: 100 %> </div> <!-image for the climber, over-c-end is the position of the image, swing-image-move108 is the animation the image does->
+      <div class="under"><%= image_tag "End_difficult.png", height: 550%></div> <!-image for the tree, under is the position of the image->
     </div>
     
-<div style="padding: 150px">
- <div class="col " align="center">
-  <h3>Difficult Level Cleared</h3>
-    <div class="col ">
-      <div class="alert alert-info" role="alert">
-        <h4 class="alert-heading">Congratulations!</h4>
-          <p>You've won!</p>
+<div style="padding: 150px"> <!-padding for the UI->
+ <div class="col " align="center"> <!-second column->
+  <h3>Difficult Level Cleared</h3> <!-tells player they've won the Difficult level->
+    <div class="col ">  <!-third column->
+      <div class="alert alert-info" role="alert"> <!-alert for UI->
+        <h4 class="alert-heading">Congratulations!</h4> <!-tells player they've won the Difficult level->
+          <p>You've won!</p> <!-tells player they've won the Difficult level->
            <hr>
-            <h4 class="mb-0">Inorder Traversal: 7, 3, 2, 5, 1, 8, 4, 9, 6</h4>
+            <h4 class="mb-0">Inorder Traversal: 7, 3, 2, 5, 1, 8, 4, 9, 6</h4> <!-tells player the order of the nodes->
            </div>
-         <div class="float-container" style="padding: 10px">
-            <div class="float-child" style="display: inline-block">
-                <%= button_to "Play Again",level_path, method: :get, class: "btn btn-success btn-lg" %>
+         <div class="float-container" style="padding: 10px"> <!- puts buttons into a container ->
+            <div class="float-child" style="display: inline-block"> <!- display buttons inline ->
+                <%= button_to "Play Again",level_path, method: :get, class: "btn btn-success btn-lg" %> <!- link to return to level view page ->
             </div>
-            <div class="float-child" style="display: inline-block">
-                <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
+            <div class="float-child" style="display: inline-block"> <!- display buttons inline ->
+                <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %> <!- link to return to start view page ->
             <div>
       </div>
     </div>

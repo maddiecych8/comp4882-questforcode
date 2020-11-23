@@ -1,14 +1,16 @@
-<div class="container" style="padding: 100px">
-  <div class="text-center">
+<div class="container" style="padding: 100px"> <!-padding for the UI->
+  <div class="text-center"> <!-center text in the columns for the UI->
     <div class="row">
-      <div class="col">
-      <div class="text-left">
-       <%= image_tag "boy picking apple.png", width: 400,height: 500 %>
+      <div class="col"> <!- first column ->
+      <div class="text-left"> <!-move image to the left side of this column for the UI->
+       <%= image_tag "boy picking apple.png", width: 400,height: 500 %> <!-image->
         </div>
         </div>
   
-      <div class="col">
+      <div class="col"> <!- second column ->
+       <!-link to the devise/sessions new view for the user to sign in ->
        <h1><%= button_to "SIGN IN",new_user_session_path, method: :get, class: "btn btn-success btn-lg" %></h1>
+       <!-link to the devise/registrations new view for the user register an account ->
        <h1><%= button_to "REGISTER",new_user_registration_path, method: :get, class: "btn btn-success btn-lg" %></h1>
         </div>
       </div>

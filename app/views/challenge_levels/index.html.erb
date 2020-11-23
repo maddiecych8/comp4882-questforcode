@@ -1,8 +1,8 @@
-<body class="game-bg">
+<body class="game-bg"> <!-this shows the background image on each page and the class is in application.scss->
 
-<h1>Challenge Level Nodes</h1>
+<h1>Challenge Level Nodes</h1> <!-this page shows all the challenge level nodes ->
 
- <% nodes.each do |node| %>
+ <% nodes.each do |node| %> <!-print out each node in the challenge level nodes->
      <div id="<%= dom_id(node) %>">
          <p><%= node.node1 %></p>
          <p><%= node.node2 %></p>

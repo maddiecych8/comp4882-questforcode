@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+// set the position of the climber image on the challenge level endpage view
 .over-c-end {
     z-index: 2;
     width: 130px;
@@ -9,7 +10,7 @@
     left: 485px;
     top: 375px;
 }
-
+// animation for climber image to move down on the challenge level endpage view
 @keyframes c-moveDown55 {
     0% {
         left: 465px;
@@ -24,7 +25,7 @@
         top: 375px;
     }
 }
-
+// animation for climber image to swing back and forth on the challenge level endpage view
 @keyframes swinging {
     0% {
       -webkit-transform: rotate(10deg);
@@ -44,7 +45,7 @@
       transform: rotate(10deg);
     }
 }
-
+// sequence animations for climber image to move down and then swing on the challenge level endpage view
 .swing-image-c-move-55 {
     -webkit-transform-origin: 5% 0;
     transform-origin: 5% 0;

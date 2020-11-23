@@ -1,7 +1,6 @@
-<body class="game-bg">
+<body class="game-bg"> <!-this shows the background image on each page and the class is in application.scss->
 
-
-<div style="padding: 20px">
+<div style="padding: 20px"><!-padding for the UI->
   <div class="row no-gutters ">
     <div class="col ">
       <div class="over-d11 swing-image-move100" id="fall"><%= image_tag "climber_right.png", height: 100 %> </div>
@@ -14,23 +13,23 @@
       <div class="float-container" style="padding: 10px" >
         <div class="row-center float-child" style="display: inline-block ">
             <div>
-                <button id="help" class="btn btn-success btn-lg">Hint</button>
+                <button id="help" class="btn btn-success btn-lg">Hint</button><!-button for hint function in game->
                     <script>
                     function hint() {
                     alert('No more apples on this branch! Move back to safety');
                     }
                     document.getElementById("help").addEventListener("click", hint);
-                    </script>
+                    </script><!-this script activates when you click hint on the game levels and displays the alert above->
             </div>
         </div>
         <div class="float-child" style="display: inline-block">
-            <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %>
+            <%= link_to 'Exit', start_path, class: "btn btn-success btn-lg" %><!-button to go to start page->
         </div>
       </div>
       <div >
-            <%= image_tag "new_playtest_algo3.png", height: 300 %>
+            <%= image_tag "new_playtest_algo3.png", height: 300 %><!-image for algorithm->
       </div>
-      <div class="card border-dark mb-3" style="max-width: 29.5rem;">
+      <div class="card border-dark mb-3" style="max-width: 29.5rem;"><!-This is the output box and the size and what type we used->
         <div class="card-header">Console Output</div>
         <div class="table-wrap">
             <p class="card-body">
@@ -59,7 +58,8 @@
                       setTimeout(() => window.location.href = 'http://localhost:3000/difficult_levels/1', 1100);
               }
           }
-      </script>
+      </script><!-this script tells you the error you make and also makes the animation of the fall to activate classname is the animation which you can find in difficult_level.scss and 
+      and redirects you to the beginning of the level->
       </div>
   </div>
   </div>

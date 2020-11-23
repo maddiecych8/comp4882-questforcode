@@ -1,6 +1,6 @@
 class InstructionPagesController < ApplicationController
     
-  before_action :authenticate_user!
+  before_action :authenticate_user! #limit access to an action unless a user is logged in
   
   def instruction
       respond_to do |format|

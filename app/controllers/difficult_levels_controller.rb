@@ -1,6 +1,6 @@
 class DifficultLevelsController < ApplicationController
 
-  before_action :authenticate_user!
+  before_action :authenticate_user! #limit access to an action unless a user is logged in
   
   def index
       nodes = DifficultLevel.all

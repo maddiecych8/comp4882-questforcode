@@ -1,19 +1,19 @@
-<div class="container" style="padding: 20px">
+<div class="container" style="padding: 20px"><!-padding for the UI->
 <div class="text-center">
   <div class="row">
-    <div class="col">
-     <%= image_tag "boy picking apple.png", width: 300,height: 500 %>
+    <div class="col"><!- first column ->
+     <%= image_tag "boy picking apple.png", width: 300,height: 500 %><!- image->
       </div>
 
- <div class="col">
-  <h2><%= button_to "Back",start_path, method: :get, class: "btn btn-success btn-lg" %></h2>
+ <div class="col"><!- second column ->
+  <h2><%= button_to "Back",start_path, method: :get, class: "btn btn-success btn-lg" %></h2> <!-link to the start page ->
    <%= video_tag "Inorder.mp4", :size => "350x200", :controls => true %>
 </div>
 
     <div class="col">
-    <h2><%= button_to "Skip Instructions",level_path, method: :get, class: "btn btn-info btn-lg" %></h2>
+    <h2><%= button_to "Skip Instructions",level_path, method: :get, class: "btn btn-info btn-lg" %></h2><!-link to the level page ->
       <p class="instruction">Your task is to "climb" a binary tree, like the one in the video on the left, 
-        by in-order traversal.</p>
+        by in-order traversal.</p> <!- explantion of the game instruction ->
       <h2><%= button_to "Continue",instruction1_path, method: :get, class: "btn btn-success btn-lg" %></h2>
        </div>
     </div>
